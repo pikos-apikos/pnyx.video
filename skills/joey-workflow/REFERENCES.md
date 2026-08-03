@@ -1,6 +1,6 @@
 # References and attribution
 
-`joey-workflow` is an original integration layer built for this project. It combines two source traditions while adding its own production-state, provenance, and human-approval rules.
+`joey-workflow` is an original integration layer built for this project. It combines two source traditions while adding its own production-state, provenance and human-approval rules.
 
 ## Wayfinder
 
@@ -17,11 +17,13 @@ Concepts adapted from Wayfinder include:
 - one focused non-research ticket per session;
 - explicit human-in-the-loop decisions.
 
-This repository does not claim authorship of Wayfinder. The Joey Workflow applies its planning discipline to cinematic production.
+This repository does not claim authorship of Wayfinder. Joey Workflow applies its planning discipline to cinematic production.
 
 ## Joey's cinematic workflow
 
-- **Source video on Joey's YouTube channel:** [YouTube — AI cinematic workflow](https://www.youtube.com/watch?v=fMU7Ku8ma4A)
+- **Creator:** Joey Daoud
+- **YouTube channel:** [Joey /// VP Land (`@vp-land`)](https://www.youtube.com/@vp-land)
+- **Source video:** [AI cinematic workflow](https://www.youtube.com/watch?v=fMU7Ku8ma4A)
 - **Companion article / resources:** [Everything You Need to Start Building Your AI Cinematic World](https://pyrite-mallow-3b0.notion.site/Everything-You-Need-to-Start-Building-Your-AI-Cinematic-World-and-my-thoughts-on-HF-s-updated-T-C-3ae49da027d780cea5b2e139b25800ec)
 
 Ideas adapted from Joey's workflow include:
@@ -32,8 +34,6 @@ Ideas adapted from Joey's workflow include:
 - canonical props and empty environment plates before scene composition;
 - scene plates before motion/video generation;
 - consistency through approved references rather than repeated text-only prompting.
-
-The source video is the verified YouTube reference supplied for this workflow. A direct stable channel handle is intentionally not guessed here; the creator/channel attribution is available from the linked YouTube video page.
 
 ## This integration
 
