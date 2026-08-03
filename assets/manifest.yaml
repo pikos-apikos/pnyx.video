@@ -1,0 +1,21 @@
+version: 1
+updated_at: '2026-08-03T17:14:00+03:00'
+assets:
+- asset_id: character.eleni.face-lock.v1-selection-card
+  stage: face-lock
+  status: selected_pending_import
+  sha256: 692f2de7ed5bafcc85e9a7cd7c8df1bca7322334301ec6ee7faa8d875c3b7894
+  note: Portrait selection explicitly accepted in conversation; binary import and clean reference crop are pending the current deterministic task ticket.
+  repository_file: null
+- asset_id: character.myrto.face-lock.v1-selection-card
+  stage: face-lock
+  status: selected_pending_import
+  sha256: 242d88641fbae057b006302c14d43be336bc7e040d67878546151dfe0ff33281
+  note: Portrait selection explicitly accepted in conversation; binary import and clean reference crop are pending the current deterministic task ticket.
+  repository_file: null
+- asset_id: character.thanasis.face-lock.v1-selection-card
+  stage: face-lock
+  status: selected_pending_import
+  sha256: badafaf8660ce43326e3aab6cbe6f4b93cbec598484c2a2a57c4c3473cc11794
+  note: Portrait selection explicitly accepted in conversation; binary import and clean reference crop are pending the current deterministic task ticket.
+  repository_file: null
