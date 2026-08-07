@@ -1,21 +1,48 @@
-version: 1
-updated_at: '2026-08-03T17:14:00+03:00'
+version: 2
+updated_at: '2026-08-07T20:20:00+03:00'
 assets:
 - asset_id: character.eleni.face-lock.v1-selection-card
   stage: face-lock
-  status: selected_pending_import
+  status: selected_pending_binary_import
   sha256: 692f2de7ed5bafcc85e9a7cd7c8df1bca7322334301ec6ee7faa8d875c3b7894
-  note: Portrait selection explicitly accepted in conversation; binary import and clean reference crop are pending the current deterministic task ticket.
   repository_file: null
+  planned_repository_file: assets/characters/eleni/face-lock/source-selection.png
+  note: Explicitly accepted source selection. Source binary is preserved unchanged locally; repository binary upload remains pending.
+- asset_id: character.eleni.face-lock.v1-clean
+  stage: face-lock
+  status: prepared_local_pending_binary_import
+  sha256: b31265adca9074bb8301f9ca6e79b0347aacf8d533f91000a0d9135eb9e780b3
+  parent_asset_id: character.eleni.face-lock.v1-selection-card
+  repository_file: null
+  planned_repository_file: assets/characters/eleni/face-lock/eleni-face-lock-clean.png
+  transform: crop-only from source box [420, 0, 1318, 1122]; no generative edit
 - asset_id: character.myrto.face-lock.v1-selection-card
   stage: face-lock
-  status: selected_pending_import
+  status: selected_pending_binary_import
   sha256: 242d88641fbae057b006302c14d43be336bc7e040d67878546151dfe0ff33281
-  note: Portrait selection explicitly accepted in conversation; binary import and clean reference crop are pending the current deterministic task ticket.
   repository_file: null
+  planned_repository_file: assets/characters/myrto/face-lock/source-selection.png
+  note: Explicitly accepted uploaded selection card. Source binary is preserved unchanged locally; repository binary upload remains pending.
+- asset_id: character.myrto.face-lock.v1-clean
+  stage: face-lock
+  status: prepared_local_pending_binary_import
+  sha256: 17c3dbb57c08051fa66d2ad03b0617cea63d8199b6c0c82f31eddf850b29c074
+  parent_asset_id: character.myrto.face-lock.v1-selection-card
+  repository_file: null
+  planned_repository_file: assets/characters/myrto/face-lock/myrto-face-lock-clean.png
+  transform: crop-only from source box [485, 0, 1304, 1024]; no generative edit
 - asset_id: character.thanasis.face-lock.v1-selection-card
   stage: face-lock
-  status: selected_pending_import
+  status: selected_pending_binary_import
   sha256: badafaf8660ce43326e3aab6cbe6f4b93cbec598484c2a2a57c4c3473cc11794
-  note: Portrait selection explicitly accepted in conversation; binary import and clean reference crop are pending the current deterministic task ticket.
   repository_file: null
+  planned_repository_file: assets/characters/thanasis/face-lock/source-selection.png
+  note: Explicitly accepted source selection. Source binary is preserved unchanged locally; repository binary upload remains pending.
+- asset_id: character.thanasis.face-lock.v1-clean
+  stage: face-lock
+  status: prepared_local_pending_binary_import
+  sha256: 3adc53faa43858011f3c24fdc951e44efa22b9bbece31e47cd6b894a1e4c16f1
+  parent_asset_id: character.thanasis.face-lock.v1-selection-card
+  repository_file: null
+  planned_repository_file: assets/characters/thanasis/face-lock/thanasis-face-lock-clean.png
+  transform: crop-only from source box [520, 0, 1339, 1024]; no generative edit
