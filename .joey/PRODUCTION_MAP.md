@@ -1,54 +1,58 @@
 # Production Map — Η Παιδική Χαρά
 
-> Portable mirror. The GitHub map issue is authoritative once created.
+> Portable mirror. The GitHub map issue is authoritative: https://github.com/pikos-apikos/pnyx.video/issues/1
 
 ## Destination
 
-Produce an 11–13 minute speculative observational documentary, **«ΠΝΥΞ: Η Παιδική Χαρά»**, that feels like a documentary from a reality that could exist. The PNyX architecture remains beneath the surface; the film is human, grounded, imperfect, and non-technical.
+Deliver a submission-ready cut of **«ΠΝΥΞ: Η Παιδική Χαρά»** for AAIFF 2026 by **15 August 2026**, preserving the approved speculative-observational premise and keeping PNyX beneath the surface rather than explaining it technically.
+
+The original treatment targets 11–13 minutes. Exact festival-cut runtime is intentionally unresolved until the dedicated HITL scope decision.
 
 ## Canon source
 
 - `canon/TREATMENT_GR.md`
 - `canon/VISUAL_SOUND_BIBLE.md`
 - `canon/CHARACTER_TEXT_LOCKS.md`
+- `docs/AAIFF_2026.md`
 - `provenance/AI_DISCLOSURE.md`
+- `skills/joey-workflow/SKILL.md`
 
 ## Notes
 
-- Use `skills/joey-workflow/SKILL.md`.
 - One non-research frontier ticket per session.
 - Human approval is required for creative canon.
-- No technical protocol exposition in dialogue.
-- Do not create new named characters while a known character ticket is open.
-- Do not treat production cards or infographics as clean image references unless the ticket asks for them.
+- AAIFF changes the production clock, not the story's values or tone.
+- No technical protocol exposition or generic contest-marketing rewrite.
+- Human-selected images can be preserved while downstream use remains blocked by canon conflicts.
 
 ## Decisions so far
 
-- Story and tone approved by Yiannis in conversation.
-- Eleni face-lock selection: version 2.
-- Myrto face-lock selection: uploaded selection card.
-- Thanasis face-lock selection accepted before moving forward.
-- All character outputs after Thanasis are invalid and excluded.
+- Story, tone and non-technical treatment approved.
+- AAIFF requirements verified from official sources; deadline is 15 Aug 2026 and minimum runtime is 3:00.
+- Eleni, Myrto and Thanasis visual selections are preserved and deterministic clean crops have been prepared locally.
+- Myrto and Thanasis have material visual ↔ text-canon conflicts; downstream use is blocked until explicit reconciliation.
+- Broken-loop outputs after Thanasis remain invalid.
 
 ## Current frontier
 
-- Register and normalize the three approved face-lock selections without changing identity.
+- Issue #2 — import and normalize the selected face-lock sources. Claimed and in progress; metadata, crop coordinates and hashes are committed, but binary repository upload remains pending.
 
-## Blocked
+## Next specified work
 
-- Anna character text lock and face lock — blocked until the approved selections are registered and the exact character roster is reconciled.
-- Base outfits — blocked by clean canonical face references.
-- Character sheets — blocked by approved base outfits.
-- Environments, props, scene plates, video, audio/edit — remain downstream.
+- Issue #7 — lock AAIFF cut scope and runtime.
+- Issue #3 — reconcile the retained character roster and visual/text identity locks.
+- Issue #4 — Anna face-lock prototype; blocked and potentially obsolete depending on the cut.
 
 ## Not yet specified
 
-- Exact shot architecture beyond the approved treatment.
-- Tool/model choices for final video generation and lipsync.
+- Exact shot architecture after runtime/scope lock.
+- Final video-generation and lipsync toolchain.
 - Final music identity and edit cadence.
+- Whether the finished work enters one or both AAIFF sections.
 
 ## Out of scope
 
 - Turning the film into a technical PNyX explainer.
+- Rewriting the film into contest marketing language.
 - Treating generated documentary footage as evidence of a real event.
-- Reusing invalid Nikos, Sofia, adult-Anna, or Panagiotis outputs.
+- Reusing invalid Nikos, Sofia, adult-Anna or Panagiotis outputs.
