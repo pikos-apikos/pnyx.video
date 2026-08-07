@@ -1,13 +1,14 @@
-version: 2
-updated_at: '2026-08-07T20:20:00+03:00'
+version: 3
+updated_at: '2026-08-07T20:28:00+03:00'
 assets:
 - asset_id: character.eleni.face-lock.v1-selection-card
   stage: face-lock
-  status: selected_pending_binary_import
+  status: human_selected_pending_binary_import
   sha256: 692f2de7ed5bafcc85e9a7cd7c8df1bca7322334301ec6ee7faa8d875c3b7894
   repository_file: null
   planned_repository_file: assets/characters/eleni/face-lock/source-selection.png
-  note: Explicitly accepted source selection. Source binary is preserved unchanged locally; repository binary upload remains pending.
+  canon_gate: issue-3
+  note: Human-selected source. Broadly compatible with the text lock, but downstream use waits for explicit text/visual reconciliation.
 - asset_id: character.eleni.face-lock.v1-clean
   stage: face-lock
   status: prepared_local_pending_binary_import
@@ -15,34 +16,39 @@ assets:
   parent_asset_id: character.eleni.face-lock.v1-selection-card
   repository_file: null
   planned_repository_file: assets/characters/eleni/face-lock/eleni-face-lock-clean.png
+  canon_gate: issue-3
   transform: crop-only from source box [420, 0, 1318, 1122]; no generative edit
 - asset_id: character.myrto.face-lock.v1-selection-card
   stage: face-lock
-  status: selected_pending_binary_import
+  status: human_selected_canon_conflict_pending
   sha256: 242d88641fbae057b006302c14d43be336bc7e040d67878546151dfe0ff33281
   repository_file: null
   planned_repository_file: assets/characters/myrto/face-lock/source-selection.png
-  note: Explicitly accepted uploaded selection card. Source binary is preserved unchanged locally; repository binary upload remains pending.
+  canon_gate: issue-3
+  note: Human-selected adult portrait conflicts with the current text lock defining Myrto as a 12-year-old wheelchair user. Preserve selection; do not use downstream until resolved.
 - asset_id: character.myrto.face-lock.v1-clean
   stage: face-lock
-  status: prepared_local_pending_binary_import
+  status: prepared_local_canon_conflict_pending
   sha256: 17c3dbb57c08051fa66d2ad03b0617cea63d8199b6c0c82f31eddf850b29c074
   parent_asset_id: character.myrto.face-lock.v1-selection-card
   repository_file: null
   planned_repository_file: assets/characters/myrto/face-lock/myrto-face-lock-clean.png
+  canon_gate: issue-3
   transform: crop-only from source box [485, 0, 1304, 1024]; no generative edit
 - asset_id: character.thanasis.face-lock.v1-selection-card
   stage: face-lock
-  status: selected_pending_binary_import
+  status: human_selected_canon_conflict_pending
   sha256: badafaf8660ce43326e3aab6cbe6f4b93cbec598484c2a2a57c4c3473cc11794
   repository_file: null
   planned_repository_file: assets/characters/thanasis/face-lock/source-selection.png
-  note: Explicitly accepted source selection. Source binary is preserved unchanged locally; repository binary upload remains pending.
+  canon_gate: issue-3
+  note: Human-selected portrait conflicts with the current text lock on age and facial hair. Preserve selection; do not use downstream until resolved.
 - asset_id: character.thanasis.face-lock.v1-clean
   stage: face-lock
-  status: prepared_local_pending_binary_import
+  status: prepared_local_canon_conflict_pending
   sha256: 3adc53faa43858011f3c24fdc951e44efa22b9bbece31e47cd6b894a1e4c16f1
   parent_asset_id: character.thanasis.face-lock.v1-selection-card
   repository_file: null
   planned_repository_file: assets/characters/thanasis/face-lock/thanasis-face-lock-clean.png
+  canon_gate: issue-3
   transform: crop-only from source box [520, 0, 1339, 1024]; no generative edit
