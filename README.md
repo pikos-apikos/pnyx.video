@@ -4,21 +4,22 @@
 
 `pnyx.video` is the public production workspace for cinematic stories set inside the possible civic reality of [PNyX](https://github.com/pikos-apikos/pnyx).
 
-The first film is **«ΠΝΥΞ: Η Παιδική Χαρά»**: an 11–13 minute speculative observational documentary about an ordinary Greek neighbourhood trying to repair a neglected playground without making anyone invisible.
+The first film is **«ΠΝΥΞ: Η Παιδική Χαρά»**: a speculative observational documentary about an ordinary Greek neighbourhood trying to repair a neglected playground without making anyone invisible.
 
 PNyX is not explained as a technical platform. It is revealed through what people do: they listen, disagree, decide, execute, return and remember what actually happened.
 
 ## Current status
 
-**Pre-production.** The story, tone and visual language are approved. Character identity assets are being normalised before further generation continues.
+**Pre-production under a real deadline.** The current external target is an AAIFF 2026 submission by **15 August 2026**. The original treatment targets 11–13 minutes; the exact festival-cut runtime will be locked explicitly rather than silently shortened for the contest.
 
 - [Read the Greek treatment](canon/TREATMENT_GR.md)
 - [Read the visual and sound bible](canon/VISUAL_SOUND_BIBLE.md)
 - [See the character text locks](canon/CHARACTER_TEXT_LOCKS.md)
+- [AAIFF 2026 production constraints](docs/AAIFF_2026.md)
 - [Follow the canonical production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
 - [See the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/2)
 
-No finished film is being claimed here yet. Prompts and plans are not treated as completed cinematic assets.
+Character source selections are currently being normalized and checked against text canon before any further generation continues. No finished film is being claimed here yet. Prompts and plans are not treated as completed cinematic assets.
 
 ## Joey Workflow — Cinematic Wayfinder
 
@@ -27,7 +28,7 @@ This production combines:
 - **Wayfinder** for persistent planning: one destination, a shared issue map, named tickets, dependencies, a visible frontier and deliberate fog of war;
 - **Joey's cinematic workflow** for production order: story bible → character lock → face lock → outfit → character sheet → props → environments → scene plates → video → audio and edit.
 
-Only explicitly approved assets may become references for downstream work. Rejected, superseded and invalid outputs remain traceable but never re-enter canon.
+Only explicitly approved, internally consistent assets may become references for downstream work. A human selection is preserved even when it conflicts with earlier canon, but that conflict must be resolved before reuse. Rejected, superseded and invalid outputs remain traceable but never re-enter canon.
 
 - [Workflow guide](docs/WORKFLOW.md)
 - [Installable skill](skills/joey-workflow/SKILL.md)
@@ -37,7 +38,7 @@ Only explicitly approved assets may become references for downstream work. Rejec
 ## Repository structure
 
 - `canon/` — approved story, character and audiovisual rules
-- `assets/` — asset manifest plus approved, candidate and invalid production material
+- `assets/` — asset manifest plus approved, candidate, conflicted and invalid production material
 - `provenance/` — AI disclosure, source and release-integrity rules
 - `skills/joey-workflow/` — the project-pinned orchestration skill
 - `.joey/` — portable mirror of production state; GitHub Issues remain authoritative
