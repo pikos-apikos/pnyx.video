@@ -1,5 +1,5 @@
-version: 3
-updated_at: '2026-08-07T20:28:00+03:00'
+version: 4
+updated_at: '2026-08-10T02:08:00+03:00'
 assets:
 - asset_id: character.eleni.face-lock.v1-selection-card
   stage: face-lock
@@ -52,3 +52,63 @@ assets:
   planned_repository_file: assets/characters/thanasis/face-lock/thanasis-face-lock-clean.png
   canon_gate: issue-3
   transform: crop-only from source box [520, 0, 1339, 1024]; no generative edit
+- asset_id: character.eleni.face-lock.v2
+  stage: face-lock
+  status: approved_external
+  higgsfield_job: af290520-4e5b-4185-b9a0-98f57eb578f6
+  repository_file: null
+- asset_id: character.eleni.outfit.v2
+  stage: outfit
+  status: approved_external
+  higgsfield_job: 02ddbf34-5f78-466c-b606-975487e07293
+  repository_file: null
+  depends_on: character.eleni.face-lock.v2
+- asset_id: character.eleni.sheet.v2-candidate-a
+  stage: character-sheet
+  status: approved_external
+  higgsfield_job: eb139ee0-b728-4b9b-8a1a-cd856ee514b9
+  repository_file: null
+  depends_on:
+  - character.eleni.face-lock.v2
+  - character.eleni.outfit.v2
+- asset_id: prop.eleni.intake-phone.v1-candidate-a
+  stage: prop
+  status: approved_external
+  higgsfield_job: 7c0919ad-8112-4901-b1ee-76bbf8d6f115
+  repository_file: null
+- asset_id: environment.eleni-kitchen-dawn.v1
+  stage: environment
+  status: approved_external
+  higgsfield_job: bc1942cd-78c1-4c5a-96cb-5910b31be45e
+  repository_file: null
+- asset_id: environment.playground-before-dry.v1
+  stage: environment
+  status: approved_external
+  higgsfield_job: e7cdc872-9e5c-4ba9-a296-0d636ad7541b
+  repository_file: null
+- asset_id: character.myrto.seated-wheelchair.v1
+  stage: prop
+  status: approved_external
+  higgsfield_job: 9bfb9564-a20d-44e8-94cf-8a893d8b492e
+  repository_file: null
+- asset_id: scene.01-dawn-return.v1-candidate-a
+  stage: scene-plate
+  status: approved_external
+  higgsfield_job: 8834c644-5237-4f8a-acdd-10052432e236
+  repository_file: null
+  depends_on:
+  - character.eleni.sheet.v2-candidate-a
+  - prop.eleni.intake-phone.v1-candidate-a
+  - environment.eleni-kitchen-dawn.v1
+- asset_id: scene.02-gate-entry.v1-candidate-a
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: 60019e18-6621-4dbf-94b6-a3840801ac43
+  model: nano_banana_2
+  sha256: b67840fa485c67f7a03b98e0849c07d040bc10fdc2e1e33540a08719f43f27c0
+  repository_file: assets/scenes/02-gate-entry/candidate-a.png
+  source_note: User-supplied 1920x1072 PNG of the completed Higgsfield job.
+  canon_gate: issue-8
+  depends_on:
+  - character.myrto.seated-wheelchair.v1
+  - environment.playground-before-dry.v1

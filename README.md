@@ -17,9 +17,9 @@ PNyX is not explained as a technical platform. It is revealed through what peopl
 - [See the character text locks](canon/CHARACTER_TEXT_LOCKS.md)
 - [AAIFF 2026 production constraints](docs/AAIFF_2026.md)
 - [Follow the canonical production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
-- [See the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/2)
+- [See the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/8)
 
-Character source selections are currently being normalized and checked against text canon before any further generation continues. No finished film is being claimed here yet. Prompts and plans are not treated as completed cinematic assets.
+The production state now includes approved continuity assets, approved environments and the first approved scene plate. The current human frontier is [reviewing `02_GATE_ENTRY_PLATE` Candidate A](https://github.com/pikos-apikos/pnyx.video/issues/8). The older deterministic face-lock binary-import task remains open independently; no finished film is being claimed here yet.
 
 ## Joey Workflow — Cinematic Wayfinder
 
