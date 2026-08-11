@@ -19,9 +19,11 @@ Yiannis approved a coherent **4:30 festival cut**. The original 11–13 minute t
 - [See the character text locks](canon/CHARACTER_TEXT_LOCKS.md)
 - [AAIFF 2026 production constraints](docs/AAIFF_2026.md)
 - [Follow the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
-- [Review the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/18)
+- [Review the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/20)
 
-Seven moving-image beats are currently approved through `07_THANASIS_HUMAN_COST`. The approved public-consultation scene plate is complete. Retry V2 `215185dd-23f6-4762-a590-83be9599067b` is recorded as a technical failure. The current human frontier is completed retry V3 in [Issue #18](https://github.com/pikos-apikos/pnyx.video/issues/18), Higgsfield `15940a3a-0f92-41c8-8e5c-0059e7562308`; it remains a **Candidate**, not canon.
+Eight moving-image beats are approved through `08_PUBLIC_CONSULTATION`. The canonical take is Higgsfield `15940a3a-0f92-41c8-8e5c-0059e7562308`: Seedance 2.0, 8 seconds, 16:9, 720p, silent. Earlier retries V1 and V2, including `215185dd-23f6-4762-a590-83be9599067b`, remain technical failures and are never reused.
+
+The single current human frontier is the [amended-proposal scene plate in Issue #20](https://github.com/pikos-apikos/pnyx.video/issues/20): the plan is approved after modification, while Thanasis's dissent remains public and dignified.
 
 ## Canonical visual assets
 
