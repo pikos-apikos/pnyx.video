@@ -85,8 +85,9 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Approved scene plate:** cross-axis B `ee8ecaa1-3261-413c-b868-e850aae0116d`.
 - **Unselected candidate:** audience-side A `9ac7e97c-25ba-4064-9cbc-a118ca9e1819`.
 - **Rejected technical video V1:** `04ebc0fd-d7d3-4179-b5cd-a9a10bfb8507`.
-- **Current video candidate:** retry `215185dd-23f6-4762-a590-83be9599067b`.
-- **Decision:** pending explicit human review in Issue #18; this take is not yet canon.
+- **Rejected technical video V2:** `215185dd-23f6-4762-a590-83be9599067b`; no reliable detailed failure reason was exposed.
+- **Current completed video candidate V3:** `15940a3a-0f92-41c8-8e5c-0059e7562308`, rendered fresh from the approved Plate B.
+- **Decision:** pending explicit human review in Issue #18; V3 is not yet canon.
 
 ## Repository reconciliation
 
