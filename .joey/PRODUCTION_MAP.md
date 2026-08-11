@@ -56,7 +56,8 @@ The exact take IDs for `01_DAWN_RETURN / Take A` and `02_GATE_ENTRY / Take B` st
 - **Canonical question:** Which moving-image take preserves the approved cross-axis public-consultation plate while making the disagreement legible through restrained natural motion?
 - **Stage:** video
 - **Dependencies:** approved courtyard B `f13ab72d-94dc-4332-9b99-c55800759f14`; approved consultation plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`; approved 4:30 story spine.
-- **Current candidate:** Higgsfield retry `215185dd-23f6-4762-a590-83be9599067b`, 8 seconds, 16:9, 720p, silent.
+- **Rejected technical retry V2:** Higgsfield `215185dd-23f6-4762-a590-83be9599067b`; the connector and UI exposed no reliable detailed error reason.
+- **Current candidate V3:** Higgsfield `15940a3a-0f92-41c8-8e5c-0059e7562308`, completed from approved Plate B; 8 seconds, 16:9, 720p, silent.
 - **Acceptance criteria:** stable identities, bodies, wheelchair, courtyard and composition; restrained asynchronous civic movement; no theatrical winner/loser framing; no generated dialogue, UI or text.
 - **Status:** candidate — explicit human approval required in [Issue #18](https://github.com/pikos-apikos/pnyx.video/issues/18).
 
@@ -87,6 +88,7 @@ The exact take IDs for `01_DAWN_RETURN / Take A` and `02_GATE_ENTRY / Take B` st
 - Thanasis video failures `ffa2e699-66ce-4cf4-bac6-8db46d9aaf1c` and `f5e7a061-47e5-4cce-9554-5bdfe92c1352`.
 - Superseded courtyard A `df7acc6c-57ad-41ab-8251-2169df04bcf6` and its dependent consultation plates `a98c3732-886b-4971-97f9-82a00d5da2bc`, `3c95a8dd-5469-4cd5-bf12-7e167ed829f8`.
 - Public-consultation video V1 `04ebc0fd-d7d3-4179-b5cd-a9a10bfb8507`, which failed technically.
+- Public-consultation video V2 `215185dd-23f6-4762-a590-83be9599067b`, which failed technically.
 - Dirt, neglect and artificial decay introduced by vague age/wear language.
 - Production state stored only in chat without deterministic repository reconciliation.
 
