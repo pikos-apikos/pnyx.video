@@ -1,5 +1,5 @@
 version: 5
-updated_at: '2026-08-11T18:57:44+03:00'
+updated_at: '2026-08-11T20:14:16+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   approvals: .joey/APPROVALS.md
@@ -332,7 +332,7 @@ assets:
   depends_on: scene.08-public-consultation.plate-b
 - asset_id: video.08-public-consultation.v2
   stage: video
-  status: candidate_external
+  status: rejected_technical_failure
   higgsfield_job: 215185dd-23f6-4762-a590-83be9599067b
   model: seedance_2_0
   dimensions: 1280x720
@@ -340,5 +340,16 @@ assets:
   audio: false
   repository_file: null
   depends_on: scene.08-public-consultation.plate-b
+  note: Failed after submission; no reliable detailed failure reason was exposed by the connector or UI.
+- asset_id: video.08-public-consultation.v3
+  stage: video
+  status: candidate_external
+  higgsfield_job: 15940a3a-0f92-41c8-8e5c-0059e7562308
+  model: seedance_2_0
+  dimensions: 1280x720
+  duration_seconds: 8
+  audio: false
+  repository_file: null
+  depends_on: scene.08-public-consultation.plate-b
   canon_gate: issue-18
-  note: Submitted retry; explicit human approval remains pending.
+  note: Completed fresh retry from the approved Plate B; explicit human approval remains pending.
