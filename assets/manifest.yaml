@@ -1,5 +1,9 @@
-version: 4
-updated_at: '2026-08-10T02:08:00+03:00'
+version: 5
+updated_at: '2026-08-11T18:57:44+03:00'
+authority:
+  live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
+  approvals: .joey/APPROVALS.md
+  rule: Human approval is required before any candidate becomes canon.
 assets:
 - asset_id: character.eleni.face-lock.v1-selection-card
   stage: face-lock
@@ -8,7 +12,6 @@ assets:
   repository_file: null
   planned_repository_file: assets/characters/eleni/face-lock/source-selection.png
   canon_gate: issue-3
-  note: Human-selected source. Broadly compatible with the text lock, but downstream use waits for explicit text/visual reconciliation.
 - asset_id: character.eleni.face-lock.v1-clean
   stage: face-lock
   status: prepared_local_pending_binary_import
@@ -25,7 +28,6 @@ assets:
   repository_file: null
   planned_repository_file: assets/characters/myrto/face-lock/source-selection.png
   canon_gate: issue-3
-  note: Human-selected adult portrait conflicts with the current text lock defining Myrto as a 12-year-old wheelchair user. Preserve selection; do not use downstream until resolved.
 - asset_id: character.myrto.face-lock.v1-clean
   stage: face-lock
   status: prepared_local_canon_conflict_pending
@@ -37,21 +39,21 @@ assets:
   transform: crop-only from source box [485, 0, 1304, 1024]; no generative edit
 - asset_id: character.thanasis.face-lock.v1-selection-card
   stage: face-lock
-  status: human_selected_canon_conflict_pending
+  status: human_selected_legacy
   sha256: badafaf8660ce43326e3aab6cbe6f4b93cbec598484c2a2a57c4c3473cc11794
   repository_file: null
   planned_repository_file: assets/characters/thanasis/face-lock/source-selection.png
-  canon_gate: issue-3
-  note: Human-selected portrait conflicts with the current text lock on age and facial hair. Preserve selection; do not use downstream until resolved.
+  canon_gate: issue-2
 - asset_id: character.thanasis.face-lock.v1-clean
   stage: face-lock
-  status: prepared_local_canon_conflict_pending
+  status: prepared_local_legacy
   sha256: 3adc53faa43858011f3c24fdc951e44efa22b9bbece31e47cd6b894a1e4c16f1
   parent_asset_id: character.thanasis.face-lock.v1-selection-card
   repository_file: null
   planned_repository_file: assets/characters/thanasis/face-lock/thanasis-face-lock-clean.png
-  canon_gate: issue-3
+  canon_gate: issue-2
   transform: crop-only from source box [520, 0, 1339, 1024]; no generative edit
+
 - asset_id: character.eleni.face-lock.v2
   stage: face-lock
   status: approved_external
@@ -63,7 +65,7 @@ assets:
   higgsfield_job: 02ddbf34-5f78-466c-b606-975487e07293
   repository_file: null
   depends_on: character.eleni.face-lock.v2
-- asset_id: character.eleni.sheet.v2-candidate-a
+- asset_id: character.eleni.sheet.v2
   stage: character-sheet
   status: approved_external
   higgsfield_job: eb139ee0-b728-4b9b-8a1a-cd856ee514b9
@@ -71,7 +73,7 @@ assets:
   depends_on:
   - character.eleni.face-lock.v2
   - character.eleni.outfit.v2
-- asset_id: prop.eleni.intake-phone.v1-candidate-a
+- asset_id: prop.eleni.intake-phone.v1
   stage: prop
   status: approved_external
   higgsfield_job: 7c0919ad-8112-4901-b1ee-76bbf8d6f115
@@ -87,28 +89,256 @@ assets:
   higgsfield_job: e7cdc872-9e5c-4ba9-a296-0d636ad7541b
   repository_file: null
 - asset_id: character.myrto.seated-wheelchair.v1
-  stage: prop
+  stage: mobility-continuity
   status: approved_external
   higgsfield_job: 9bfb9564-a20d-44e8-94cf-8a893d8b492e
   repository_file: null
-- asset_id: scene.01-dawn-return.v1-candidate-a
+- asset_id: scene.01-dawn-return.plate-a
   stage: scene-plate
   status: approved_external
   higgsfield_job: 8834c644-5237-4f8a-acdd-10052432e236
   repository_file: null
   depends_on:
-  - character.eleni.sheet.v2-candidate-a
-  - prop.eleni.intake-phone.v1-candidate-a
+  - character.eleni.sheet.v2
+  - prop.eleni.intake-phone.v1
   - environment.eleni-kitchen-dawn.v1
-- asset_id: scene.02-gate-entry.v1-candidate-a
+
+- asset_id: scene.02-gate-entry.plate-a
   stage: scene-plate
-  status: candidate
+  status: unselected_history
   higgsfield_job: 60019e18-6621-4dbf-94b6-a3840801ac43
   model: nano_banana_2
   sha256: b67840fa485c67f7a03b98e0849c07d040bc10fdc2e1e33540a08719f43f27c0
+  dimensions: 1920x1072
   repository_file: assets/scenes/02-gate-entry/candidate-a.png
-  source_note: User-supplied 1920x1072 PNG of the completed Higgsfield job.
-  canon_gate: issue-8
+  note: Former frontier; Plate B was explicitly approved in Issue #8.
+- asset_id: scene.02-gate-entry.plate-b
+  stage: scene-plate
+  status: approved
+  higgsfield_job: b622e62a-6f2c-41d9-be30-3c54ea14d6f8
+  model: nano_banana_flash
+  sha256: cd65447e717362b9c6fdfe7171ea989f102a66aee2dfa918841477a81d3dfb9c
+  dimensions: 1376x768
+  repository_file: assets/scenes/02-gate-entry/plate-b.png
+  approved_in: issue-8
   depends_on:
   - character.myrto.seated-wheelchair.v1
   - environment.playground-before-dry.v1
+- asset_id: video.02-gate-entry.take-b
+  stage: video
+  status: approved_external_identifier_pending
+  higgsfield_job: null
+  repository_file: null
+  note: Take B was explicitly approved; exact UUID still requires deterministic backfill.
+
+- asset_id: video.03-clarification-table
+  stage: video
+  status: approved_external
+  higgsfield_job: 9acabcbf-b95b-46d1-8e61-a7c62d80db3d
+  model: seedance_2_0
+  dimensions: 1920x1080
+  duration_seconds: 8
+  audio: false
+  repository_file: null
+- asset_id: video.04-evidence-room
+  stage: video
+  status: approved_external
+  higgsfield_job: d4fff9fe-e12c-4299-9bbb-8a88c8621d68
+  model: seedance_2_0
+  dimensions: 1920x1080
+  duration_seconds: 8
+  audio: false
+  repository_file: null
+  note: Higgsfield exposed the approved source/batch ID; no separate take UUID was invented.
+
+- asset_id: interface.pnyx-dossier.v1
+  stage: interface
+  status: approved
+  higgsfield_job: b8c562bf-07ca-4217-8f89-23449d0d4a43
+  model: nano_banana_2
+  sha256: 97cb1f0bbc509ccea68cd8c3a4c692ce3fe16f92d3d97837d6f002fbd415d3bd
+  dimensions: 1376x768
+  repository_file: assets/interfaces/pnyx-dossier/v1.png
+  approved_in: issue-11
+- asset_id: scene.05-anna-prints-dossier.plate-b
+  stage: scene-plate
+  status: approved
+  higgsfield_job: e6a118cf-947d-4e66-bbcd-53bc391ff377
+  model: nano_banana_2
+  sha256: 2aff5972a566a5a1f9f70388c332475fc1e0c6aeb0b6d202242431f74659d2b5
+  dimensions: 2752x1536
+  repository_file: assets/scenes/05-anna-prints-dossier/plate-b.png
+  approved_in: issue-11
+  depends_on:
+  - interface.pnyx-dossier.v1
+- asset_id: video.05-anna-prints-dossier
+  stage: video
+  status: approved_external
+  higgsfield_job: e7c733a6-9f24-4184-84c2-ea6c11638304
+  model: seedance_2_0
+  dimensions: 1920x1080
+  duration_seconds: 12
+  audio: false
+  repository_file: null
+  depends_on: scene.05-anna-prints-dossier.plate-b
+  approved_in: issue-11
+
+- asset_id: interface.eleni-notification.v1
+  stage: interface
+  status: approved
+  higgsfield_job: 82589152-e17d-4b96-af37-32652bbf760b
+  model: nano_banana_2
+  sha256: ef5f534c9aaede346df274c7a265d04eb8d859adf5f27f78950de8c6915a1b81
+  dimensions: 1536x2752
+  repository_file: assets/interfaces/eleni-notification/v1.png
+  approved_in: issue-12
+  exact_copy:
+  - Ο φάκελος άνοιξε
+  - Παιδική Χαρά — οδός Αρμονίας
+  - Σύντομα θα τον αναλάβουν οι ειδικοί για να ετοιμάσουν την πρόταση.
+- asset_id: video.06-eleni-notification.corrupted-text-v1
+  stage: video
+  status: rejected
+  higgsfield_job: 12a72fbe-033e-4072-9715-40c5d4c1b3d0
+  repository_file: null
+  rejection_reason: Source plate contained corrupted Greek text and the prompt asked the model to preserve it.
+- asset_id: scene.06-eleni-notification.clean-motion-plate
+  stage: scene-plate
+  status: approved
+  higgsfield_job: c03bfaa1-02a4-4708-a551-3b6cbe9fef7f
+  model: nano_banana_2
+  sha256: f76b5308deee6280a7b75a066aa2f552d27af3451e114f47bf2e39cb4e7924b0
+  dimensions: 2752x1536
+  repository_file: assets/scenes/06-eleni-notification/clean-motion-plate.png
+  approved_in: issue-12
+- asset_id: video.06-eleni-notification.v2
+  stage: video
+  status: approved_external
+  higgsfield_job: 8b32c5e0-307a-42d1-a594-af9625fbfdbc
+  model: seedance_2_0
+  dimensions: 1280x720
+  duration_seconds: 8
+  audio: false
+  repository_file: null
+  depends_on: scene.06-eleni-notification.clean-motion-plate
+  approved_in: issue-12
+  post_rule: Composite interface.eleni-notification.v1 deterministically; never regenerate Greek copy in video.
+
+- asset_id: character.thanasis.sheet.v1
+  stage: character-sheet
+  status: approved
+  higgsfield_job: e43d88e4-0938-42ba-914a-c2b076f1aa20
+  model: nano_banana_2
+  sha256: cbbafaed4d8c3961e4b1fb44e11bb20b43f6b6bcca1a99ba75ada1841d5e898e
+  dimensions: 1200x896
+  repository_file: assets/characters/thanasis/character-sheet.png
+  approved_in: issue-14
+- asset_id: character.thanasis.redundant-face-a
+  stage: face-lock
+  status: rejected
+  higgsfield_job: ab35f113-16ec-4254-abe9-130aa2b2b73a
+  repository_file: null
+  rejection_reason: Redundant regression; approved sheet already existed.
+- asset_id: character.thanasis.redundant-face-b
+  stage: face-lock
+  status: rejected
+  higgsfield_job: a22424f9-6b3a-48df-883f-971ee06ccb33
+  repository_file: null
+  rejection_reason: Redundant regression; approved sheet already existed.
+- asset_id: scene.07-thanasis-human-cost.plate-b
+  stage: scene-plate
+  status: approved
+  higgsfield_job: 97e4a7bf-e917-4ba0-b943-c49aa8e830ed
+  model: nano_banana_2
+  sha256: 6f99d793f61ace1d711a30f27aea87c27bd28993e08820dff45760d617a4c633
+  dimensions: 1376x768
+  repository_file: assets/scenes/07-thanasis-human-cost/plate-b.png
+  depends_on: character.thanasis.sheet.v1
+  approved_in: issue-14
+- asset_id: video.07-thanasis-human-cost.v1
+  stage: video
+  status: rejected_technical_failure
+  higgsfield_job: ffa2e699-66ce-4cf4-bac6-8db46d9aaf1c
+  repository_file: null
+- asset_id: video.07-thanasis-human-cost.v2
+  stage: video
+  status: rejected_technical_failure
+  higgsfield_job: f5e7a061-47e5-4cce-9554-5bdfe92c1352
+  repository_file: null
+- asset_id: video.07-thanasis-human-cost.v3
+  stage: video
+  status: approved_external
+  higgsfield_job: bd5b052f-fa59-4392-9003-3ac8221c67db
+  model: seedance_2_0
+  dimensions: 1280x720
+  duration_seconds: 8
+  audio: false
+  repository_file: null
+  depends_on: scene.07-thanasis-human-cost.plate-b
+  approved_in: issue-15
+
+- asset_id: environment.public-deliberation.courtyard-a
+  stage: environment
+  status: superseded
+  higgsfield_job: df7acc6c-57ad-41ab-8251-2169df04bcf6
+  repository_file: null
+  superseded_by: environment.public-deliberation.courtyard-b
+- asset_id: environment.public-deliberation.courtyard-b
+  stage: environment
+  status: approved
+  higgsfield_job: f13ab72d-94dc-4332-9b99-c55800759f14
+  model: nano_banana_2
+  sha256: b17a34ef21e8df6bdd9cfc053f7dd5d8a9f043515a46678d220db0fa4162ceb7
+  dimensions: 2752x1536
+  repository_file: assets/environments/public-deliberation/courtyard-b.png
+  approved_in: issue-16
+- asset_id: scene.08-public-consultation.from-courtyard-a-a
+  stage: scene-plate
+  status: superseded
+  higgsfield_job: a98c3732-886b-4971-97f9-82a00d5da2bc
+  repository_file: null
+  superseded_reason: Generated from superseded courtyard A.
+- asset_id: scene.08-public-consultation.from-courtyard-a-b
+  stage: scene-plate
+  status: superseded
+  higgsfield_job: 3c95a8dd-5469-4cd5-bf12-7e167ed829f8
+  repository_file: null
+  superseded_reason: Generated from superseded courtyard A.
+- asset_id: scene.08-public-consultation.plate-a
+  stage: scene-plate
+  status: unselected_history
+  higgsfield_job: 9ac7e97c-25ba-4064-9cbc-a118ca9e1819
+  repository_file: null
+- asset_id: scene.08-public-consultation.plate-b
+  stage: scene-plate
+  status: approved
+  higgsfield_job: ee8ecaa1-3261-413c-b868-e850aae0116d
+  model: nano_banana_flash
+  sha256: 3a1f14f7a75ab8f557f5af95942e247a1c43b514541b55770073ed80c4356eae
+  dimensions: 2752x1536
+  repository_file: assets/scenes/08-public-consultation/plate-b.png
+  depends_on:
+  - environment.public-deliberation.courtyard-b
+  - character.eleni.sheet.v2
+  - character.myrto.seated-wheelchair.v1
+  - character.thanasis.sheet.v1
+  - scene.05-anna-prints-dossier.plate-b
+  approved_in: issue-17
+- asset_id: video.08-public-consultation.v1
+  stage: video
+  status: rejected_technical_failure
+  higgsfield_job: 04ebc0fd-d7d3-4179-b5cd-a9a10bfb8507
+  repository_file: null
+  depends_on: scene.08-public-consultation.plate-b
+- asset_id: video.08-public-consultation.v2
+  stage: video
+  status: candidate_external
+  higgsfield_job: 215185dd-23f6-4762-a590-83be9599067b
+  model: seedance_2_0
+  dimensions: 1280x720
+  duration_seconds: 8
+  audio: false
+  repository_file: null
+  depends_on: scene.08-public-consultation.plate-b
+  canon_gate: issue-18
+  note: Submitted retry; explicit human approval remains pending.
