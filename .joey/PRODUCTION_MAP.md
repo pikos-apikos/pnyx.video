@@ -1,12 +1,12 @@
 # Production Map — Η Παιδική Χαρά
 
-> Portable mirror. The GitHub map issue is authoritative: https://github.com/pikos-apikos/pnyx.video/issues/1
+> Portable mirror. The authoritative live map is [GitHub Issue #1](https://github.com/pikos-apikos/pnyx.video/issues/1).
 
 ## Destination
 
-Deliver a submission-ready cut of **«ΠΝΥΞ: Η Παιδική Χαρά»** for AAIFF 2026 by **15 August 2026**, preserving the approved speculative-observational premise and keeping PNyX beneath the surface rather than explaining it technically.
+Deliver a submission-ready **4:30 festival cut** of **«ΠΝΥΞ: Η Παιδική Χαρά»** for AAIFF 2026 by the internal deadline of **29 August 2026**, ahead of the official **31 August 2026** close.
 
-The original treatment targets 11–13 minutes. Exact festival-cut runtime remains a dedicated human decision.
+The approved festival cut preserves the speculative-observational premise: PNyX is visible through ordinary civic action, not technical exposition. The original 11–13 minute treatment remains the canonical full version.
 
 ## Canon source
 
@@ -20,68 +20,86 @@ The original treatment targets 11–13 minutes. Exact festival-cut runtime remai
 
 ## Production truth
 
-- GitHub is authoritative for production state, decisions, identifiers, hashes and repository assets.
-- Higgsfield job IDs identify source generations.
-- Library copies are convenience mirrors and never form an independent canon.
+- GitHub Issues are authoritative for the live frontier and human decisions.
+- Repository files are deterministic mirrors and must be synchronized from those decisions.
+- Higgsfield job IDs identify source generations and video masters.
+- Approved still references are imported into GitHub with dimensions and SHA-256 hashes.
 - Candidate, Approved, Rejected and Superseded remain distinct states.
+- Creative promotion always requires explicit human approval.
+- The 720p production-master default applies to new video renders; final upscale happens downstream.
 
-## Approved canon added since the original repository map
+## Approved canon
 
-| Asset | Stage | Status | Higgsfield job |
+| Asset | Stage | Higgsfield job | Repository location |
 |---|---|---|---|
-| Eleni Mode 0 face lock | face-lock | approved | `af290520-4e5b-4185-b9a0-98f57eb578f6` |
-| Eleni base outfit | outfit | approved | `02ddbf34-5f78-466c-b606-975487e07293` |
-| Eleni three-panel sheet A | character-sheet | approved | `eb139ee0-b728-4b9b-8a1a-cd856ee514b9` |
-| Eleni intake phone A | prop | approved | `7c0919ad-8112-4901-b1ee-76bbf8d6f115` |
-| Eleni dawn kitchen | environment | approved | `bc1942cd-78c1-4c5a-96cb-5910b31be45e` |
-| Playground before, dry | environment | approved | `e7cdc872-9e5c-4ba9-a296-0d636ad7541b` |
-| Myrto seated-wheelchair continuity | prop / mobility continuity | approved | `9bfb9564-a20d-44e8-94cf-8a893d8b492e` |
-| `01_DAWN_RETURN_PLATE` A | scene-plate | approved | `8834c644-5237-4f8a-acdd-10052432e236` |
+| `02_GATE_ENTRY` plate B | scene-plate | `b622e62a-6f2c-41d9-be30-3c54ea14d6f8` | `assets/scenes/02-gate-entry/plate-b.png` |
+| PNyX dossier interface | interface | `b8c562bf-07ca-4217-8f89-23449d0d4a43` | `assets/interfaces/pnyx-dossier/v1.png` |
+| Anna prints dossier plate B | scene-plate | `e6a118cf-947d-4e66-bbcd-53bc391ff377` | `assets/scenes/05-anna-prints-dossier/plate-b.png` |
+| Eleni notification interface | interface | `82589152-e17d-4b96-af37-32652bbf760b` | `assets/interfaces/eleni-notification/v1.png` |
+| Eleni clean motion plate | scene-plate | `c03bfaa1-02a4-4708-a551-3b6cbe9fef7f` | `assets/scenes/06-eleni-notification/clean-motion-plate.png` |
+| Thanasis character sheet | character-sheet | `e43d88e4-0938-42ba-914a-c2b076f1aa20` | `assets/characters/thanasis/character-sheet.png` |
+| Thanasis low-wall plate B | scene-plate | `97e4a7bf-e917-4ba0-b943-c49aa8e830ed` | `assets/scenes/07-thanasis-human-cost/plate-b.png` |
+| Public-deliberation courtyard B | environment | `f13ab72d-94dc-4332-9b99-c55800759f14` | `assets/environments/public-deliberation/courtyard-b.png` |
+| Public-consultation plate B | scene-plate | `ee8ecaa1-3261-413c-b868-e850aae0116d` | `assets/scenes/08-public-consultation/plate-b.png` |
+| `03_CLARIFICATION_TABLE` | video | `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` | Higgsfield master |
+| `04_EVIDENCE_ROOM` | video | `d4fff9fe-e12c-4299-9bbb-8a88c8621d68` | Higgsfield master |
+| `05_ANNA_PRINTS_DOSSIER` | video | `e7c733a6-9f24-4184-84c2-ea6c11638304` | Higgsfield master |
+| `06_ELENI_DOSSIER_OPEN_NOTIFICATION` | video | `8b32c5e0-307a-42d1-a594-af9625fbfdbc` | Higgsfield master |
+| `07_THANASIS_HUMAN_COST` | video | `bd5b052f-fa59-4392-9003-3ac8221c67db` | Higgsfield master |
 
-Full provenance and approval evidence are recorded in `.joey/APPROVALS.md` and `assets/manifest.yaml`.
+The exact take IDs for `01_DAWN_RETURN / Take A` and `02_GATE_ENTRY / Take B` still require deterministic backfill; no identifier has been invented.
 
-## Current frontier
+## Frontier
 
-- [Issue #8 — approve or revise `02_GATE_ENTRY_PLATE` Candidate A](https://github.com/pikos-apikos/pnyx.video/issues/8)
-  - Higgsfield job: `60019e18-6621-4dbf-94b6-a3840801ac43`
-  - Repository file: `assets/scenes/02-gate-entry/candidate-a.png`
-  - SHA-256: `b67840fa485c67f7a03b98e0849c07d040bc10fdc2e1e33540a08719f43f27c0`
-  - Status: candidate; explicit human approval required.
+### Public briefing and disagreement — motion take
+
+- **Canonical question:** Which moving-image take preserves the approved cross-axis public-consultation plate while making the disagreement legible through restrained natural motion?
+- **Stage:** video
+- **Dependencies:** approved courtyard B `f13ab72d-94dc-4332-9b99-c55800759f14`; approved consultation plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`; approved 4:30 story spine.
+- **Current candidate:** Higgsfield retry `215185dd-23f6-4762-a590-83be9599067b`, 8 seconds, 16:9, 720p, silent.
+- **Acceptance criteria:** stable identities, bodies, wheelchair, courtyard and composition; restrained asynchronous civic movement; no theatrical winner/loser framing; no generated dialogue, UI or text.
+- **Status:** candidate — explicit human approval required in [Issue #18](https://github.com/pikos-apikos/pnyx.video/issues/18).
+
+## Blocked
+
+- Amended-proposal decision beat — blocked by approval or rejection of the Issue #18 retry.
 
 ## Open deterministic maintenance
 
-- [Issue #2](https://github.com/pikos-apikos/pnyx.video/issues/2) remains open for the six original face-lock source/crop binaries. Later Higgsfield asset registration does not silently satisfy or erase that task.
-
-## Next specified work
-
-- If Issue #8 is approved, record the promotion and define the first motion contract from the approved scene plates.
-- Issue #7 — lock AAIFF cut scope and runtime.
-- Issue #3 — reconcile retained character roster and any remaining visual/text identity conflicts.
+- [Issue #2](https://github.com/pikos-apikos/pnyx.video/issues/2) — original six face-lock source/crop binaries.
+- [Issue #3](https://github.com/pikos-apikos/pnyx.video/issues/3) — remaining legacy visual/text identity conflicts.
+- Backfill exact Higgsfield take IDs for `01_DAWN_RETURN / Take A` and `02_GATE_ENTRY / Take B`.
 
 ## Decisions
 
-- AAIFF requirements were verified from official sources: deadline 15 August 2026, minimum runtime 3:00, embedded English subtitles and AI/contributor disclosure required.
-- The original Myrto and Thanasis face-lock selections remain preserved but gated by the visual/text conflicts recorded in Issues #2 and #3.
-- Broken-loop outputs after Thanasis remain invalid.
-- 2026-08-10 — GitHub established as the single production-state authority; Library documents are non-authoritative mirrors.
-- 2026-08-10 — The existing `02_GATE_ENTRY_PLATE` was recovered from Higgsfield history. Earlier notes saying that no Candidate existed are corrected, not preserved as current truth.
-- 2026-08-10 — `02_GATE_ENTRY_PLATE` remains Candidate pending explicit approval. Discovery of an image is not approval.
+- 2026-08-11 — A coherent 4:30 festival cut was selected; the 11–13 minute treatment remains the full-version canon.
+- 2026-08-11 — Official AAIFF close corrected to 31 August; internal submission target set to 29 August.
+- 2026-08-11 — Eleni's notification is composited deterministically in post; generated Greek text is prohibited.
+- 2026-08-11 — Thanasis's existing character sheet remained canonical; the redundant face-lock regression in Issue #13 was rejected.
+- 2026-08-11 — Courtyard A was superseded by courtyard B before any dependent consultation plate was approved.
+- 2026-08-11 — Public-consultation cross-axis Candidate B became the approved scene plate.
+- 2026-08-11 — Approved still references were imported into GitHub; approved video masters remain registered in Higgsfield.
 
 ## Rejected directions
 
+- Corrupted generated Greek text or asking a video model to preserve it.
+- Redundant Thanasis face-lock candidates `ab35f113-16ec-4254-abe9-130aa2b2b73a` and `a22424f9-6b3a-48df-883f-971ee06ccb33`.
+- Thanasis video failures `ffa2e699-66ce-4cf4-bac6-8db46d9aaf1c` and `f5e7a061-47e5-4cce-9554-5bdfe92c1352`.
+- Superseded courtyard A `df7acc6c-57ad-41ab-8251-2169df04bcf6` and its dependent consultation plates `a98c3732-886b-4971-97f9-82a00d5da2bc`, `3c95a8dd-5469-4cd5-bf12-7e167ed829f8`.
+- Public-consultation video V1 `04ebc0fd-d7d3-4179-b5cd-a9a10bfb8507`, which failed technically.
 - Dirt, neglect and artificial decay introduced by vague age/wear language.
-- Flash fallbacks or failed jobs presented as canonical Pro results.
-- Production state stored only in chat or Library without a GitHub asset record.
+- Production state stored only in chat without deterministic repository reconciliation.
 
 ## Not yet specified
 
-- Exact shot architecture after runtime/scope lock.
-- Final video-generation and lipsync toolchain.
-- Final music identity and edit cadence.
+- Exact shot architecture after the amended-proposal beat.
+- Final dialogue, voice and lipsync sources.
+- Final music identity, edit cadence, color pass and upscale pipeline.
 
 ## Out of scope
 
 - Turning the film into a technical PNyX explainer.
-- Treating generated documentary footage as evidence of a real event.
-- Promoting a visual Candidate without explicit human approval.
-- Reusing invalid Nikos, Sofia, adult-Anna or Panagiotis outputs from the broken loop.
+- Presenting synthetic footage as evidence of a real event.
+- Promoting a Candidate without explicit human approval.
+- Reusing rejected, superseded or invalid outputs.
+
