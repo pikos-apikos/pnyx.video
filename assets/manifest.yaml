@@ -1,5 +1,5 @@
-version: 5
-updated_at: '2026-08-11T20:14:16+03:00'
+version: 6
+updated_at: '2026-08-11T21:51:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   approvals: .joey/APPROVALS.md
@@ -343,7 +343,7 @@ assets:
   note: Failed after submission; no reliable detailed failure reason was exposed by the connector or UI.
 - asset_id: video.08-public-consultation.v3
   stage: video
-  status: candidate_external
+  status: approved_external
   higgsfield_job: 15940a3a-0f92-41c8-8e5c-0059e7562308
   model: seedance_2_0
   dimensions: 1280x720
@@ -351,5 +351,5 @@ assets:
   audio: false
   repository_file: null
   depends_on: scene.08-public-consultation.plate-b
-  canon_gate: issue-18
-  note: Completed fresh retry from the approved Plate B; explicit human approval remains pending.
+  approved_in: issue-18
+  note: Explicitly approved canonical video take from the approved Plate B.
