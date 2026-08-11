@@ -21,7 +21,7 @@ Yiannis approved a coherent **4:30 festival cut**. The original 11–13 minute t
 - [Follow the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
 - [Review the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/18)
 
-Seven moving-image beats are currently approved through `07_THANASIS_HUMAN_COST`. The approved public-consultation scene plate is complete. The current human frontier is the retry take in [Issue #18](https://github.com/pikos-apikos/pnyx.video/issues/18), Higgsfield `215185dd-23f6-4762-a590-83be9599067b`; it remains a **Candidate**, not canon.
+Seven moving-image beats are currently approved through `07_THANASIS_HUMAN_COST`. The approved public-consultation scene plate is complete. Retry V2 `215185dd-23f6-4762-a590-83be9599067b` is recorded as a technical failure. The current human frontier is completed retry V3 in [Issue #18](https://github.com/pikos-apikos/pnyx.video/issues/18), Higgsfield `15940a3a-0f92-41c8-8e5c-0059e7562308`; it remains a **Candidate**, not canon.
 
 ## Canonical visual assets
 
