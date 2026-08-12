@@ -47,23 +47,23 @@ The approved festival cut preserves the speculative-observational premise: PNyX 
 | `06_ELENI_DOSSIER_OPEN_NOTIFICATION` | video | `8b32c5e0-307a-42d1-a594-af9625fbfdbc` | Higgsfield master |
 | `07_THANASIS_HUMAN_COST` | video | `bd5b052f-fa59-4392-9003-3ac8221c67db` | Higgsfield master |
 | `08_PUBLIC_CONSULTATION` | video | `15940a3a-0f92-41c8-8e5c-0059e7562308` | Higgsfield master |
+| `09_AMENDED_PROPOSAL` plate B | scene-plate | `fc781492-37cc-4814-9429-793f4dfae6f5` | Higgsfield master |
 
 The exact take IDs for `01_DAWN_RETURN / Take A` and `02_GATE_ENTRY / Take B` still require deterministic backfill; no identifier has been invented.
 
 ## Frontier
 
-### Amended proposal with dissent preserved
+### Amended-proposal decision motion
 
-- **Canonical question:** Which scene plate makes the amended proposal visibly approved while keeping Thanasis's dissent present, legitimate and public?
-- **Stage:** scene-plate
-- **Dependencies:** approved courtyard B `f13ab72d-94dc-4332-9b99-c55800759f14`; approved consultation plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`; approved consultation video V3 `15940a3a-0f92-41c8-8e5c-0059e7562308`; approved 4:30 story spine.
-- **Required decision language:** phased works, temporary play zone, open tender, drainage review and six-month recheck; no theatrical vote, victory or forced consensus.
-- **Acceptance criteria:** same courtyard and character continuity, unobstructed wheelchair, ordinary non-textual decision cue, dignified public dissent, and a composition fit for one restrained motion take.
-- **Status:** specified — two 16:9 / 2K scene-plate candidates will require Yiannis's explicit selection in [Issue #20](https://github.com/pikos-apikos/pnyx.video/issues/20).
+- **Canonical question:** Can one restrained moving-image take preserve the approved decision while keeping Thanasis's disagreement visible, ordinary and dignified?
+- **Stage:** video
+- **Dependencies:** approved amended-proposal plate B `fc781492-37cc-4814-9429-793f4dfae6f5`; approved consultation plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`; approved consultation video V3 `15940a3a-0f92-41c8-8e5c-0059e7562308`.
+- **Motion rule:** locked camera, quiet asynchronous movement, no dialogue, text/UI, vote spectacle or forced consensus.
+- **Status:** specified — one 8-second / 16:9 / 720p silent candidate awaits cost preflight and Yiannis's spend authorization in [Issue #21](https://github.com/pikos-apikos/pnyx.video/issues/21).
 
 ## Blocked
 
-- Amended-proposal decision motion — blocked by approval of one Issue #20 scene plate.
+- Construction beat — blocked by approval of the Issue #21 video take.
 
 ## Open deterministic maintenance
 
@@ -81,6 +81,7 @@ The exact take IDs for `01_DAWN_RETURN / Take A` and `02_GATE_ENTRY / Take B` st
 - 2026-08-11 — Public-consultation cross-axis Candidate B became the approved scene plate.
 - 2026-08-11 — Public-consultation Video V3 `15940a3a-0f92-41c8-8e5c-0059e7562308` became canonical moving-image footage.
 - 2026-08-11 — Approved still references were imported into GitHub; approved video masters remain registered in Higgsfield.
+- 2026-08-12 — Amended-proposal scene plate B `fc781492-37cc-4814-9429-793f4dfae6f5` was approved; wide candidate A remains unselected history.
 
 ## Rejected directions
 
