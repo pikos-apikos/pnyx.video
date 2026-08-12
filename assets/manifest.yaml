@@ -1,5 +1,5 @@
 version: 6
-updated_at: '2026-08-11T21:51:00+03:00'
+updated_at: '2026-08-12T15:17:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   approvals: .joey/APPROVALS.md
@@ -353,3 +353,24 @@ assets:
   depends_on: scene.08-public-consultation.plate-b
   approved_in: issue-18
   note: Explicitly approved canonical video take from the approved Plate B.
+
+- asset_id: scene.09-amended-proposal.plate-a
+  stage: scene-plate
+  status: unselected_history
+  higgsfield_job: 62f72834-792b-414b-ae35-968757227b35
+  model: flux_2_pro
+  dimensions: 1920x1088
+  repository_file: null
+  note: Wide ensemble candidate; B was explicitly selected in issue-20.
+- asset_id: scene.09-amended-proposal.plate-b
+  stage: scene-plate
+  status: approved_external
+  higgsfield_job: fc781492-37cc-4814-9429-793f4dfae6f5
+  model: flux_2_pro
+  dimensions: 1920x1088
+  repository_file: null
+  approved_in: issue-20
+  depends_on:
+  - scene.08-public-consultation.plate-b
+  - video.08-public-consultation.v3
+  note: Closer civic triangle; source frame for the Issue #21 motion candidate.
