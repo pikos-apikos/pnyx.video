@@ -95,3 +95,10 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - Approved stills listed in `assets/manifest.yaml` were imported with source job IDs, dimensions and SHA-256 hashes.
 - Video masters remain in Higgsfield and are registered by job ID rather than duplicated as heavy GitHub binaries.
 
+
+## 2026-08-12 — `09_AMENDED_PROPOSAL`
+
+- **Approved scene plate:** B — closer civic triangle `fc781492-37cc-4814-9429-793f4dfae6f5`.
+- **Unselected history:** wide ensemble A `62f72834-792b-414b-ae35-968757227b35`.
+- **Evidence:** “B”.
+- **Boundary:** the dependent 8-second motion take remains a separate human-cost gate in Issue #21.
