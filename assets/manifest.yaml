@@ -1,5 +1,5 @@
-version: 13
-updated_at: '2026-08-14T04:09:00+03:00'
+version: 14
+updated_at: '2026-08-14T04:12:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -948,10 +948,7 @@ assets:
   - scene.02-gate-entry.plate-b
   cost_credits: 2
   decision_issue: issue-36
-  rejected_in: issue-36
-  source_reuse: prohibited
-  rejection_reason: Anna was incorrectly staged as a near-camera foreground shoulder instead of across from Eleni in the empty side of the original frame.
-  note: Do not reuse this plate as a reference.
+  note: Candidate plate only; human visual approval required before video generation.
 
 - asset_id: scene.03-clarification-table.anna-rear-three-quarter-v2
   stage: scene-plate
@@ -986,7 +983,10 @@ assets:
     overlap: prohibited
   cost_credits: 2
   decision_issue: issue-36
-  note: Candidate plate only; human visual approval required before video generation.
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Anna was incorrectly staged as a near-camera foreground shoulder instead of across from Eleni in the empty side of the original frame.
+  note: Do not reuse this plate as a reference.
 
 - asset_id: scene.03-clarification-table.anna-across-empty-side-v3
   stage: scene-plate
