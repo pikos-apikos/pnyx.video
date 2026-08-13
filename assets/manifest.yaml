@@ -1,5 +1,5 @@
-version: 10
-updated_at: '2026-08-14T01:42:00+03:00'
+version: 11
+updated_at: '2026-08-14T03:15:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -899,7 +899,7 @@ assets:
   note: New café composition; Anna is the coordinator and remains completely outside the frame.
 - asset_id: video.03-clarification-table.gemini-omni-v1
   stage: video
-  status: candidate
+  status: rejected
   higgsfield_job: 80312fb1-96fe-42ca-b69d-ef79184d1267
   model: gemini_omni
   model_name: Gemini Omni Flash
@@ -918,4 +918,34 @@ assets:
     Eleni: Καινούργια παιδική χαρά.
   cost_credits: 30
   decision_issue: issue-36
-  note: Candidate only; human approval required before edit use.
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Speaker-lock failure — Eleni spoke Anna's question and then Eleni's intended answer was absent.
+  note: Do not reuse this video as a reference.
+
+- asset_id: scene.myrto-after-rain-answer.plate-a
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: 3d69fd91-b9bb-4ddc-9dd2-1a8bf3550156
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  dimensions: 2752x1536
+  requested_resolution: 2k
+  repository_file: null
+  visible_character: Myrto
+  off_camera_character: unnamed_interviewer
+  production_use: 'Myrto later answers the acceptance-criterion question'
+  exact_dialogue: Να μπορώ να μπω μετά τη βροχή.
+  audio_plan:
+    model_name: Gemini Omni Flash
+    speaker_lock: Myrto_only
+    audible_question: prohibited
+    second_voice: prohibited
+  depends_on:
+  - character.myrto.seated-wheelchair.v1
+  - environment.playground-before-dry.v1
+  - scene.02-gate-entry.plate-b
+  cost_credits: 2
+  decision_issue: issue-36
+  note: Candidate plate only; human visual approval required before video generation.
