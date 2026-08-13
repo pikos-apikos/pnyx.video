@@ -1,5 +1,5 @@
-version: 11
-updated_at: '2026-08-14T03:15:00+03:00'
+version: 12
+updated_at: '2026-08-14T03:47:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -946,6 +946,41 @@ assets:
   - character.myrto.seated-wheelchair.v1
   - environment.playground-before-dry.v1
   - scene.02-gate-entry.plate-b
+  cost_credits: 2
+  decision_issue: issue-36
+  note: Candidate plate only; human visual approval required before video generation.
+
+- asset_id: scene.03-clarification-table.anna-rear-three-quarter-v2
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: fff0582a-cfa1-41f8-8b75-38ecdae7cb6c
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  dimensions: 2752x1536
+  requested_resolution: 2k
+  repository_file: null
+  visible_characters:
+  - Eleni
+  - Anna
+  staging:
+    Eleni: front_three_quarter_primary_focus
+    Anna: rear_three_quarter_foreground
+    anna_face_visible: false
+    anna_mouth_visible: false
+  depends_on:
+  - scene.03-clarification-table.eleni-single-v1
+  - scene.05-anna-prints-dossier.plate-b
+  - character.eleni.sheet.v2
+  planned_dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  audio_plan:
+    model_name: Gemini Omni Flash
+    speaker_order:
+    - Anna
+    - Eleni
+    overlap: prohibited
   cost_credits: 2
   decision_issue: issue-36
   note: Candidate plate only; human visual approval required before video generation.
