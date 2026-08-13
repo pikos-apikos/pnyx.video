@@ -1,5 +1,5 @@
-version: 17
-updated_at: '2026-08-14T02:31:51+03:00'
+version: 18
+updated_at: '2026-08-14T02:40:02+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -1064,7 +1064,7 @@ assets:
 - asset_id: character.anna.outfit-rear.v1
   stage: character-sheet-panel
   panel_role: full_body_rear
-  status: candidate
+  status: approved
   higgsfield_job: d74ad4cf-f1d2-4ec4-95fc-f9c05b8eb686
   requested_model: nano_banana_2
   model: nano_banana_flash
@@ -1072,24 +1072,26 @@ assets:
   dimensions: 1792x2400
   requested_resolution: 2k
   sha256: e93a68ff256f35ea85afd89cba903c60e1086724133e6aa9a12c4a95649ac4e0
-  repository_file: assets/characters/anna/character-sheet/candidates/anna-full-body-rear-v1.png
+  repository_file: assets/characters/anna/character-sheet/approved/anna-full-body-rear-v1.png
   depends_on:
   - character.anna.face-lock.v1
   - character.anna.outfit-front.v1
   cost_credits: 2
-  review_note: Check possible hair-length drift before approval.
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
   decision_issue: issue-36
 
 - asset_id: character.anna.sheet.v1
   stage: character-sheet
-  status: candidate
+  status: approved
   higgsfield_job: 23f717ac-ee79-4ade-a206-1f58d4c08df4
   model: nano_banana_2
   aspect_ratio: '16:9'
   source_dimensions: 1376x768
   repository_dimensions: 1920x1072
   sha256: 88e70625a81636a5b567649ef2d6f9c014ce03cf88a80b54b282a8d990d13229
-  repository_file: assets/characters/anna/character-sheet/candidates/anna-character-sheet-v1.png
+  repository_file: assets/characters/anna/character-sheet/approved/anna-character-sheet-v1.png
   panels:
     full_body_front: character.anna.outfit-front.v1
     full_body_rear: character.anna.outfit-rear.v1
@@ -1098,14 +1100,15 @@ assets:
     full_body_rear_job: d74ad4cf-f1d2-4ec4-95fc-f9c05b8eb686
     face_lock_job: 945bcb48-953d-4baa-9ff4-6b00f2538d8f
     outfit_job: a99e7777-6489-40ee-98d2-2a5989f96ad3
-  approval_gate: explicit human approval required
-  review_note: Check possible rear-view hair-length drift against the face lock before approval.
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
   decision_issue: issue-36
   note: Correct Joey three-panel structure — headless full-body front, full-body rear with head, and tight face lock.
 
 - asset_id: scene.03-clarification-table.anna-sheet-locked-v4
   stage: scene-plate
-  status: candidate_blocked
+  status: rejected
   higgsfield_job: b4dc2dd8-b660-43e2-8e15-6cba77be3b59
   requested_model: nano_banana_2
   model: nano_banana_flash
@@ -1132,12 +1135,50 @@ assets:
   - character.anna.outfit-front.v1
   - character.anna.face-lock.v1
   - character.eleni.sheet.v2
-  blocked_by: character.anna.sheet.v1
-  source_reuse: prohibited_until_sheet_approval
-  block_reason: Generated before the required rear panel completed the Anna Character Sheet.
+  source_reuse: prohibited
+  rejected_in: issue-36
+  rejection_reason: Generated before the complete approved Anna Character Sheet; superseded by approved v5.
   planned_dialogue:
     Anna: Ποιο ακριβώς είναι το πρόβλημα;
     Eleni: Καινούργια παιδική χαρά.
   cost_credits: 2
   decision_issue: issue-36
-  note: Candidate plate only; blocked until the three-panel Anna Character Sheet is complete and the plate is re-reviewed.
+  note: Superseded history only; do not reuse this plate as a reference.
+
+- asset_id: scene.03-clarification-table.anna-sheet-v5
+  stage: scene-plate
+  status: approved
+  higgsfield_job: 326c5496-c63d-4d13-9e0c-779301b29160
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  requested_resolution: 2k
+  dimensions: 2752x1536
+  size_bytes: 5849446
+  sha256: 77bdd06faac6eece7ef2fe7b7c78b999375919e481e8af221a1e06a91d3eb4d0
+  repository_file: assets/scenes/03-clarification-table/approved/anna-sheet-v5.png
+  base_scene: scene.03-clarification-table.eleni-single-v1
+  visible_characters:
+  - Eleni
+  - Anna
+  staging:
+    Eleni: original_position_primary_face
+    Anna: across_table_in_original_empty_side
+    anna_view: rear_side_three_quarter
+  depends_on:
+  - scene.03-clarification-table.eleni-single-v1
+  - character.anna.sheet.v1
+  - character.eleni.sheet.v2
+  planned_dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  generation_references:
+  - 4718d4ba-7f50-4fc4-af55-ed2dc1666a98
+  - 23f717ac-ee79-4ade-a206-1f58d4c08df4
+  - eb139ee0-b728-4b9b-8a1a-cd856ee514b9
+  cost_credits: 2
+  decision_issue: issue-36
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  note: Approved café scene plate with Anna on the left and Eleni on the right; canonical source for the next video candidate.
