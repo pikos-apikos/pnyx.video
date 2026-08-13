@@ -143,6 +143,8 @@ assets:
   stage: video
   status: blocked_after_beta_review
   higgsfield_job: 9acabcbf-b95b-46d1-8e61-a7c62d80db3d
+  source_media_id: a791bf18-764f-442e-92da-440931513207
+  source_reuse: prohibited
   model: seedance_2_0
   dimensions: 1920x1080
   duration_seconds: 8
