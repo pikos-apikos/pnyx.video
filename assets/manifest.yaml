@@ -1,9 +1,17 @@
-version: 6
-updated_at: '2026-08-12T15:17:00+03:00'
+version: 15
+updated_at: '2026-08-14T04:31:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
+  edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
+  post_session_asset_audit: https://github.com/pikos-apikos/pnyx.video/issues/37
   approvals: .joey/APPROVALS.md
   rule: Human approval is required before any candidate becomes canon.
+higgsfield_post_session_audit:
+  cutoff_utc: '2026-08-13T13:25:24Z'
+  image_count: 20
+  video_count: 20
+  provenance_issue: issue-37
+  rule: Presence in a beta does not promote a Candidate.
 assets:
 - asset_id: character.eleni.face-lock.v1-selection-card
   stage: face-lock
@@ -133,13 +141,17 @@ assets:
 
 - asset_id: video.03-clarification-table
   stage: video
-  status: approved_external
+  status: blocked_after_beta_review
   higgsfield_job: 9acabcbf-b95b-46d1-8e61-a7c62d80db3d
+  source_media_id: a791bf18-764f-442e-92da-440931513207
+  source_reuse: prohibited
   model: seedance_2_0
   dimensions: 1920x1080
   duration_seconds: 8
   audio: false
   repository_file: null
+  blocked_in: issue-36
+  rejection_reason: The cafe coordinator is wrong; do not reuse this take in future edits.
 - asset_id: video.04-evidence-room
   stage: video
   status: approved_external
@@ -374,3 +386,698 @@ assets:
   - scene.08-public-consultation.plate-b
   - video.08-public-consultation.v3
   note: Closer civic triangle; source frame for the Issue #21 motion candidate.
+# Post-session Higgsfield candidates mapped in Issue #37.
+# These records are provenance entries, not canon promotions.
+- asset_id: edit.pnyx-v2.3-final
+  stage: edit
+  status: candidate
+  review_state: revision_required
+  external_file: PNYX_v2.3_final.mp4
+  repository_file: null
+  runtime_seconds: 234.260
+  target_runtime_seconds: 270
+  video_codec: h264
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio_codec: aac
+  audio_channels: 2
+  audio_sample_rate_hz: 24000
+  size_bytes: 94429669
+  sha256: 8bf9fc068b858bbfc47d10d288717181460c3821f85598f8b71666373491d179
+  reviewed_in: issue-36
+  provenance_audit: issue-37
+
+- asset_id: video.01-dawn-return.take-a
+  stage: video
+  status: superseded
+  higgsfield_job: bade1bbd-8bf8-4993-89c9-1ec1afea4ce7
+  repository_file: null
+  beta_position: '00:18.00'
+  superseded_in: issue-36
+  superseded_by: video.01-dawn-return.gemini-omni-v1
+  superseded_reason: Eleni appears to blow into the phone; do not attempt a lipsync repair.
+
+- asset_id: video.01-dawn-return.gemini-omni-v1
+  stage: video
+  status: approved
+  higgsfield_job: 18b7a08f-ea77-4614-b695-da3fba1950d7
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  dimensions: 1280x720
+  aspect_ratio: '16:9'
+  duration_seconds: 10
+  audio: true
+  audio_mode: native_generated
+  language: el-GR
+  repository_file: null
+  depends_on: scene.01-dawn-return.plate-a
+  source_higgsfield_job: 8834c644-5237-4f8a-acdd-10052432e236
+  replaces: video.01-dawn-return.take-a
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  exact_dialogue: Δεν ξέρω τι ακριβώς πρέπει να γίνει. Ξέρω ότι έτσι δεν μπορεί να μείνει.
+  note: Approved after human review; natural Greek native audio and usable lipsync.
+
+- asset_id: scene.post-frontier.eleni-dawn-bus.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Eleni on dawn bus'
+  higgsfield_job: 6bedab36-5d75-4ee2-9b02-a85f243b7902
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.eleni-dawn-bus
+  stage: video
+  status: candidate
+  production_use: 'Eleni on dawn bus'
+  higgsfield_job: c3b63365-e577-4590-a554-dccd18afadbc
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.eleni-dawn-bus.image
+  beta_position: '00:04.00'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.empty-playground-dawn.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Empty playground at dawn'
+  higgsfield_job: 96009997-26b9-4a97-b5c5-62b387075e11
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.empty-playground-dawn
+  stage: video
+  status: candidate
+  production_use: 'Empty playground at dawn'
+  higgsfield_job: 8a2d7a56-c1f8-43c9-be51-d94fbae18462
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.empty-playground-dawn.image
+  beta_position: '00:12.00'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.eleni-phone-insert.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Eleni phone insert'
+  higgsfield_job: 778ad0f7-0a14-45a5-9d7f-e8cdc15f9f08
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.eleni-phone-insert
+  stage: video
+  status: candidate
+  production_use: 'Eleni phone insert'
+  higgsfield_job: 357e4485-0e55-464b-81c8-50cddfe1e314
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.eleni-phone-insert.image
+  beta_position: '00:26.25'
+  provenance_audit: issue-37
+  use_restriction: 'Useful only as a non-speaking insert.'
+
+- asset_id: scene.post-frontier.evidence-plan-detail.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Evidence-plan detail'
+  higgsfield_job: df880055-9257-4a9e-8eed-8b34701e9b76
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.evidence-plan-detail
+  stage: video
+  status: candidate
+  production_use: 'Evidence-plan detail'
+  higgsfield_job: ad895f20-99ca-4c86-a6fb-0006c05cff6f
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.evidence-plan-detail.image
+  beta_position: '00:48.75'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.evidence-notebook-detail.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Evidence notebook detail'
+  higgsfield_job: 9e7984be-f04b-4e1a-9d63-d01adcf10ae9
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.evidence-notebook-detail
+  stage: video
+  status: candidate
+  production_use: 'Evidence notebook detail'
+  higgsfield_job: da6f6279-1b92-421b-adad-a0dce2e127ea
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.evidence-notebook-detail.image
+  beta_position: '00:56.75'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.eleni-hospital-break-room.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Eleni hospital break room'
+  higgsfield_job: 2118ebfa-16fe-4a4e-b700-bf8a243e7158
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.eleni-hospital-break-room
+  stage: video
+  status: candidate
+  production_use: 'Eleni hospital break room'
+  higgsfield_job: aa1f944d-ed8e-4390-a6ca-55ce1f1c13a6
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.eleni-hospital-break-room.image
+  beta_position: '01:16.50'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.thanasis-service-centre.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Thanasis service centre'
+  higgsfield_job: afb18356-d12b-4595-8439-314b1ea178c1
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.thanasis-service-centre
+  stage: video
+  status: candidate
+  production_use: 'Thanasis service centre'
+  higgsfield_job: 39bf970f-aa27-4d2d-b165-1f6005e09149
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.thanasis-service-centre.image
+  beta_position: '01:24.50'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.myrto-access-drawing.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Myrto studies access drawing'
+  higgsfield_job: 8a201623-a680-4b06-861d-d0ae346524c7
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.myrto-access-drawing
+  stage: video
+  status: candidate
+  production_use: 'Myrto studies access drawing'
+  higgsfield_job: d48db3f1-7de9-45c6-8804-04040cf9ebf4
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.myrto-access-drawing.image
+  beta_position: '01:32.50'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.thanasis-hands-wall.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Thanasis hands on wall'
+  higgsfield_job: 1e89e791-fcc9-4fea-a3cb-5aa798b16117
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.thanasis-hands-wall
+  stage: video
+  status: candidate
+  production_use: 'Thanasis hands on wall'
+  higgsfield_job: d09e75e3-c251-4bed-9117-83628bb6f5e5
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.thanasis-hands-wall.image
+  beta_position: '01:49.00'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.residents-arrive-consultation.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Residents arrive at consultation'
+  higgsfield_job: 4bba5308-a71c-4fc8-839c-a18472d64adb
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.residents-arrive-consultation
+  stage: video
+  status: candidate
+  production_use: 'Residents arrive at consultation'
+  higgsfield_job: 041c23a1-e318-4018-a604-ff654374d510
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.residents-arrive-consultation.image
+  beta_position: '01:55.00'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.myrto-speaks-consultation.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Myrto speaks at consultation'
+  higgsfield_job: 313cf0aa-788b-49f5-b64e-59e2bac6e49e
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.myrto-speaks-consultation
+  stage: video
+  status: candidate
+  production_use: 'Myrto speaks at consultation'
+  higgsfield_job: 8be90c51-ebe1-4753-8ee4-9fd488ac3cb0
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.myrto-speaks-consultation.image
+  beta_position: '02:11.25'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.truck-blocked-site.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Truck blocked at site'
+  higgsfield_job: f1ad1f74-3b8f-4ac2-8345-141695c2fef8
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.truck-blocked-site
+  stage: video
+  status: candidate
+  production_use: 'Truck blocked at site'
+  higgsfield_job: a472c8ea-69b8-4809-a024-1d755886dde5
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.truck-blocked-site.image
+  beta_position: '02:46.00'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.rain-material-detail.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Rain/material detail'
+  higgsfield_job: 7e02911a-5c9e-4363-8035-77ea9b152ccd
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.rain-material-detail
+  stage: video
+  status: candidate
+  production_use: 'Rain/material detail'
+  higgsfield_job: 2c6420fe-5eec-4a15-a9d6-7d25b0ec4236
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.rain-material-detail.image
+  beta_position: '02:54.00'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.thanasis-completed-playground.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Thanasis at completed playground'
+  higgsfield_job: e0e11df2-7445-41f9-acf5-8e684ac6384c
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.thanasis-completed-playground
+  stage: video
+  status: candidate
+  production_use: 'Thanasis at completed playground'
+  higgsfield_job: 684d4050-a4d4-4c8a-957e-72eb4f4c737e
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.thanasis-completed-playground.image
+  beta_position: '03:12.50'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.public-notice-board.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Public notice board'
+  higgsfield_job: d23d30de-9ecb-424c-baf4-12aeb34bc853
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.public-notice-board
+  stage: video
+  status: candidate
+  production_use: 'Public notice board'
+  higgsfield_job: bb9e52eb-82ee-4c1d-aec3-4817b590655c
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.public-notice-board.image
+  beta_position: '03:20.50'
+  provenance_audit: issue-37
+
+- asset_id: scene.post-frontier.public-memory-photo-insert.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Public-memory photo insert'
+  higgsfield_job: 4f1b4bb9-3b64-4f0c-92a4-5271d4d2918c
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.public-memory-photo-insert
+  stage: video
+  status: candidate
+  production_use: 'Public-memory photo insert'
+  higgsfield_job: 8f8c8b9c-66cc-4fca-a9fb-77d7bb63fa5c
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.public-memory-photo-insert.image
+  beta_position: '03:33.25'
+  provenance_audit: issue-37
+  use_restriction: 'Used after the approved final take; remove from the current ending.'
+
+- asset_id: scene.post-frontier.next-neighbourhood-coda.image
+  stage: scene-plate
+  status: candidate
+  production_use: 'Next-neighbourhood playground coda'
+  higgsfield_job: dfecfe2a-8008-4c6e-a5cb-fb2807ff242a
+  repository_file: null
+  provenance_audit: issue-37
+- asset_id: video.post-frontier.next-neighbourhood-coda
+  stage: video
+  status: candidate
+  production_use: 'Next-neighbourhood playground coda'
+  higgsfield_job: 43f4a3c7-dfdc-4576-8cfe-113b9b6564d3
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.post-frontier.next-neighbourhood-coda.image
+  beta_position: '03:39.25'
+  provenance_audit: issue-37
+  use_restriction: 'Unapproved coda; remove from the current ending.'
+
+- asset_id: scene.coordinator-reverse-angle.v1
+  stage: scene-plate
+  status: rejected
+  higgsfield_job: 1a775832-b745-42f0-88dd-7f6d9dec7f5e
+  repository_file: null
+  rejected_in: issue-37
+  rejection_reason: Rejected coordinator direction; do not reuse.
+- asset_id: video.coordinator-reverse-angle.v1
+  stage: video
+  status: rejected
+  higgsfield_job: a6906941-0177-4546-9558-ce285150ce63
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.coordinator-reverse-angle.v1
+  rejected_in: issue-37
+  rejection_reason: Rejected coordinator direction; do not reuse.
+- asset_id: scene.coordinator-reverse-angle.v2
+  stage: scene-plate
+  status: rejected
+  higgsfield_job: b595cf15-a495-4bc3-a9df-73ba0e057192
+  repository_file: null
+  rejected_in: issue-37
+  rejection_reason: Rejected coordinator direction; do not reuse.
+- asset_id: video.coordinator-reverse-angle.v2
+  stage: video
+  status: rejected
+  higgsfield_job: 5e45dbe7-93cb-4d36-8979-8ad81744077d
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.coordinator-reverse-angle.v2
+  rejected_in: issue-37
+  rejection_reason: Rejected coordinator direction; do not reuse.
+- asset_id: scene.coordinator-still.v3
+  stage: scene-plate
+  status: rejected
+  higgsfield_job: 16a99155-21a7-432e-8fd9-b88515a0c56f
+  repository_file: null
+  rejected_in: issue-37
+  rejection_reason: Rejected coordinator direction; do not reuse.
+
+- asset_id: video.01-dawn-return.intake-retry
+  stage: video
+  status: candidate
+  higgsfield_job: d9181595-3c53-47ea-96fb-1034c91df1ae
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  audio: false
+  repository_file: null
+  depends_on: scene.01-dawn-return.plate-a
+  provenance_audit: issue-37
+  use_restriction: Acceptable only as a silent visual bed; not credible recorded speech.
+
+- asset_id: audio.greek-tts.post-frontier-batch
+  stage: audio
+  status: rejected
+  rejected_in: issue-37
+  rejection_reason: Greek synthetic dialogue quality is unusable and does not provide usable lipsync.
+  higgsfield_jobs:
+  - eeb2af2f-69f7-4ec9-93de-a4d4b088a99a
+  - 71109fbe-04ee-4c96-90cb-de9fb7d9baed
+  - 14034b60-f70b-4d1a-bbcf-ead94bfdc401
+  - 20316dfe-cf88-4cd7-881c-374bf270023d
+  - 2ad778f5-d7f4-4b7d-89e3-361cd39f6b7f
+  - 4fc988f5-f3d1-4a5e-990d-837426c9b52c
+  - f3b83062-3584-4749-972b-b08d81c39cbb
+  - 363cea0b-3497-42ac-b6a2-8b835fc4c502
+  - 64fb38a9-5674-4ee2-b3ed-a5b17fee95c4
+  - d6d84815-776c-443d-9159-23cd88be3a39
+  - 671379d2-29e9-4bdb-87f8-511d3c51091b
+  - c89c8e01-d988-4684-a2f2-e029b9d92e14
+  - 3ed66265-1a7a-45e9-a07a-d708244cf4dd
+  - 05afe229-3b3f-468b-b1c8-a693638aa78a
+  - 31fb1016-7a74-48be-9cb7-471e82bbda34
+- asset_id: audio.english-tts.post-frontier-batch
+  stage: audio
+  status: candidate
+  provenance_audit: issue-37
+  use_restriction: Unapproved and not lipsync evidence.
+  higgsfield_jobs:
+  - 8837834e-f693-4cfb-9770-a791479cf48f
+  - 6a04d99f-0c00-44d8-8ac3-2f06d1005d5b
+  - f6b506c2-af25-434a-8aa4-a89ff05f5b17
+  - 911d2a49-de41-44a9-ba36-4e4ed5eb5ed5
+  - 89c05659-cd16-4c7a-b922-8c06b024abd3
+- asset_id: scene.03-clarification-table.eleni-single-v1
+  stage: scene-plate
+  status: approved
+  higgsfield_job: 4718d4ba-7f50-4fc4-af55-ed2dc1666a98
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  requested_resolution: 2k
+  repository_file: null
+  visible_characters:
+  - Eleni
+  off_camera_character: Anna
+  coordinator_role: Anna
+  reference_reuse:
+    blocked_cafe_plate: prohibited
+    blocked_cafe_video: prohibited
+  depends_on:
+  - character.eleni.face-lock.v2
+  - character.eleni.outfit.v2
+  - character.eleni.sheet.v2
+  cost_credits: 2
+  decision_issue: issue-36
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  dimensions: 2752x1536
+  note: New café composition; Anna is the coordinator and remains completely outside the frame.
+- asset_id: video.03-clarification-table.gemini-omni-v1
+  stage: video
+  status: rejected
+  higgsfield_job: 80312fb1-96fe-42ca-b69d-ef79184d1267
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 10
+  audio: true
+  audio_mode: native_generated
+  language: el-GR
+  repository_file: null
+  depends_on: scene.03-clarification-table.eleni-single-v1
+  visible_character: Eleni
+  off_camera_character: Anna
+  dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  cost_credits: 30
+  decision_issue: issue-36
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Speaker-lock failure — Eleni spoke Anna's question and then Eleni's intended answer was absent.
+  note: Do not reuse this video as a reference.
+
+- asset_id: scene.myrto-after-rain-answer.plate-a
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: 3d69fd91-b9bb-4ddc-9dd2-1a8bf3550156
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  dimensions: 2752x1536
+  requested_resolution: 2k
+  repository_file: null
+  visible_character: Myrto
+  off_camera_character: unnamed_interviewer
+  production_use: 'Myrto later answers the acceptance-criterion question'
+  exact_dialogue: Να μπορώ να μπω μετά τη βροχή.
+  audio_plan:
+    model_name: Gemini Omni Flash
+    speaker_lock: Myrto_only
+    audible_question: prohibited
+    second_voice: prohibited
+  depends_on:
+  - character.myrto.seated-wheelchair.v1
+  - environment.playground-before-dry.v1
+  - scene.02-gate-entry.plate-b
+  cost_credits: 2
+  decision_issue: issue-36
+  note: Candidate plate only; human visual approval required before video generation.
+
+- asset_id: scene.03-clarification-table.anna-rear-three-quarter-v2
+  stage: scene-plate
+  status: rejected
+  higgsfield_job: fff0582a-cfa1-41f8-8b75-38ecdae7cb6c
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  dimensions: 2752x1536
+  requested_resolution: 2k
+  repository_file: null
+  visible_characters:
+  - Eleni
+  - Anna
+  staging:
+    Eleni: front_three_quarter_primary_focus
+    Anna: rear_three_quarter_foreground
+    anna_face_visible: false
+    anna_mouth_visible: false
+  depends_on:
+  - scene.03-clarification-table.eleni-single-v1
+  - scene.05-anna-prints-dossier.plate-b
+  - character.eleni.sheet.v2
+  planned_dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  audio_plan:
+    model_name: Gemini Omni Flash
+    speaker_order:
+    - Anna
+    - Eleni
+    overlap: prohibited
+  cost_credits: 2
+  decision_issue: issue-36
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Anna was incorrectly staged as a near-camera foreground shoulder instead of across from Eleni in the empty side of the original frame.
+  note: Do not reuse this plate as a reference.
+
+- asset_id: scene.03-clarification-table.anna-across-empty-side-v3
+  stage: scene-plate
+  status: rejected
+  higgsfield_job: 49a82594-dc18-4b02-8f12-276dd60fd12c
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  requested_resolution: 2k
+  repository_file: null
+  base_scene: scene.03-clarification-table.eleni-single-v1
+  visible_characters:
+  - Eleni
+  - Anna
+  staging:
+    Eleni: original_position_primary_face
+    Anna: across_table_in_original_empty_side
+    anna_view: rear_side_three_quarter
+    anna_profile_visible: slight
+    anna_near_camera_foreground: prohibited
+  depends_on:
+  - scene.03-clarification-table.eleni-single-v1
+  - scene.05-anna-prints-dossier.plate-b
+  - character.eleni.sheet.v2
+  planned_dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  cost_credits: 2
+  decision_issue: issue-36
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Anna's canonical Character Sheet was not supplied as a generation reference, causing wardrobe drift.
+  note: Do not reuse this plate as a reference.
+
+- asset_id: character.anna.sheet.v1
+  stage: character-sheet
+  status: approved_user_supplied
+  external_file: f07d011f-05f1-47da-81c2-ff37f0ada546.png
+  higgsfield_media_id: 5e06ef85-7e03-40ae-87fe-b82bd3f1bac6
+  dimensions: 1529x2048
+  sha256: 86a5b4bf940a5b75b9d472626cbb5b4cdb451263c17d460bcdf79170a1e1ef59
+  repository_file: null
+  identity_lock:
+    hair: straight medium-brown shoulder-length
+  wardrobe_lock:
+    shirt: light blue button-down with collar and sleeves rolled to elbows
+    trousers: dark navy straight-leg trousers
+    shoes: worn brown lace-up shoes
+  prohibited_drift:
+  - jacket
+  - cardigan
+  - blazer
+  - dress
+  - skirt
+  - scarf
+  - patterned shirt
+  supplied_by: Yiannis
+  supplied_on: '2026-08-14'
+  decision_issue: issue-36
+
+- asset_id: scene.03-clarification-table.anna-sheet-locked-v4
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: b4dc2dd8-b660-43e2-8e15-6cba77be3b59
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  requested_resolution: 2k
+  repository_file: null
+  base_scene: scene.03-clarification-table.eleni-single-v1
+  visible_characters:
+  - Eleni
+  - Anna
+  staging:
+    Eleni: original_position_primary_face
+    Anna: across_table_in_original_empty_side
+    anna_view: rear_side_three_quarter
+    anna_profile_visible: slight
+    anna_near_camera_foreground: prohibited
+  wardrobe_lock:
+    source: character.anna.sheet.v1
+    shirt: light blue button-down with collar and sleeves rolled to elbows
+    trousers: dark navy straight-leg trousers
+    shoes: worn brown lace-up shoes
+  depends_on:
+  - scene.03-clarification-table.eleni-single-v1
+  - character.anna.sheet.v1
+  - character.eleni.sheet.v2
+  planned_dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  cost_credits: 2
+  decision_issue: issue-36
+  note: Candidate plate only; human visual approval required before video generation.
