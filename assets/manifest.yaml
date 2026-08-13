@@ -1,5 +1,5 @@
-version: 9
-updated_at: '2026-08-14T01:31:00+03:00'
+version: 10
+updated_at: '2026-08-14T01:42:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -897,3 +897,25 @@ assets:
   approved_on: '2026-08-14'
   dimensions: 2752x1536
   note: New café composition; Anna is the coordinator and remains completely outside the frame.
+- asset_id: video.03-clarification-table.gemini-omni-v1
+  stage: video
+  status: candidate
+  higgsfield_job: 80312fb1-96fe-42ca-b69d-ef79184d1267
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 10
+  audio: true
+  audio_mode: native_generated
+  language: el-GR
+  repository_file: null
+  depends_on: scene.03-clarification-table.eleni-single-v1
+  visible_character: Eleni
+  off_camera_character: Anna
+  dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  cost_credits: 30
+  decision_issue: issue-36
+  note: Candidate only; human approval required before edit use.
