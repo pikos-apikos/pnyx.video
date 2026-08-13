@@ -1,5 +1,5 @@
-version: 14
-updated_at: '2026-08-14T04:12:00+03:00'
+version: 15
+updated_at: '2026-08-14T04:31:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -990,7 +990,7 @@ assets:
 
 - asset_id: scene.03-clarification-table.anna-across-empty-side-v3
   stage: scene-plate
-  status: candidate
+  status: rejected
   higgsfield_job: 49a82594-dc18-4b02-8f12-276dd60fd12c
   requested_model: nano_banana_2
   model: nano_banana_flash
@@ -1010,6 +1010,70 @@ assets:
   depends_on:
   - scene.03-clarification-table.eleni-single-v1
   - scene.05-anna-prints-dossier.plate-b
+  - character.eleni.sheet.v2
+  planned_dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  cost_credits: 2
+  decision_issue: issue-36
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Anna's canonical Character Sheet was not supplied as a generation reference, causing wardrobe drift.
+  note: Do not reuse this plate as a reference.
+
+- asset_id: character.anna.sheet.v1
+  stage: character-sheet
+  status: approved_user_supplied
+  external_file: f07d011f-05f1-47da-81c2-ff37f0ada546.png
+  higgsfield_media_id: 5e06ef85-7e03-40ae-87fe-b82bd3f1bac6
+  dimensions: 1529x2048
+  sha256: 86a5b4bf940a5b75b9d472626cbb5b4cdb451263c17d460bcdf79170a1e1ef59
+  repository_file: null
+  identity_lock:
+    hair: straight medium-brown shoulder-length
+  wardrobe_lock:
+    shirt: light blue button-down with collar and sleeves rolled to elbows
+    trousers: dark navy straight-leg trousers
+    shoes: worn brown lace-up shoes
+  prohibited_drift:
+  - jacket
+  - cardigan
+  - blazer
+  - dress
+  - skirt
+  - scarf
+  - patterned shirt
+  supplied_by: Yiannis
+  supplied_on: '2026-08-14'
+  decision_issue: issue-36
+
+- asset_id: scene.03-clarification-table.anna-sheet-locked-v4
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: b4dc2dd8-b660-43e2-8e15-6cba77be3b59
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  requested_resolution: 2k
+  repository_file: null
+  base_scene: scene.03-clarification-table.eleni-single-v1
+  visible_characters:
+  - Eleni
+  - Anna
+  staging:
+    Eleni: original_position_primary_face
+    Anna: across_table_in_original_empty_side
+    anna_view: rear_side_three_quarter
+    anna_profile_visible: slight
+    anna_near_camera_foreground: prohibited
+  wardrobe_lock:
+    source: character.anna.sheet.v1
+    shirt: light blue button-down with collar and sleeves rolled to elbows
+    trousers: dark navy straight-leg trousers
+    shoes: worn brown lace-up shoes
+  depends_on:
+  - scene.03-clarification-table.eleni-single-v1
+  - character.anna.sheet.v1
   - character.eleni.sheet.v2
   planned_dialogue:
     Anna: Ποιο ακριβώς είναι το πρόβλημα;
