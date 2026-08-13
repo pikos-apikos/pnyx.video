@@ -19,11 +19,28 @@ Yiannis approved a coherent **4:30 festival cut**. The original 11–13 minute t
 - [See the character text locks](canon/CHARACTER_TEXT_LOCKS.md)
 - [AAIFF 2026 production constraints](docs/AAIFF_2026.md)
 - [Follow the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
-- [Review the current frontier](https://github.com/pikos-apikos/pnyx.video/issues/21)
+- [Review the current edit frontier](https://github.com/pikos-apikos/pnyx.video/issues/36)
+- [Inspect the post-session Higgsfield asset audit](https://github.com/pikos-apikos/pnyx.video/issues/37)
 
-Eight moving-image beats are approved through `08_PUBLIC_CONSULTATION`; the `09_AMENDED_PROPOSAL` scene plate B is now canonical. The canonical take is Higgsfield `15940a3a-0f92-41c8-8e5c-0059e7562308`: Seedance 2.0, 8 seconds, 16:9, 720p, silent. Earlier retries V1 and V2, including `215185dd-23f6-4762-a590-83be9599067b`, remain technical failures and are never reused.
+`PNYX_v2.3_final.mp4` is registered in Issue #36 as a **rough-cut Candidate — revision required**. Its post-session image/video provenance, beta positions and reuse rules are recorded in Issue #37.
 
-The single current human frontier is the [amended-proposal motion take in Issue #21](https://github.com/pikos-apikos/pnyx.video/issues/21): one quiet 8-second shot from the approved closer civic-triangle plate, with Thanasis's dissent still public and dignified.
+## Required bootstrap for models and agents
+
+**GitHub Issues are the authority for live production state.** Repository files are deterministic mirrors and may lag behind the latest human review.
+
+Before doing any production work, every model or agent MUST:
+
+1. read [Issue #1 — the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1);
+2. follow its current-frontier link and read that issue, including its comments;
+3. read any asset-audit or decision issues linked from the frontier;
+4. load the project-pinned workflow in this order:
+   - [Controlled Cinematic English](skills/controlled-cinematic-english/SKILL.md);
+   - [PNyX CCE project adapter](skills/controlled-cinematic-english/PNYX_ADAPTER.md);
+   - [Joey Workflow](skills/joey-workflow/SKILL.md);
+5. use only exact asset IDs and explicit human decisions;
+6. keep `Candidate`, `Approved`, `Rejected`, `Superseded` and `Invalid` distinct.
+
+If an issue conflicts with README prose, `.joey/`, a manifest or another repository mirror, the issue decision wins. The agent must report the mismatch and synchronize the mirror; it must not infer approval or silently choose a replacement.
 
 ## Canonical visual assets
 
@@ -45,15 +62,19 @@ Video masters remain in Higgsfield and are registered by exact job ID in the man
 
 ## Joey Workflow — Cinematic Wayfinder
 
-This production combines:
+This production uses three layers in a fixed order:
 
-- **Wayfinder** for persistent planning: one destination, a shared issue map, named tickets, dependencies, a visible frontier and deliberate fog of war;
-- **Joey's cinematic workflow** for production order: story bible → character lock → face lock → outfit → character sheet → props → environments → scene plates → video → audio and edit.
+- **Controlled Cinematic English** resolves material ambiguity, canonical reference roles and decision ownership before execution;
+- **Wayfinder** provides persistent planning: one destination, a shared issue map, named tickets, dependencies, a visible frontier and deliberate fog of war;
+- **Joey's cinematic workflow** governs production order: story bible → character lock → face lock → outfit → character sheet → props → environments → scene plates → video → audio and edit.
 
 Only explicitly approved, internally consistent assets may become references for downstream work. A human selection is preserved even when it conflicts with earlier canon, but that conflict must be resolved before reuse. Rejected, superseded and invalid outputs remain traceable but never re-enter canon.
 
 - [Workflow guide](docs/WORKFLOW.md)
-- [Installable skill](skills/joey-workflow/SKILL.md)
+- [Skill loading manifest](skills/manifest.yaml)
+- [Controlled Cinematic English](skills/controlled-cinematic-english/SKILL.md)
+- [PNyX CCE project adapter](skills/controlled-cinematic-english/PNYX_ADAPTER.md)
+- [Installable Joey skill](skills/joey-workflow/SKILL.md)
 - [References and attribution](skills/joey-workflow/REFERENCES.md)
 - [Portable production-map mirror](.joey/PRODUCTION_MAP.md)
 - [Human approval log](.joey/APPROVALS.md)
@@ -63,7 +84,9 @@ Only explicitly approved, internally consistent assets may become references for
 - `canon/` — approved story, character and audiovisual rules
 - `assets/` — manifest plus imported canonical stills, candidates and failure history
 - `provenance/` — AI disclosure, source and release-integrity rules
+- `skills/controlled-cinematic-english/` — the pinned intent compiler and PNyX adapter
 - `skills/joey-workflow/` — the project-pinned orchestration skill
+- `skills/manifest.yaml` — loading order, authority and specialist compatibility
 - `.joey/` — portable mirror of production state; GitHub Issues remain authoritative
 
 ## Synthetic-media disclosure

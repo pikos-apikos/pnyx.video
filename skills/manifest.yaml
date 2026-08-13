@@ -1,0 +1,44 @@
+schema_version: 1
+project: pikos-apikos/pnyx.video
+last_verified: 2026-08-14
+
+authority:
+  live_map: https://github.com/pikos-apikos/pnyx.video/issues/1
+  rule: GitHub issue decisions override repository mirrors when they differ
+  mirrors:
+    - .joey/PRODUCTION_MAP.md
+    - .joey/APPROVALS.md
+    - assets/manifest.yaml
+    - README.md
+
+load_order:
+  - path: skills/controlled-cinematic-english/SKILL.md
+    role: intent normalization, disambiguation, continuity and decision ownership
+  - path: skills/controlled-cinematic-english/PNYX_ADAPTER.md
+    role: stable PNyX creative contract and project routing
+  - path: skills/joey-workflow/SKILL.md
+    role: issue frontier, asset state, production dependencies and human gates
+
+specialists:
+  story_bible: story-bible-builder
+  character: character-builder
+  stills: banana-pro-director-3.0
+  video: cinema-director
+
+legacy_names:
+  banana-pro-director-2.0: banana-pro-director-3.0
+  cinema-worldbuilder-pro-2.0: cinema-director
+
+state_vocabulary:
+  - candidate
+  - approved
+  - rejected
+  - superseded
+  - invalid
+
+bootstrap:
+  - read the live map issue
+  - read its current-frontier issue and comments
+  - read linked decision and asset-audit issues
+  - load skills in the declared order
+  - report mirror drift before synchronization
