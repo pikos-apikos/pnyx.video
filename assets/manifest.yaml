@@ -1,5 +1,5 @@
-version: 15
-updated_at: '2026-08-14T04:31:00+03:00'
+version: 17
+updated_at: '2026-08-14T02:31:51+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -1021,16 +1021,30 @@ assets:
   rejection_reason: Anna's canonical Character Sheet was not supplied as a generation reference, causing wardrobe drift.
   note: Do not reuse this plate as a reference.
 
-- asset_id: character.anna.sheet.v1
-  stage: character-sheet
+- asset_id: character.anna.face-lock.v1
+  stage: face-lock
   status: approved_user_supplied
-  external_file: f07d011f-05f1-47da-81c2-ff37f0ada546.png
+  external_file: 36868eff-a2ea-49dc-bf8e-d7b4cfa7b23e.png
+  higgsfield_media_id: ced130a6-fadb-4ec5-a703-07a93bd62c78
+  dimensions: 1529x2048
+  sha256: ecae4cee72fb2f84134533484b2e24087c44f0f874a05437e75c357b651ec938
+  repository_file: assets/characters/anna/face-lock/approved/anna-face-lock.png
+  identity_lock:
+    hair: straight medium-brown shoulder-length
+  supplied_by: Yiannis
+  supplied_on: '2026-08-14'
+  decision_issue: issue-36
+
+- asset_id: character.anna.outfit-front.v1
+  stage: outfit
+  panel_role: full_body_front
+  status: approved_user_supplied
+  external_file: cc315e1d-9ade-456a-8c2f-8049ec8cc3c9.png
   higgsfield_media_id: 5e06ef85-7e03-40ae-87fe-b82bd3f1bac6
   dimensions: 1529x2048
   sha256: 86a5b4bf940a5b75b9d472626cbb5b4cdb451263c17d460bcdf79170a1e1ef59
-  repository_file: null
-  identity_lock:
-    hair: straight medium-brown shoulder-length
+  repository_file: assets/characters/anna/outfit/approved/anna-full-body-front.png
+  depends_on: character.anna.face-lock.v1
   wardrobe_lock:
     shirt: light blue button-down with collar and sleeves rolled to elbows
     trousers: dark navy straight-leg trousers
@@ -1047,9 +1061,51 @@ assets:
   supplied_on: '2026-08-14'
   decision_issue: issue-36
 
+- asset_id: character.anna.outfit-rear.v1
+  stage: character-sheet-panel
+  panel_role: full_body_rear
+  status: candidate
+  higgsfield_job: d74ad4cf-f1d2-4ec4-95fc-f9c05b8eb686
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '3:4'
+  dimensions: 1792x2400
+  requested_resolution: 2k
+  sha256: e93a68ff256f35ea85afd89cba903c60e1086724133e6aa9a12c4a95649ac4e0
+  repository_file: assets/characters/anna/character-sheet/candidates/anna-full-body-rear-v1.png
+  depends_on:
+  - character.anna.face-lock.v1
+  - character.anna.outfit-front.v1
+  cost_credits: 2
+  review_note: Check possible hair-length drift before approval.
+  decision_issue: issue-36
+
+- asset_id: character.anna.sheet.v1
+  stage: character-sheet
+  status: candidate
+  higgsfield_job: 23f717ac-ee79-4ade-a206-1f58d4c08df4
+  model: nano_banana_2
+  aspect_ratio: '16:9'
+  source_dimensions: 1376x768
+  repository_dimensions: 1920x1072
+  sha256: 88e70625a81636a5b567649ef2d6f9c014ce03cf88a80b54b282a8d990d13229
+  repository_file: assets/characters/anna/character-sheet/candidates/anna-character-sheet-v1.png
+  panels:
+    full_body_front: character.anna.outfit-front.v1
+    full_body_rear: character.anna.outfit-rear.v1
+    face_lock: character.anna.face-lock.v1
+  generation_inputs:
+    full_body_rear_job: d74ad4cf-f1d2-4ec4-95fc-f9c05b8eb686
+    face_lock_job: 945bcb48-953d-4baa-9ff4-6b00f2538d8f
+    outfit_job: a99e7777-6489-40ee-98d2-2a5989f96ad3
+  approval_gate: explicit human approval required
+  review_note: Check possible rear-view hair-length drift against the face lock before approval.
+  decision_issue: issue-36
+  note: Correct Joey three-panel structure — headless full-body front, full-body rear with head, and tight face lock.
+
 - asset_id: scene.03-clarification-table.anna-sheet-locked-v4
   stage: scene-plate
-  status: candidate
+  status: candidate_blocked
   higgsfield_job: b4dc2dd8-b660-43e2-8e15-6cba77be3b59
   requested_model: nano_banana_2
   model: nano_banana_flash
@@ -1067,17 +1123,21 @@ assets:
     anna_profile_visible: slight
     anna_near_camera_foreground: prohibited
   wardrobe_lock:
-    source: character.anna.sheet.v1
+    source: character.anna.outfit-front.v1
     shirt: light blue button-down with collar and sleeves rolled to elbows
     trousers: dark navy straight-leg trousers
     shoes: worn brown lace-up shoes
   depends_on:
   - scene.03-clarification-table.eleni-single-v1
-  - character.anna.sheet.v1
+  - character.anna.outfit-front.v1
+  - character.anna.face-lock.v1
   - character.eleni.sheet.v2
+  blocked_by: character.anna.sheet.v1
+  source_reuse: prohibited_until_sheet_approval
+  block_reason: Generated before the required rear panel completed the Anna Character Sheet.
   planned_dialogue:
     Anna: Ποιο ακριβώς είναι το πρόβλημα;
     Eleni: Καινούργια παιδική χαρά.
   cost_credits: 2
   decision_issue: issue-36
-  note: Candidate plate only; human visual approval required before video generation.
+  note: Candidate plate only; blocked until the three-panel Anna Character Sheet is complete and the plate is re-reviewed.
