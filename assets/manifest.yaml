@@ -872,7 +872,7 @@ assets:
   - 89c05659-cd16-4c7a-b922-8c06b024abd3
 - asset_id: scene.03-clarification-table.eleni-single-v1
   stage: scene-plate
-  status: candidate
+  status: approved
   higgsfield_job: 4718d4ba-7f50-4fc4-af55-ed2dc1666a98
   requested_model: nano_banana_2
   model: nano_banana_flash
@@ -892,4 +892,8 @@ assets:
   - character.eleni.sheet.v2
   cost_credits: 2
   decision_issue: issue-36
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  dimensions: 2752x1536
   note: New café composition; Anna is the coordinator and remains completely outside the frame.
