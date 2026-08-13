@@ -1,5 +1,5 @@
-version: 7
-updated_at: '2026-08-14T00:00:00+03:00'
+version: 8
+updated_at: '2026-08-14T01:21:25+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -407,12 +407,35 @@ assets:
 
 - asset_id: video.01-dawn-return.take-a
   stage: video
-  status: blocked_after_beta_review
+  status: superseded
   higgsfield_job: bade1bbd-8bf8-4993-89c9-1ec1afea4ce7
   repository_file: null
   beta_position: '00:18.00'
-  blocked_in: issue-36
-  rejection_reason: Eleni appears to blow into the phone; do not attempt a lipsync repair.
+  superseded_in: issue-36
+  superseded_by: video.01-dawn-return.gemini-omni-v1
+  superseded_reason: Eleni appears to blow into the phone; do not attempt a lipsync repair.
+
+- asset_id: video.01-dawn-return.gemini-omni-v1
+  stage: video
+  status: approved
+  higgsfield_job: 18b7a08f-ea77-4614-b695-da3fba1950d7
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  dimensions: 1280x720
+  aspect_ratio: '16:9'
+  duration_seconds: 10
+  audio: true
+  audio_mode: native_generated
+  language: el-GR
+  repository_file: null
+  depends_on: scene.01-dawn-return.plate-a
+  source_higgsfield_job: 8834c644-5237-4f8a-acdd-10052432e236
+  replaces: video.01-dawn-return.take-a
+  approved_in: issue-36
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  exact_dialogue: Δεν ξέρω τι ακριβώς πρέπει να γίνει. Ξέρω ότι έτσι δεν μπορεί να μείνει.
+  note: Approved after human review; natural Greek native audio and usable lipsync.
 
 - asset_id: scene.post-frontier.eleni-dawn-bus.image
   stage: scene-plate
