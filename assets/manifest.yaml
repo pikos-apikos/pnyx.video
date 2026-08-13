@@ -1,5 +1,5 @@
-version: 8
-updated_at: '2026-08-14T01:21:25+03:00'
+version: 9
+updated_at: '2026-08-14T01:31:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -870,3 +870,26 @@ assets:
   - f6b506c2-af25-434a-8aa4-a89ff05f5b17
   - 911d2a49-de41-44a9-ba36-4e4ed5eb5ed5
   - 89c05659-cd16-4c7a-b922-8c06b024abd3
+- asset_id: scene.03-clarification-table.eleni-single-v1
+  stage: scene-plate
+  status: candidate
+  higgsfield_job: 4718d4ba-7f50-4fc4-af55-ed2dc1666a98
+  requested_model: nano_banana_2
+  model: nano_banana_flash
+  aspect_ratio: '16:9'
+  requested_resolution: 2k
+  repository_file: null
+  visible_characters:
+  - Eleni
+  off_camera_character: Anna
+  coordinator_role: Anna
+  reference_reuse:
+    blocked_cafe_plate: prohibited
+    blocked_cafe_video: prohibited
+  depends_on:
+  - character.eleni.face-lock.v2
+  - character.eleni.outfit.v2
+  - character.eleni.sheet.v2
+  cost_credits: 2
+  decision_issue: issue-36
+  note: New café composition; Anna is the coordinator and remains completely outside the frame.
