@@ -1,5 +1,5 @@
-version: 22
-updated_at: '2026-08-14T13:45:00+03:00'
+version: 24
+updated_at: '2026-08-14T14:35:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -928,7 +928,7 @@ assets:
 
 - asset_id: scene.myrto-after-rain-answer.plate-a
   stage: scene-plate
-  status: candidate
+  status: approved_external_pending_binary_import
   higgsfield_job: 3d69fd91-b9bb-4ddc-9dd2-1a8bf3550156
   requested_model: nano_banana_2
   model: nano_banana_flash
@@ -936,6 +936,8 @@ assets:
   dimensions: 2752x1536
   requested_resolution: 2k
   repository_file: null
+  planned_repository_file: assets/scenes/myrto-after-rain-answer/approved/plate-a.png
+  binary_import_status: pending_direct_result_url_or_file
   visible_character: Myrto
   off_camera_character: unnamed_interviewer
   production_use: 'Myrto later answers the acceptance-criterion question'
@@ -951,7 +953,48 @@ assets:
   - scene.02-gate-entry.plate-b
   cost_credits: 2
   decision_issue: issue-36
-  note: Candidate plate only; human visual approval required before video generation.
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  approved_in: issue-36
+  note: Explicitly approved as the canonical source plate for Myrto's interview-answer video.
+
+- asset_id: video.myrto-after-rain-answer.v1
+  stage: video
+  status: approved_external
+  higgsfield_job: fa7d131d-c964-4afb-857e-b4d33528dff1
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 8
+  video_codec: h264
+  audio: true
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2279899
+  sha256: 4cc3ca1bb66ed9adc60bbd28a095c66bf3a2ee4412316c70bfaecd2bb3844bca
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260814_110648_fa7d131d-c964-4afb-857e-b4d33528dff1.mp4
+  repository_policy: Video binaries are not stored in GitHub; provenance metadata and external URLs only.
+  depends_on: scene.myrto-after-rain-answer.plate-a
+  exact_dialogue: Να μπορώ να μπω μετά τη βροχή.
+  edit_structure:
+    interview_answer: opening_segment
+    intentional_cut_at_seconds: 6.33
+    closing_image: empty_wet_playground
+    narrative_function: The wet playground is the visual consequence and acceptance criterion named by Myrto.
+  approval_override:
+    prior_review_objection: Cut and wet playground were incorrectly treated as prompt deviations.
+    human_intent: Yiannis explicitly requested this edit structure.
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  approved_in: issue-36
+  decision_issue: issue-36
+  note: Approved as designed; the cut from Myrto to the empty wet playground is intentional and canonical.
 
 - asset_id: scene.03-clarification-table.anna-rear-three-quarter-v2
   stage: scene-plate
