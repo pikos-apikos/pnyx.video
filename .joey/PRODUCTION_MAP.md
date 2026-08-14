@@ -58,11 +58,15 @@ GitHub issue decisions override this mirror when they differ.
 
 ## Binding corrections
 
-- Eleni intake take `bade1bbd-8bf8-4993-89c9-1ec1afea4ce7` is blocked pending replacement; do not repair it with lipsync.
-- Café clarification take `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` remains blocked because the coordinator is wrong. Its approved replacement is Gemini Omni take `b6617847-e663-4538-98e8-3b2ca5384f0c`, using approved plate `326c5496-c63d-4d13-9e0c-779301b29160`.
+- Eleni intake take `bade1bbd-8bf8-4993-89c9-1ec1afea4ce7` remains blocked. Its approved replacement is merged Gemini Omni Flash take `b86170f5-2de3-4038-8072-a6452991c8bf`.
+- Separate listening take `c2c17ffb-3d01-4427-9400-ba6c18978c06` and reply take `18b7a08f-ea77-4614-b695-da3fba1950d7` are Superseded by the merged opening.
+- Agent alternative `d9987d66-8ddc-46e8-82b6-72ebe68a26f1` is Rejected; reuse prohibited.
+- Café clarification take `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` remains blocked. Its approved replacement is Gemini Omni Flash take `b6617847-e663-4538-98e8-3b2ca5384f0c`, using approved plate `326c5496-c63d-4d13-9e0c-779301b29160`.
 - Later coordinator variants are Rejected.
-- Greek TTS is Rejected as dialogue/lipsync source.
-- Exact PNyX interfaces must be composited deterministically.
+- Myrto plate `3d69fd91-b9bb-4ddc-9dd2-1a8bf3550156` and video `fa7d131d-c964-4afb-857e-b4d33528dff1` are Approved. The cut to the wet playground at approximately `6.33s` is intentional.
+- The detached Greek TTS batch in Issue #37 remains Rejected. For any new human-approved Greek dialogue with visible lipsync, use Gemini Omni Flash native audio inside the same video generation.
+- Exact PNyX interfaces must be composited deterministically. Generated Greek interface text remains prohibited.
+- Issue #3 is Resolved and closed. Issue #2 remains open only for non-blocking legacy/canonical binary provenance maintenance.
 - The approved public-memory take remains the narrative ending until Yiannis approves a different ending.
 
 ## Asset map
