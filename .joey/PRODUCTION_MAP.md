@@ -47,7 +47,14 @@ GitHub issue decisions override this mirror when they differ.
 - Status: in progress
 - Registered rough cut: `PNYX_v2.3_final.mp4`, Candidate — revision required
 - Exact post-session asset provenance: Issue #37
-- Current task: deterministic reconciliation of approved takes, blocked shots, interfaces, audio and ending
+- Current task: produce Supercomputer rough-cut Candidate v2.4 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
+
+## Supercomputer edit handoff
+
+- Contract: `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`
+- Output: one review Candidate plus edit report and checksums
+- Asset rule: Approved sources only; no Candidate padding; prohibited assets never return
+- Human gate: Yiannis approves or revises the Candidate before finishing, upscale or export
 
 ## Binding corrections
 
