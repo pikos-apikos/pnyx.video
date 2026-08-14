@@ -93,15 +93,26 @@ At minimum, exclude:
 - `80312fb1-96fe-42ca-b69d-ef79184d1267`
 - `a6906941-0177-4546-9558-ce285150ce63`
 - `5e45dbe7-93cb-4d36-8979-8ad81744077d`
-- every Greek TTS asset listed as Rejected in Issue #37
+- every detached Greek TTS asset listed as Rejected in Issue #37; this prohibition applies to that batch, not to Gemini Omni Flash native-audio video generation
 - the public-memory photo insert `8f8c8b9c-66cc-4fca-a9fb-77d7bb63fa5c`
 - the next-neighbourhood coda `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`
 
 Treat all other post-frontier videos in Issue #37 as unapproved Candidates. Do not include them in this pass.
 
+## Greek speech-generation rule
+
+For any new spoken-Greek shot that Yiannis explicitly authorizes:
+
+- use **Gemini Omni Flash**;
+- generate the Greek voice and visible lipsync together as native audio inside the same video render;
+- do not generate a detached TTS file and apply post-hoc lipsync;
+- do not reuse the rejected detached Greek TTS batch from Issue #37.
+
+This rule defines the approved method. It does not authorize new footage or new dialogue in this edit pass.
+
 ## Dialogue and subtitles
 
-Preserve native Greek audio from the three approved dialogue takes. Do not replace it with TTS.
+Preserve native Greek audio from the three approved dialogue takes. Do not replace these approved native-audio tracks.
 
 Embed concise English subtitles for the spoken lines:
 
