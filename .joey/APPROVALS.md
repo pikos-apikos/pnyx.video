@@ -102,3 +102,11 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Unselected history:** wide ensemble A `62f72834-792b-414b-ae35-968757227b35`.
 - **Evidence:** “B”.
 - **Boundary:** the dependent 8-second motion take remains a separate human-cost gate in Issue #21.
+
+## 2026-08-14 — Café clarification dialogue
+
+- **Approved canonical video take:** `b6617847-e663-4538-98e8-3b2ca5384f0c`.
+- **Approved scene plate dependency:** `326c5496-c63d-4d13-9e0c-779301b29160`.
+- **Dialogue order:** Anna asks «Ποιο ακριβώς είναι το πρόβλημα;» and Eleni replies «Καινούργια παιδική χαρά.»
+- **Evidence:** Yiannis explicitly approved the Candidate on 2026-08-14.
+- **Superseded/blocked:** earlier clarification take `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` remains blocked and prohibited from future edit use.

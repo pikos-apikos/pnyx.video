@@ -1,5 +1,5 @@
-version: 24
-updated_at: '2026-08-14T14:35:00+03:00'
+version: 25
+updated_at: '2026-08-14T15:20:18+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -1230,7 +1230,7 @@ assets:
   note: Approved café scene plate with Anna on the left and Eleni on the right; canonical source for the next video candidate.
 - asset_id: video.03-clarification-table.gemini-omni-v2
   stage: video
-  status: candidate
+  status: approved_external
   higgsfield_job: b6617847-e663-4538-98e8-3b2ca5384f0c
   model: gemini_omni
   model_name: Gemini Omni Flash
@@ -1264,8 +1264,10 @@ assets:
     extra_dialogue: prohibited
   cost_credits: 30
   decision_issue: issue-36
-  approval_gate: explicit human review required
-  note: Technical validation passed; dialogue, speaker assignment and lipsync require human review.
+  approved_at: '2026-08-14T15:20:18+03:00'
+  approved_by: Yiannis
+  approval_evidence: Explicit user decision — «εγκρίνω το Candidate: b6617847-e663-4538-98e8-3b2ca5384f0c»
+  note: Approved canonical café clarification take. Anna asks the question first; Eleni replies. Exact Greek dialogue, speaker order and native lipsync accepted by Yiannis.
 
 - asset_id: video.01-dawn-return.parent-message-listen.agent-v1
   stage: video

@@ -47,12 +47,19 @@ GitHub issue decisions override this mirror when they differ.
 - Status: in progress
 - Registered rough cut: `PNYX_v2.3_final.mp4`, Candidate — revision required
 - Exact post-session asset provenance: Issue #37
-- Current task: deterministic reconciliation of approved takes, blocked shots, interfaces, audio and ending
+- Current task: produce Supercomputer rough-cut Candidate v2.4 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
+
+## Supercomputer edit handoff
+
+- Contract: `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`
+- Output: one review Candidate plus edit report and checksums
+- Asset rule: Approved sources only; no Candidate padding; prohibited assets never return
+- Human gate: Yiannis approves or revises the Candidate before finishing, upscale or export
 
 ## Binding corrections
 
 - Eleni intake take `bade1bbd-8bf8-4993-89c9-1ec1afea4ce7` is blocked pending replacement; do not repair it with lipsync.
-- Café clarification take `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` is blocked because the coordinator is wrong.
+- Café clarification take `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` remains blocked because the coordinator is wrong. Its approved replacement is Gemini Omni take `b6617847-e663-4538-98e8-3b2ca5384f0c`, using approved plate `326c5496-c63d-4d13-9e0c-779301b29160`.
 - Later coordinator variants are Rejected.
 - Greek TTS is Rejected as dialogue/lipsync source.
 - Exact PNyX interfaces must be composited deterministically.
