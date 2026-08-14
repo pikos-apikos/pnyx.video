@@ -1,5 +1,5 @@
-version: 20
-updated_at: '2026-08-14T08:29:59+03:00'
+version: 21
+updated_at: '2026-08-14T13:20:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -1220,3 +1220,39 @@ assets:
   decision_issue: issue-36
   approval_gate: explicit human review required
   note: Technical validation passed; dialogue, speaker assignment and lipsync require human review.
+
+- asset_id: video.01-dawn-return.parent-message-listen.agent-v1
+  stage: video
+  status: rejected
+  higgsfield_job: d9987d66-8ddc-46e8-82b6-72ebe68a26f1
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  duration_seconds: 8
+  resolution: 720p
+  audio: true
+  repository_file: null
+  depends_on: scene.01-dawn-return.plate-a
+  source_higgsfield_job: 8834c644-5237-4f8a-acdd-10052432e236
+  cost_credits: 24
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Yiannis selected his own take c2c17ffb-3d01-4427-9400-ba6c18978c06 instead.
+
+- asset_id: video.01-dawn-return.parent-message-listen.v1
+  stage: video
+  status: approved_external_pending_binary_import
+  higgsfield_job: c2c17ffb-3d01-4427-9400-ba6c18978c06
+  production_use: Eleni silently listens to another parent's phone message before her approved reply.
+  repository_file: null
+  planned_repository_file: assets/videos/01-dawn-return/eleni-listens-parent-message-v1.mp4
+  binary_import_status: pending_direct_result_url_or_file
+  depends_on: scene.01-dawn-return.plate-a
+  language: el-GR
+  exact_offscreen_dialogue: Ένα παιδί έπεσε ξανά εκεί όπου έχει σηκωθεί το δάπεδο.
+  visible_speaker: none
+  eleni_speaks: false
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  approved_in: issue-36
+  note: Created and explicitly selected by Yiannis; canonical opening-listen take. Technical metadata and MP4 hash remain pending binary import.
