@@ -110,3 +110,29 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Dialogue order:** Anna asks «Ποιο ακριβώς είναι το πρόβλημα;» and Eleni replies «Καινούργια παιδική χαρά.»
 - **Evidence:** Yiannis explicitly approved the Candidate on 2026-08-14.
 - **Superseded/blocked:** earlier clarification take `9acabcbf-b95b-46d1-8e61-a7c62d80db3d` remains blocked and prohibited from future edit use.
+
+## 2026-08-14 — Eleni opening replacement and supersession chain
+
+- **Initially approved listening take:** `c2c17ffb-3d01-4427-9400-ba6c18978c06`.
+- **Initially approved reply take:** `18b7a08f-ea77-4614-b695-da3fba1950d7`.
+- **Rejected agent alternative:** `d9987d66-8ddc-46e8-82b6-72ebe68a26f1`; reuse prohibited.
+- **Approved canonical merged opening:** `b86170f5-2de3-4038-8072-a6452991c8bf`.
+- **Superseded by the merged opening:** `c2c17ffb-3d01-4427-9400-ba6c18978c06` and `18b7a08f-ea77-4614-b695-da3fba1950d7`.
+- **Canonical structure:** off-screen parent report → Eleni processing pause → Eleni response, in one continuous take.
+- **Evidence:** Yiannis explicitly approved the merged scene on 2026-08-14.
+
+## 2026-08-14 — Myrto interview and wet-playground consequence
+
+- **Approved canonical scene plate:** `3d69fd91-b9bb-4ddc-9dd2-1a8bf3550156`.
+- **Approved canonical video take:** `fa7d131d-c964-4afb-857e-b4d33528dff1`.
+- **Exact line:** «Να μπορώ να μπω μετά τη βροχή.»
+- **Canonical edit decision:** the cut at approximately `6.33s` from Myrto to the empty wet playground is intentional. It makes the access requirement concrete.
+- **Evidence:** Yiannis explicitly approved both the plate and the completed take on 2026-08-14.
+
+## 2026-08-14 — Greek dialogue generation method
+
+- **Approved method for new synchronized Greek speech:** Gemini Omni Flash native audio generated inside the same video render.
+- **Reason:** the approved Gemini Omni Flash takes produced usable natural Greek and lipsync.
+- **Rejected method:** the specific detached Greek TTS batch recorded in Issue #37 and post-hoc use of those files as lipsync sources.
+- **Boundary:** this is not a blanket rejection of Greek speech generation and does not authorize new dialogue without Yiannis's approval.
+- **Interface rule unchanged:** generated Greek interface text remains prohibited; exact Greek text is composited deterministically.

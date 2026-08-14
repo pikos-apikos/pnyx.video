@@ -55,6 +55,10 @@ Clearly improved but not pristine: accessible continuous route, mixed play equip
 
 - Diegetic sound leads: buses, kettles, wheel rims, metal gate, paper, fluorescent hum, chairs, distant traffic, rain on fencing, construction tools, children outside frame.
 - Dialogue is close but not studio-clean; room tone remains.
+- For new Greek dialogue with visible mouth movement, use Gemini Omni Flash native audio and lipsync inside the same video generation.
+- Do not use detached Greek TTS followed by post-hoc lipsync. The rejected Issue #37 TTS batch remains prohibited.
+- Gemini Omni Flash is an approved production method, but every new speaking take still requires Yiannis's explicit creative approval.
+- Generated Greek interface text remains prohibited and must be composited deterministically.
 - No inspirational piano under deliberation.
 - Optional score appears only in the final reuse sequence: sparse acoustic and electronic texture built from field-recorded mechanical and human sounds.
 - Silence after difficult statements is preserved.
