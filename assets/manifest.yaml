@@ -1,5 +1,5 @@
-version: 21
-updated_at: '2026-08-14T13:20:00+03:00'
+version: 22
+updated_at: '2026-08-14T13:45:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -419,7 +419,7 @@ assets:
 
 - asset_id: video.01-dawn-return.gemini-omni-v1
   stage: video
-  status: approved
+  status: superseded
   higgsfield_job: 18b7a08f-ea77-4614-b695-da3fba1950d7
   model: gemini_omni
   model_name: Gemini Omni Flash
@@ -438,6 +438,9 @@ assets:
   approved_on: '2026-08-14'
   exact_dialogue: Δεν ξέρω τι ακριβώς πρέπει να γίνει. Ξέρω ότι έτσι δεν μπορεί να μείνει.
   note: Approved after human review; natural Greek native audio and usable lipsync.
+  superseded_by: video.01-dawn-return.parent-message-and-reply.v1
+  superseded_in: issue-36
+  superseded_reason: The listening beat and Eleni reply are now one approved causal scene.
 
 - asset_id: scene.post-frontier.eleni-dawn-bus.image
   stage: scene-plate
@@ -1241,7 +1244,7 @@ assets:
 
 - asset_id: video.01-dawn-return.parent-message-listen.v1
   stage: video
-  status: approved_external_pending_binary_import
+  status: superseded
   higgsfield_job: c2c17ffb-3d01-4427-9400-ba6c18978c06
   production_use: Eleni silently listens to another parent's phone message before her approved reply.
   repository_file: null
@@ -1256,3 +1259,57 @@ assets:
   approved_on: '2026-08-14'
   approved_in: issue-36
   note: Created and explicitly selected by Yiannis; canonical opening-listen take. Technical metadata and MP4 hash remain pending binary import.
+  superseded_by: video.01-dawn-return.parent-message-and-reply.v1
+  superseded_in: issue-36
+  superseded_reason: The separate listening take no longer stands alone; it is incorporated into the approved merged scene.
+
+- asset_id: video.01-dawn-return.parent-message-and-reply.v1
+  stage: video
+  status: approved_external
+  higgsfield_job: b86170f5-2de3-4038-8072-a6452991c8bf
+  production_use: Eleni hears the playground accident message, processes it, and gives her reply in one continuous causal scene.
+  model: unverified_external
+  dimensions: 1280x720
+  aspect_ratio: '16:9'
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2366793
+  sha256: 2e393dc26d9de5df88aaae98d94aeee44bf32c5874240328a89854cb03daa849
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260814_101901_b86170f5-2de3-4038-8072-a6452991c8bf.mp4
+  external_thumbnail_url: https://cdn.higgsfield.ai/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260814_101901_b86170f5-2de3-4038-8072-a6452991c8bf_thumbnail.webp
+  repository_policy: Video binaries are not stored in GitHub; provenance metadata and external URLs only.
+  depends_on: scene.01-dawn-return.plate-a
+  supersedes:
+  - video.01-dawn-return.parent-message-listen.v1
+  - video.01-dawn-return.gemini-omni-v1
+  dialogue:
+    other_parent_offscreen: Ένα παιδί έπεσε ξανά εκεί όπου έχει σηκωθεί το δάπεδο.
+    Eleni: Δεν ξέρω τι ακριβώς πρέπει να γίνει. Ξέρω ότι έτσι δεν μπορεί να μείνει.
+  speaker_contract:
+    other_parent: offscreen_male_voice
+    eleni_during_message: silent
+    extra_dialogue: prohibited
+  measured_timing_seconds:
+    opening_silence_end: 1.129
+    parent_message_end: 3.900
+    reply_start: 5.495
+    reply_end: 8.922
+    ending_silence_end: 10.005
+  review:
+    continuous_shot: true
+    detected_cuts: 0
+    camera: static
+    identity_and_phone_continuity: passed
+    causal_structure: message_then_pause_then_reply
+  approved_by: Yiannis
+  approved_on: '2026-08-14'
+  approved_in: issue-36
+  note: Explicitly approved after visual, structural, audio-content and technical review.
