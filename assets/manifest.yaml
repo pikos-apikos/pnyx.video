@@ -1,5 +1,5 @@
-version: 18
-updated_at: '2026-08-14T02:40:02+03:00'
+version: 20
+updated_at: '2026-08-14T08:29:59+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -1182,3 +1182,41 @@ assets:
   approved_by: Yiannis
   approved_on: '2026-08-14'
   note: Approved café scene plate with Anna on the left and Eleni on the right; canonical source for the next video candidate.
+- asset_id: video.03-clarification-table.gemini-omni-v2
+  stage: video
+  status: candidate
+  higgsfield_job: b6617847-e663-4538-98e8-3b2ca5384f0c
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_mode: native_generated
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2504004
+  sha256: c9c35b064009a34211a47d2869bc2e8f4a1de0f3b5605f388dcd58e53fdd85da
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260814_051916_b6617847-e663-4538-98e8-3b2ca5384f0c.mp4
+  repository_policy: Video binaries are not stored in GitHub; provenance metadata only.
+  depends_on: scene.03-clarification-table.anna-sheet-v5
+  source_higgsfield_job: 326c5496-c63d-4d13-9e0c-779301b29160
+  dialogue:
+    Anna: Ποιο ακριβώς είναι το πρόβλημα;
+    Eleni: Καινούργια παιδική χαρά.
+  speaker_lock:
+    order:
+    - Anna
+    - Eleni
+    overlap: prohibited
+    extra_dialogue: prohibited
+  cost_credits: 30
+  decision_issue: issue-36
+  approval_gate: explicit human review required
+  note: Technical validation passed; dialogue, speaker assignment and lipsync require human review.
