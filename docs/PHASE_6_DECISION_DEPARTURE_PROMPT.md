@@ -1,69 +1,99 @@
 # Phase 6 — Decision Departure Prompt
 
-Authority: Yiannis's explicit approval on 2026-08-17.
+Authority: Yiannis's explicit approvals and correction on 2026-08-17.
 
-## Status
+## Current status
 
-- Stage: video prompt
-- Prompt state: **Approved**
+- Stage: video
+- Prompt revision: **V2 Approved**
 - Render state: **Candidate — human review required**
-- Candidate Higgsfield job: `03876795-fd20-4ae5-b94c-d4c8fa25024c`
-- Candidate URL: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_214907_03876795-fd20-4ae5-b94c-d4c8fa25024c.mp4
+- Current Candidate: `930d22c6-261d-4696-804e-cca53d78ed25`
+- Candidate URL: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_215407_930d22c6-261d-4696-804e-cca53d78ed25.mp4
 - Decision owner: Yiannis
 - Model: Gemini Omni Flash
 - Duration: 10 seconds
 - Output target: 16:9, 720p
-- Native audio and visible lipsync must be generated together.
-- This completed render remains a Candidate until Yiannis explicitly approves it.
-- Higgsfield adapted the requested `start_image` role to Gemini Omni Flash `image_references`; the supplied image guided continuity but was not hard-locked as a pixel-identical first frame.
+- Native audio and visible lipsync are generated together.
+- The Candidate cannot enter the canonical edit without Yiannis's explicit approval.
 
-## Canonical input
+## Canonical visual reference
 
-Use the last clean frame before `00:08.662` from approved public-consultation take `9bd30c09-d258-44d5-84e6-e311221acd07` as the exact first frame and continuity lock.
+User-supplied image `Screenshot 2026-08-17 at 00.46.49.png`, uploaded to Higgsfield as media `39fd39f2-602f-4d3e-8c0a-cf302a31b0b7`.
 
-## Approved prompt
+Higgsfield adapted the requested `start_image` role to Gemini Omni Flash `image_references`. The image guides visual continuity but is not a pixel-identical hard first-frame lock.
 
-Use the last clean frame before `00:08.662` from the approved public-consultation take `9bd30c09-d258-44d5-84e6-e311221acd07` as the exact first frame and continuity lock.
+## Approved V2 prompt
 
-One continuous ten-second restrained observational-documentary take. The decision has already been made. The residents quietly stand and leave the courtyard in small, natural groups.
+Use the supplied courtyard image as the visual continuity reference for one continuous ten-second restrained observational-documentary take.
 
-The camera remains completely locked in its existing position and framing. The focus and depth of field remain unchanged. No pan, tilt, zoom, reframing, camera movement or cut.
+ACTION MUST BEGIN IMMEDIATELY. From the first visible moment, residents are already standing up, turning, moving chairs aside, and walking away. Do not begin with a still tableau, a pause, waiting, listening, or a new speech at the microphone.
 
-Thanasis remains an ordinary member of the departing group. Do not isolate him or shift attention toward him. As he leaves, he says once in natural Greek:
+EXIT DIRECTION LOCK: every person moves consistently toward SCREEN-LEFT and leaves through the left side of the image. No person exits toward screen-right, toward the camera, or deeper into the center. Thanasis, Eleni, Myrto in her wheelchair, and all surrounding residents share the same screen-left departure direction. People may leave at slightly different speeds, but the whole crowd flow is clearly leftward from the beginning to the end.
 
-Thanasis: “Καλή επιτυχία στο έργο. Καλή σας νύχτα!”
+The camera remains completely locked in the supplied position and framing. Keep focus and depth of field unchanged. No pan, tilt, zoom, reframing, camera movement, focus pull, or cut.
 
-He speaks gently, humbly and sincerely, with respect for his neighbors. There is no sarcasm, bitterness, resentment or theatrical emphasis.
+Speaker identity lock:
+- THANASIS is the elderly white-haired man with the white moustache, checked short-sleeve shirt, dark trousers, and watch, near the center of the supplied image.
+- ELENI is the standing woman beside the table and microphone in the left-center.
+- MYRTO is the young woman in the wheelchair at the right foreground.
+- OTHER RESIDENTS are the surrounding neighbors.
 
-The departing residents reply naturally and quietly, with slight variation rather than as a coordinated chorus:
+All speech is natural Greek. Do not translate. Everyone speaks while already moving screen-left. No one stops, turns back, approaches another person, shakes hands, embraces, gathers around the table, or creates a farewell ceremony.
 
-Residents: “Καληνύχτα.”
+Dialogue order:
 
-Eleni then replies warmly but without ceremony:
+1. While already walking screen-left with the departing group, THANASIS says once:
+“Καλή επιτυχία στο έργο. Καλή σας νύχτα!”
 
-Eleni: “Σας ευχαριστούμε, καλό βράδυ.”
+Thanasis speaks gently, humbly, sincerely, and respectfully. No sarcasm, bitterness, resentment, triumph, or theatrical emphasis. He does not approach Eleni. The camera does not isolate him.
 
-Preserve this exact dialogue order and speaker attribution. No other person speaks or mouths words. Use only natural footsteps, quiet chair movement and restrained courtyard ambience. No applause, cheering, music, narration or additional dialogue. Preserve every character’s identity, clothing and physical continuity.
+2. Several different departing RESIDENTS — beyond Thanasis, Eleni, and Myrto — answer naturally from different positions while continuing to move screen-left. At least four distinct ordinary residents say:
+“Καληνύχτα.”
+“Καληνύχτα.”
+“Καληνύχτα.”
+“Καληνύχτα.”
+
+These replies occur at slightly different moments, with light natural overlap. They must sound like several individual neighbors, not one speaker and not a coordinated chorus.
+
+3. ELENI replies last while she also turns and walks screen-left:
+“Σας ευχαριστούμε, καλό βράδυ.”
+
+Only the assigned speakers move their mouths during their lines. Myrto does not speak; she moves her wheelchair smoothly toward screen-left with the group. After Eleni's line, everyone continues exiting screen-left without stopping.
+
+Sound consists only of the exact dialogue, multiple natural voices saying “Καληνύχτα,” footsteps, wheelchair movement, and quiet chair movement in restrained courtyard ambience. No applause, cheering, laughter, music, narration, announcements, or extra phrases.
+
+Preserve every character’s face, age, body, clothing, wheelchair, chair geometry, table, microphone, courtyard architecture, evening light, and spatial continuity from the supplied image.
 
 ## Acceptance gate
 
 The Candidate is reviewable only if:
 
+- visible human movement begins immediately;
+- every person moves toward screen-left;
+- nobody approaches Eleni, stops for a handshake, or creates a farewell ceremony;
 - the camera position, framing and focus remain fixed;
-- residents leave through ordinary continuous movement;
-- Thanasis is not isolated or visually privileged;
-- the exact three-part dialogue order and speaker attribution are preserved;
-- Thanasis sounds gentle, humble and respectful;
+- Thanasis speaks while departing;
+- several residents beyond the protagonists say «Καληνύχτα»;
+- Eleni replies last;
+- Myrto moves screen-left with the group and does not speak;
 - there is no applause, cheering, music, narration or extra dialogue;
-- identities, clothing and physical continuity remain stable.
+- identities, clothing, wheelchair and scene geometry remain stable.
 
-## Candidate review record
+## Render history
 
+### V1 — Rejected
+
+- Job: `03876795-fd20-4ae5-b94c-d4c8fa25024c`
+- Rejected by Yiannis on 2026-08-17.
+- Rejection reasons: movement did not begin immediately; residents did not share a clear screen-left exit direction; Thanasis and Eleni performed an unrequested handshake; too few non-protagonist residents said «Καληνύχτα».
+- Reuse: prohibited.
+
+### V2 — Candidate
+
+- Job: `930d22c6-261d-4696-804e-cca53d78ed25`
 - Technical: 10.005 seconds, 1280×720, 24 fps, H.264, AAC stereo 48 kHz.
-- Size: 2,645,177 bytes.
-- SHA-256: `94409be3e89b29e5d3d3161ea46dde06749ba045be5e3cea0cbd00272d99b14e`.
-- Preliminary visual check: continuous locked composition; residents stand and depart; character and wheelchair continuity remain broadly stable in sampled frames.
-- Unrequested action: Thanasis and Eleni briefly shake hands while the group departs.
-- First-frame limitation: the Gemini Omni adapter used the supplied frame as an image reference rather than a hard start-frame input.
-- Audio structure: dialogue activity ends at approximately 7.52 seconds, followed by approximately 2.49 seconds of silence.
-- Human gate: Yiannis must verify the exact Greek words, speaker attribution, vocal tone, lipsync, the handshake, and first-frame continuity before any approval.
+- Size: 2,504,183 bytes.
+- SHA-256: `15899a46fd99122a8c628a6f1b04d73c93a42912eb938ce588977c13ce9a0cc9`.
+- Preliminary visual check: movement begins immediately; the crowd, including Myrto, flows screen-left; no handshake is visible; the camera and composition remain stable in sampled frames.
+- Audio activity continues to approximately 8.57 seconds.
+- Human review required: exact Greek words, number of distinct residents saying «Καληνύχτα», speaker attribution, vocal tone, lipsync, and full continuity.
