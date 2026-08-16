@@ -136,3 +136,11 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Rejected method:** the specific detached Greek TTS batch recorded in Issue #37 and post-hoc use of those files as lipsync sources.
 - **Boundary:** this is not a blanket rejection of Greek speech generation and does not authorize new dialogue without Yiannis's approval.
 - **Interface rule unchanged:** generated Greek interface text remains prohibited; exact Greek text is composited deterministically.
+
+## 2026-08-16 — Silent introduction
+
+- **Approved introduction video:** `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`.
+- **Source filename:** `224339_9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`.
+- **Canonical edit decision:** place this video before the existing Eleni opening and remove its source audio completely for its full duration.
+- **Continuity boundary:** this is a silent prelude; it does not supersede or replace approved Eleni opening `b86170f5-2de3-4038-8072-a6452991c8bf`.
+- **Evidence:** Yiannis explicitly selected the video for the introduction and specified “χωρίς ήχο” on 2026-08-16.
