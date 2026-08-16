@@ -1,4 +1,4 @@
-version: 28
+version: 29
 updated_at: '2026-08-17T00:00:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
@@ -1464,7 +1464,7 @@ assets:
 
 - asset_id: video.phase-6-decision-departure.candidate-v2
   stage: video
-  status: candidate
+  status: rejected
   higgsfield_job: 930d22c6-261d-4696-804e-cca53d78ed25
   model: gemini_omni
   model_name: Gemini Omni Flash
@@ -1514,4 +1514,94 @@ assets:
     exact_audio_and_lipsync: human_review_required
   decision_issue: issue-36
   candidate_generated_on: '2026-08-17'
-  note: Candidate only. Do not use in the canonical edit until Yiannis explicitly approves it.
+  rejected_by: Yiannis
+  rejected_on: '2026-08-17'
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: The later-approved action was missing; Eleni did not remain to gather the existing papers and leave screen-left last.
+  note: Rejected history only. Do not reuse this video as a reference.
+
+
+- asset_id: video.phase-6-decision-departure.candidate-v3
+  stage: video
+  status: rejected
+  higgsfield_job: 739b6033-376b-468a-a97f-137884b5da65
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2495309
+  sha256: ddd8f4f947f3f42344ba9917c0aede264b0fe770fd5f48c751b20a890e6ab513
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_215815_739b6033-376b-468a-a97f-137884b5da65.mp4
+  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
+  rejected_by: Yiannis
+  rejected_on: '2026-08-17'
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Eleni gathered the papers but began departing while several residents remained visible behind her; she was not last.
+
+- asset_id: video.phase-6-decision-departure.candidate-v4
+  stage: video
+  status: rejected
+  higgsfield_job: f7133cce-95b6-4509-b3b0-954794c228a0
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2358898
+  sha256: 564648b5e020cf5e8ddafe07fe34e4e6cc681f2b9670e7bf895d903a3deeaaca
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_220056_f7133cce-95b6-4509-b3b0-954794c228a0.mp4
+  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
+  rejected_by: Yiannis
+  rejected_on: '2026-08-17'
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: After approximately 7 seconds Eleni's identity and dark clothing morphed into a different light-clothed woman.
+
+- asset_id: video.phase-6-decision-departure.candidate-v5
+  stage: video
+  status: rejected
+  higgsfield_job: f63e21aa-24b7-4b9b-8acb-d9c9bc639eea
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2388071
+  sha256: 312d5f40f2af8f907eca6c7e2df52a423bbea0b4cfddc7c785a9c2a34dd700ef
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_220527_f63e21aa-24b7-4b9b-8acb-d9c9bc639eea.mp4
+  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
+  rejected_by: Yiannis
+  rejected_on: '2026-08-17'
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Residents did not consistently exit screen-left; Thanasis was duplicated; people crossed into the wall; one resident remained seated through the end, so Eleni was not last.
