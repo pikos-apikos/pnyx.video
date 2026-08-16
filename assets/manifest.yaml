@@ -1,4 +1,4 @@
-version: 27
+version: 28
 updated_at: '2026-08-17T00:00:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
@@ -1415,7 +1415,7 @@ assets:
 
 - asset_id: video.phase-6-decision-departure.candidate-v1
   stage: video
-  status: candidate
+  status: rejected
   higgsfield_job: 03876795-fd20-4ae5-b94c-d4c8fa25024c
   model: gemini_omni
   model_name: Gemini Omni Flash
@@ -1452,6 +1452,65 @@ assets:
     unrequested_action: brief_handshake_between_Thanasis_and_Eleni
     dialogue_activity_end_seconds: 7.52
     trailing_silence_seconds: 2.49
+    exact_audio_and_lipsync: human_review_required
+  decision_issue: issue-36
+  candidate_generated_on: '2026-08-17'
+  rejected_by: Yiannis
+  rejected_on: '2026-08-17'
+  rejected_in: issue-36
+  source_reuse: prohibited
+  rejection_reason: Movement did not begin immediately; residents did not share a clear screen-left exit direction; an unrequested handshake occurred; too few non-protagonist residents said Καληνύχτα.
+  note: Rejected history only. Do not reuse this video as a reference.
+
+- asset_id: video.phase-6-decision-departure.candidate-v2
+  stage: video
+  status: candidate
+  higgsfield_job: 930d22c6-261d-4696-804e-cca53d78ed25
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_mode: native_generated
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2504183
+  sha256: 15899a46fd99122a8c628a6f1b04d73c93a42912eb938ce588977c13ce9a0cc9
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_215407_930d22c6-261d-4696-804e-cca53d78ed25.mp4
+  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
+  approved_prompt: docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md
+  input_adapter:
+    requested_role: start_image
+    used_role: image_references
+    hard_first_frame_lock: false
+  planned_dialogue:
+    Thanasis: Καλή επιτυχία στο έργο. Καλή σας νύχτα!
+    Residents:
+    - Καληνύχτα.
+    - Καληνύχτα.
+    - Καληνύχτα.
+    - Καληνύχτα.
+    Eleni: Σας ευχαριστούμε, καλό βράδυ.
+  blocking:
+    action_begins_immediately: required
+    exit_direction: screen_left
+    all_people_share_exit_direction: required
+    handshake: prohibited
+    farewell_stop: prohibited
+  preliminary_review:
+    immediate_visible_motion: passed
+    crowd_flow_screen_left: passed_in_sampled_frames
+    myrto_moves_screen_left: passed_in_sampled_frames
+    handshake_absent: passed_in_sampled_frames
+    camera_and_composition: stable_in_sampled_frames
+    dialogue_activity_end_seconds: 8.57
     exact_audio_and_lipsync: human_review_required
   decision_issue: issue-36
   candidate_generated_on: '2026-08-17'
