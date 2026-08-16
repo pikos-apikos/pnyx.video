@@ -29,6 +29,7 @@ GitHub issue decisions override this mirror when they differ.
 - `skills/joey-workflow/SKILL.md`
 - `assets/manifest.yaml`
 - `.joey/APPROVALS.md`
+- `docs/PHASE_INTERTITLES_EN.md`
 
 ## Production truth
 
@@ -49,6 +50,7 @@ GitHub issue decisions override this mirror when they differ.
 - Exact post-session asset provenance: Issue #37
 - Current task: produce Supercomputer rough-cut Candidate v2.4 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
 - Approved silent prelude: `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`; place it first and remove its source audio for the full clip
+- Approved phase intertitles: exact English copy and sequencing contract in `docs/PHASE_INTERTITLES_EN.md`; preserve the existing Prologue and add cards for phases 1–9 plus the Epilogue
 
 ## Supercomputer edit handoff
 
@@ -69,6 +71,8 @@ GitHub issue decisions override this mirror when they differ.
 - Exact PNyX interfaces must be composited deterministically. Generated Greek interface text remains prohibited.
 - Issue #3 is Resolved and closed. Issue #2 remains open only for non-blocking legacy/canonical binary provenance maintenance.
 - Silent introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` is Approved. Place it before the Eleni opening with its source audio completely removed; it does not supersede the Eleni take.
+- English intertitles for phases 1–9 and the Epilogue are Approved exactly as recorded in `docs/PHASE_INTERTITLES_EN.md`. Render them deterministically as 5–6 second black cards with white text; do not replace the approved Prologue.
+- Narrative correction: the clarification establishes who is affected before Myrto appears; Myrto shows the direct access failure; consequences analysis then reveals the shared-open-space loss; Thanasis gives that indirect loss a voice.
 - The approved public-memory take remains the narrative ending until Yiannis approves a different ending.
 
 ## Asset map

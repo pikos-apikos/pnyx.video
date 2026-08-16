@@ -144,3 +144,13 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Canonical edit decision:** place this video before the existing Eleni opening and remove its source audio completely for its full duration.
 - **Continuity boundary:** this is a silent prelude; it does not supersede or replace approved Eleni opening `b86170f5-2de3-4038-8072-a6452991c8bf`.
 - **Evidence:** Yiannis explicitly selected the video for the introduction and specified “χωρίς ήχο” on 2026-08-16.
+
+## 2026-08-16 — English phase intertitles
+
+- **Approved exact copy:** `docs/PHASE_INTERTITLES_EN.md`.
+- **Approved scope:** one 5–6 second black-background, white-text intertitle before each phase from 1 through 9 and before the Epilogue.
+- **Prologue preserved:** existing approved introduction video `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` remains unchanged; no replacement Prologue card is authorized.
+- **Approved narrative correction:** clarification of who is affected precedes Myrto; Myrto makes the direct access failure visible; consequences analysis then reveals the less obvious shared-open-space loss; Thanasis gives that loss a voice.
+- **Deterministic text rule:** use the exact approved English copy; generative recreation or paraphrase is prohibited.
+- **Boundary:** these text and presentation approvals do not authorize narration, new dialogue, music, sound design, or unapproved footage.
+- **Evidence:** Yiannis reviewed and explicitly approved each card one at a time on 2026-08-16.

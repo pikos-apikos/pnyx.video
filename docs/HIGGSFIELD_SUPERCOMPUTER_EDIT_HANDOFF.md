@@ -14,8 +14,9 @@ Read these sources before editing:
 2. [Asset manifest](../assets/manifest.yaml). Use manifest v25 or later.
 3. [Issue #37 — post-session provenance audit](https://github.com/pikos-apikos/pnyx.video/issues/37).
 4. [Issue #7 — approved 4:30 story spine](https://github.com/pikos-apikos/pnyx.video/issues/7).
-5. [Visual and Sound Bible](../canon/VISUAL_SOUND_BIBLE.md).
-6. [Disclosure Contract](../provenance/AI_DISCLOSURE.md).
+5. [Approved English Phase Intertitles](./PHASE_INTERTITLES_EN.md).
+6. [Visual and Sound Bible](../canon/VISUAL_SOUND_BIBLE.md).
+7. [Disclosure Contract](../provenance/AI_DISCLOSURE.md).
 
 When two sources differ, the latest explicit human decision in Issue #36 controls.
 
@@ -23,7 +24,7 @@ When two sources differ, the latest explicit human decision in Issue #36 control
 
 This pass is an edit and deterministic-compositing pass.
 
-- Do not generate new footage.
+- Do not generate new narrative footage. The only newly created moving-image elements authorized in this pass are the deterministic phase intertitle cards defined in `PHASE_INTERTITLES_EN.md`.
 - Do not create replacement characters, voices, dialogue, interfaces, documents, music, or story beats.
 - Do not upscale yet.
 - Do not perform final color or audio mastering yet.
@@ -36,18 +37,25 @@ This pass is an edit and deterministic-compositing pass.
 
 Before the civic loop begins, use approved introduction video `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` as a silent prelude. Remove its source audio completely for the full clip. Do not use its audio as room tone, a transition, or an underlay. This prelude does not replace the Eleni opening.
 
-Preserve this civic loop:
+Preserve this civic loop and its causal order:
 
-1. Eleni receives the accident report and states the unresolved problem.
-2. Myrto makes the access requirement concrete.
-3. Anna's clarification separates the observed problem from Eleni's first proposed solution.
-4. Evidence work exposes access, drainage, cost, and uncertainty.
-5. Eleni receives confirmation that the dossier is open.
-6. Thanasis makes the cost to older residents visible.
-7. Public briefing and consultation modify the plan.
-8. The amended proposal is approved while Thanasis's dissent remains public.
-9. Construction meets reality; weak material is rejected and accountability remains visible.
-10. The playground opens without ceremony; the record carries the learning forward.
+1. Use the existing approved Prologue introduction unchanged.
+2. Eleni receives the accident report and states the unresolved problem.
+3. Insert Phase 1 intertitle.
+4. Anna's clarification separates the observed problem from Eleni's first proposed solution. The intertitle's question of who is affected then leads to Myrto, who makes the direct access failure concrete.
+5. Insert Phase 2 intertitle.
+6. Evidence work exposes access, drainage, cost, uncertainty, and the less obvious loss of shared open space.
+7. Insert Phase 3 intertitle, then Thanasis gives that secondary loss a voice.
+8. Insert Phase 4 intertitle, then deliver the layered public briefing and dossier access.
+9. Insert Phase 5 intertitle, then public consultation modifies the plan.
+10. Insert Phase 6 intertitle, then approve the amended proposal while preserving Thanasis's dissent.
+11. Insert Phase 7 intertitle, then show construction meeting reality, rejected weak material, and visible accountability.
+12. Insert Phase 8 intertitle, then open the playground without ceremony while preserving disagreement and defects.
+13. Insert Phase 9 intertitle, then show the six-month public account and reusable public memory.
+14. Insert the approved Epilogue intertitle. Do not add unapproved next-neighborhood footage.
+15. Continue to the approved final statement and disclosure cards required by the canon and disclosure contract.
+
+Do not present PNyx as magically discovering Myrto or Thanasis. The edit must show the causal path from clarification to direct impact, then from consequences analysis to indirect loss.
 
 Do not turn the film into a technical PNyX explainer.
 
@@ -56,6 +64,17 @@ Do not turn the film into a technical PNyX explainer.
 | Function | Approved Higgsfield ID | Required use |
 |---|---|---|
 | Silent prelude | `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` | First image of the film. Remove the source audio completely for the full clip. Then continue to the approved Eleni opening. |
+
+## Mandatory phase intertitles
+
+Use the exact approved copy in [`PHASE_INTERTITLES_EN.md`](./PHASE_INTERTITLES_EN.md).
+
+- Preserve the approved Prologue video unchanged; do not create a second Prologue card.
+- Create one 5–6 second card for each phase from 1 through 9 and one for the Epilogue.
+- Use a static black background and white text.
+- Composite text deterministically; do not use a generative model to render, translate, rewrite, or repair it.
+- Preserve wording, capitalization and punctuation exactly. Adjust only line wrapping for legibility.
+- Do not infer authorization for narration, dialogue, music, sound design, or new story footage from the text approvals.
 
 ## Mandatory replacement shots
 
@@ -160,11 +179,11 @@ Follow the Visual and Sound Bible:
 
 ## Ending
 
-End the narrative with approved public-memory take `9ea93421-b936-4543-86b4-a09891ac9909`.
+Use approved public-memory take `9ea93421-b936-4543-86b4-a09891ac9909` for Phase 9.
 
-Do not place unapproved Candidate footage after it.
+After it, insert the approved **EPILOGUE — THE NEXT NEIGHBORHOOD** intertitle from `PHASE_INTERTITLES_EN.md`. Do not place unapproved next-neighborhood Candidate footage after the card; in particular, `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` remains prohibited.
 
-Add an end card that reproduces the required disclosure from `provenance/AI_DISCLOSURE.md` exactly:
+Then add the approved final statement and an end card that reproduces the required disclosure from `provenance/AI_DISCLOSURE.md` exactly:
 
 > Η ταινία είναι έργο speculative documentary. Οι χαρακτήρες και τα γεγονότα είναι μυθοπλαστικές συνθέσεις. Απεικονίζει μία πιθανή δημόσια πραγματικότητα και όχι υπαρκτή διοικητική διαδικασία ή καταγεγραμμένο γεγονός.
 
@@ -185,7 +204,8 @@ Create:
    - confirm that the introduction source audio was removed for the full clip;
    - source in/out timecodes;
    - final duration;
-   - every deterministic composite;
+   - every deterministic composite, including exact intertitle in/out timecodes;
+   - confirmation that every intertitle matches `PHASE_INTERTITLES_EN.md` exactly;
    - subtitle text and timing;
    - missing approved assets;
    - duration shortfall from 4:30;
