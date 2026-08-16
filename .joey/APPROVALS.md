@@ -166,5 +166,6 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Approved continuation action:** after the decision, residents quietly leave while the camera position, framing and focus remain fixed.
 - **Approved continuation dialogue:** Thanasis says «Καλή επιτυχία στο έργο. Καλή σας νύχτα!»; departing residents reply «Καληνύχτα.»; Eleni replies «Σας ευχαριστούμε, καλό βράδυ.»
 - **Performance lock:** Thanasis is gentle, humble and respectful toward his neighbors; no sarcasm, bitterness, resentment or theatrical emphasis.
-- **Boundary:** the prompt is Approved, but no continuation render exists yet. Any completed render remains a Candidate until Yiannis explicitly approves it.
+- **Candidate generated:** `03876795-fd20-4ae5-b94c-d4c8fa25024c`; human review required.
+- **Boundary:** the prompt is Approved, but the rendered take is not. The Candidate cannot enter the canonical edit until Yiannis explicitly approves it.
 - **Evidence:** explicit line-by-line decisions in Issue #36 on 2026-08-16 and 2026-08-17.
