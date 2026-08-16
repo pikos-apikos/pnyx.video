@@ -154,3 +154,17 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Deterministic text rule:** use the exact approved English copy; generative recreation or paraphrase is prohibited.
 - **Boundary:** these text and presentation approvals do not authorize narration, new dialogue, music, sound design, or unapproved footage.
 - **Evidence:** Yiannis reviewed and explicitly approved each card one at a time on 2026-08-16.
+
+## 2026-08-16–17 — Public-consultation dialogue and Phase 6 departure
+
+- **Approved public-consultation dialogue take:** `9bd30c09-d258-44d5-84e6-e311221acd07`.
+- **Approved dependency:** public-consultation Plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`.
+- **Exact edit out-point:** `00:08.662`. Exclude all video and audio after this point, including Gemini's unrelated applause. Do not reuse the applause elsewhere.
+- **Approved dialogue order:** Thanasis says «Να μην κλείσει όλος ο χώρος μαζί.»; Eleni says «Έτσι όμως θα αργήσει περισσότερο.»; Myrto asks «Και τα μικρά παιδιά πού θα παίζουν;».
+- **Revised Phase 6 intertitle:** approved exactly as recorded in `docs/PHASE_INTERTITLES_EN.md`.
+- **Approved Phase 6 continuation prompt:** `docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md`.
+- **Approved continuation action:** after the decision, residents quietly leave while the camera position, framing and focus remain fixed.
+- **Approved continuation dialogue:** Thanasis says «Καλή επιτυχία στο έργο. Καλή σας νύχτα!»; departing residents reply «Καληνύχτα.»; Eleni replies «Σας ευχαριστούμε, καλό βράδυ.»
+- **Performance lock:** Thanasis is gentle, humble and respectful toward his neighbors; no sarcasm, bitterness, resentment or theatrical emphasis.
+- **Boundary:** the prompt is Approved, but no continuation render exists yet. Any completed render remains a Candidate until Yiannis explicitly approves it.
+- **Evidence:** explicit line-by-line decisions in Issue #36 on 2026-08-16 and 2026-08-17.
