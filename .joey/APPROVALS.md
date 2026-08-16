@@ -171,3 +171,14 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **V2 Candidate:** `930d22c6-261d-4696-804e-cca53d78ed25`; human review required.
 - **Boundary:** the revised prompt is Approved, but the V2 rendered take is not. It cannot enter the canonical edit until Yiannis explicitly approves it.
 - **Evidence:** explicit line-by-line decisions in Issue #36 on 2026-08-16 and 2026-08-17.
+
+
+## 2026-08-17 — Phase 6 departure render failures and revised frontier
+
+- **Approved action correction:** Eleni remains at the table, gathers the existing papers, and leaves screen-left last after every other resident has fully exited.
+- **Rejected V2:** `930d22c6-261d-4696-804e-cca53d78ed25`; it does not perform the later-approved Eleni paper-gathering and last-exit action.
+- **Rejected V3:** `739b6033-376b-468a-a97f-137884b5da65`; Eleni begins departing while residents remain visible behind her.
+- **Rejected V4:** `f7133cce-95b6-4509-b3b0-954794c228a0`; Eleni's identity and dark wardrobe morph into a different light-clothed woman.
+- **Rejected V5:** `f63e21aa-24b7-4b9b-8acb-d9c9bc639eea`; residents do not consistently exit left, Thanasis is duplicated, people pass into the wall, and one resident remains seated through the end.
+- **Reuse:** all five departure renders V1–V5 are prohibited from the canonical edit and from future generation references.
+- **Current boundary:** there is no valid Phase 6 departure Candidate. A two-plate Higgsfield workflow with a controlled audio pass is proposed; Yiannis must review and approve each English prompt before generation.
