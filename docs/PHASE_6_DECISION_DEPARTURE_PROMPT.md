@@ -6,13 +6,16 @@ Authority: Yiannis's explicit approval on 2026-08-17.
 
 - Stage: video prompt
 - Prompt state: **Approved**
-- Render state: **pending**
+- Render state: **Candidate — human review required**
+- Candidate Higgsfield job: `03876795-fd20-4ae5-b94c-d4c8fa25024c`
+- Candidate URL: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_214907_03876795-fd20-4ae5-b94c-d4c8fa25024c.mp4
 - Decision owner: Yiannis
 - Model: Gemini Omni Flash
 - Duration: 10 seconds
 - Output target: 16:9, 720p
 - Native audio and visible lipsync must be generated together.
-- Any completed render remains a Candidate until Yiannis explicitly approves it.
+- This completed render remains a Candidate until Yiannis explicitly approves it.
+- Higgsfield adapted the requested `start_image` role to Gemini Omni Flash `image_references`; the supplied image guided continuity but was not hard-locked as a pixel-identical first frame.
 
 ## Canonical input
 
@@ -53,3 +56,14 @@ The Candidate is reviewable only if:
 - Thanasis sounds gentle, humble and respectful;
 - there is no applause, cheering, music, narration or extra dialogue;
 - identities, clothing and physical continuity remain stable.
+
+## Candidate review record
+
+- Technical: 10.005 seconds, 1280×720, 24 fps, H.264, AAC stereo 48 kHz.
+- Size: 2,645,177 bytes.
+- SHA-256: `94409be3e89b29e5d3d3161ea46dde06749ba045be5e3cea0cbd00272d99b14e`.
+- Preliminary visual check: continuous locked composition; residents stand and depart; character and wheelchair continuity remain broadly stable in sampled frames.
+- Unrequested action: Thanasis and Eleni briefly shake hands while the group departs.
+- First-frame limitation: the Gemini Omni adapter used the supplied frame as an image reference rather than a hard start-frame input.
+- Audio structure: dialogue activity ends at approximately 7.52 seconds, followed by approximately 2.49 seconds of silence.
+- Human gate: Yiannis must verify the exact Greek words, speaker attribution, vocal tone, lipsync, the handshake, and first-frame continuity before any approval.
