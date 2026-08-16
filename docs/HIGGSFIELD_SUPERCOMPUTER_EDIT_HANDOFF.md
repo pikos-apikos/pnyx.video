@@ -48,7 +48,7 @@ Preserve this civic loop and its causal order:
 7. Insert Phase 3 intertitle, then Thanasis gives that secondary loss a voice.
 8. Insert Phase 4 intertitle, then deliver the layered public briefing and dossier access.
 9. Insert Phase 5 intertitle, then public consultation modifies the plan. Include approved dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` only from its start through the exact out-point `00:08.662`; exclude all later audio and video.
-10. Insert Phase 6 intertitle, then show the decision outcome while preserving Thanasis's dissent. Departure render `03876795-fd20-4ae5-b94c-d4c8fa25024c` is a Candidate under review. Do not include it or a substitute unless Yiannis explicitly approves it.
+10. Insert Phase 6 intertitle, then show the decision outcome while preserving Thanasis's dissent. Departure V1 `03876795-fd20-4ae5-b94c-d4c8fa25024c` is Rejected and prohibited. Revised V2 `930d22c6-261d-4696-804e-cca53d78ed25` is a Candidate under review. Do not include V2 or a substitute unless Yiannis explicitly approves it.
 11. Insert Phase 7 intertitle, then show construction meeting reality, rejected weak material, and visible accountability.
 12. Insert Phase 8 intertitle, then open the playground without ceremony while preserving disagreement and defects.
 13. Insert Phase 9 intertitle, then show the six-month public account and reusable public memory.
