@@ -1,4 +1,4 @@
-version: 26
+version: 27
 updated_at: '2026-08-17T00:00:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
@@ -1398,3 +1398,61 @@ assets:
   decision_issue: issue-36
   continuation_prompt: docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md
   note: Approved public-consultation dialogue take. Only the segment through 00:08.662 is canonical for edit use.
+
+- asset_id: scene.phase-6-decision-departure.user-start-frame-v1
+  stage: scene-plate
+  status: approved_user_supplied
+  external_file: Screenshot 2026-08-17 at 00.46.49.png
+  higgsfield_media_id: 39fd39f2-602f-4d3e-8c0a-cf302a31b0b7
+  dimensions: 2048x1140
+  size_bytes: 3150173
+  sha256: 4654c3125730e2bf3ccb95f5191c2e995c90903197f5bf9a8fcfc06a75be9b9c
+  repository_file: null
+  supplied_by: Yiannis
+  supplied_on: '2026-08-17'
+  production_use: Supplied visual reference for the approved Phase 6 departure prompt.
+  decision_issue: issue-36
+
+- asset_id: video.phase-6-decision-departure.candidate-v1
+  stage: video
+  status: candidate
+  higgsfield_job: 03876795-fd20-4ae5-b94c-d4c8fa25024c
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_mode: native_generated
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2645177
+  sha256: 94409be3e89b29e5d3d3161ea46dde06749ba045be5e3cea0cbd00272d99b14e
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_214907_03876795-fd20-4ae5-b94c-d4c8fa25024c.mp4
+  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
+  approved_prompt: docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md
+  input_adapter:
+    requested_role: start_image
+    used_role: image_references
+    hard_first_frame_lock: false
+  planned_dialogue:
+    Thanasis: Καλή επιτυχία στο έργο. Καλή σας νύχτα!
+    Residents: Καληνύχτα.
+    Eleni: Σας ευχαριστούμε, καλό βράδυ.
+  preliminary_review:
+    camera_and_composition: stable_in_sampled_frames
+    continuous_take: true
+    residents_depart: true
+    unrequested_action: brief_handshake_between_Thanasis_and_Eleni
+    dialogue_activity_end_seconds: 7.52
+    trailing_silence_seconds: 2.49
+    exact_audio_and_lipsync: human_review_required
+  decision_issue: issue-36
+  candidate_generated_on: '2026-08-17'
+  note: Candidate only. Do not use in the canonical edit until Yiannis explicitly approves it.
