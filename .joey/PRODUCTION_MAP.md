@@ -48,6 +48,7 @@ GitHub issue decisions override this mirror when they differ.
 - Registered rough cut: `PNYX_v2.3_final.mp4`, Candidate — revision required
 - Exact post-session asset provenance: Issue #37
 - Current task: produce Supercomputer rough-cut Candidate v2.4 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
+- Approved silent prelude: `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`; place it first and remove its source audio for the full clip
 
 ## Supercomputer edit handoff
 
@@ -67,6 +68,7 @@ GitHub issue decisions override this mirror when they differ.
 - The detached Greek TTS batch in Issue #37 remains Rejected. For any new human-approved Greek dialogue with visible lipsync, use Gemini Omni Flash native audio inside the same video generation.
 - Exact PNyX interfaces must be composited deterministically. Generated Greek interface text remains prohibited.
 - Issue #3 is Resolved and closed. Issue #2 remains open only for non-blocking legacy/canonical binary provenance maintenance.
+- Silent introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` is Approved. Place it before the Eleni opening with its source audio completely removed; it does not supersede the Eleni take.
 - The approved public-memory take remains the narrative ending until Yiannis approves a different ending.
 
 ## Asset map
