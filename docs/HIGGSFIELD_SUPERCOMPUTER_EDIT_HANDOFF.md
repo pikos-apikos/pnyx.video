@@ -47,8 +47,8 @@ Preserve this civic loop and its causal order:
 6. Evidence work exposes access, drainage, cost, uncertainty, and the less obvious loss of shared open space.
 7. Insert Phase 3 intertitle, then Thanasis gives that secondary loss a voice.
 8. Insert Phase 4 intertitle, then deliver the layered public briefing and dossier access.
-9. Insert Phase 5 intertitle, then public consultation modifies the plan.
-10. Insert Phase 6 intertitle, then approve the amended proposal while preserving Thanasis's dissent.
+9. Insert Phase 5 intertitle, then public consultation modifies the plan. Include approved dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` only from its start through the exact out-point `00:08.662`; exclude all later audio and video.
+10. Insert Phase 6 intertitle, then show the decision outcome while preserving Thanasis's dissent. The approved departure prompt is recorded in `PHASE_6_DECISION_DEPARTURE_PROMPT.md`, but its render is pending. Do not invent or include a substitute; use it only after a completed take is explicitly approved.
 11. Insert Phase 7 intertitle, then show construction meeting reality, rejected weak material, and visible accountability.
 12. Insert Phase 8 intertitle, then open the playground without ceremony while preserving disagreement and defects.
 13. Insert Phase 9 intertitle, then show the six-month public account and reusable public memory.
@@ -85,6 +85,7 @@ Use these approved takes in place of the blocked beta material:
 | Eleni opening: parent report, pause, response | `b86170f5-2de3-4038-8072-a6452991c8bf` | Replace `bade1bbd…`, `c2c17ffb…`, and `18b7a08f…`. Preserve its native Greek audio. |
 | Café clarification: Anna asks, Eleni replies | `b6617847-e663-4538-98e8-3b2ca5384f0c` | Replace `9acabcbf…` and every rejected coordinator reverse angle. Preserve its native Greek audio. |
 | Myrto interview and wet-playground consequence | `fa7d131d-c964-4afb-857e-b4d33528dff1` | Preserve the intentional cut at approximately 6.33 seconds. Preserve its native Greek audio. |
+| Public-consultation dialogue exchange | `9bd30c09-d258-44d5-84e6-e311221acd07` | Use only through exact out-point `00:08.662`. Preserve native Greek audio before the cut. Exclude and never reuse the unrelated applause after the cut. |
 
 ## Approved moving-image sources
 
@@ -139,7 +140,7 @@ This rule defines the approved method. It does not authorize new footage or new 
 
 ## Dialogue and subtitles
 
-Preserve native Greek audio from the three approved dialogue takes. Do not replace these approved native-audio tracks.
+Preserve native Greek audio from the approved dialogue takes. Do not replace these approved native-audio tracks. For `9bd30c09-d258-44d5-84e6-e311221acd07`, preserve audio only through `00:08.662` and exclude everything after that point.
 
 Embed concise English subtitles for the spoken lines:
 
@@ -148,6 +149,9 @@ Embed concise English subtitles for the spoken lines:
 - Anna: “What exactly is the problem?”
 - Eleni: “A new playground.”
 - Myrto: “To be able to get in after the rain.”
+- Thanasis: “Do not close the entire space at once.”
+- Eleni: “But then it will take longer.”
+- Myrto: “And where will the young children play?”
 
 Do not add narration or additional dialogue. Preserve silence after difficult statements.
 
