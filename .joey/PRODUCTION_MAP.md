@@ -52,7 +52,7 @@ GitHub issue decisions override this mirror when they differ.
 - Approved silent prelude: `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`; place it first and remove its source audio for the full clip
 - Approved phase intertitles: exact English copy and sequencing contract in `docs/PHASE_INTERTITLES_EN.md`; preserve the existing Prologue and add cards for phases 1–9 plus the Epilogue
 - Approved public-consultation dialogue take: `9bd30c09-d258-44d5-84e6-e311221acd07`; exact edit out-point `00:08.662`; discard and never reuse the unrelated applause after the cut
-- Immediate creative frontier: Yiannis reviews Phase 6 departure Candidate `03876795-fd20-4ae5-b94c-d4c8fa25024c`; no edit use or canon promotion before his explicit decision
+- Immediate creative frontier: Yiannis reviews revised Phase 6 departure Candidate `930d22c6-261d-4696-804e-cca53d78ed25`; V1 `03876795-fd20-4ae5-b94c-d4c8fa25024c` is Rejected and prohibited
 
 ## Supercomputer edit handoff
 
@@ -76,7 +76,7 @@ GitHub issue decisions override this mirror when they differ.
 - English intertitles for phases 1–9 and the Epilogue are Approved exactly as recorded in `docs/PHASE_INTERTITLES_EN.md`. Render them deterministically as 5–6 second black cards with white text; do not replace the approved Prologue.
 - Phase 6 intertitle copy was revised and explicitly re-approved on 2026-08-17. The repository text in `docs/PHASE_INTERTITLES_EN.md` is authoritative.
 - Public-consultation dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` is Approved with a mandatory exact cut at `00:08.662`; all later audio and video, including applause, is excluded.
-- The Phase 6 decision-departure prompt is Approved at `docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md`. Render `03876795-fd20-4ae5-b94c-d4c8fa25024c` is a Candidate and cannot enter the edit before explicit human approval.
+- The revised Phase 6 decision-departure prompt is Approved at `docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md`. V1 `03876795-fd20-4ae5-b94c-d4c8fa25024c` is Rejected. V2 `930d22c6-261d-4696-804e-cca53d78ed25` is a Candidate and cannot enter the edit before explicit human approval.
 - Narrative correction: the clarification establishes who is affected before Myrto appears; Myrto shows the direct access failure; consequences analysis then reveals the shared-open-space loss; Thanasis gives that indirect loss a voice.
 - The approved public-memory take remains the narrative ending until Yiannis approves a different ending.
 
