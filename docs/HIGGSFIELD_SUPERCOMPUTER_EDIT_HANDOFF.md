@@ -34,6 +34,8 @@ This pass is an edit and deterministic-compositing pass.
 
 ## Required narrative order
 
+Before the civic loop begins, use approved introduction video `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` as a silent prelude. Remove its source audio completely for the full clip. Do not use its audio as room tone, a transition, or an underlay. This prelude does not replace the Eleni opening.
+
 Preserve this civic loop:
 
 1. Eleni receives the accident report and states the unresolved problem.
@@ -48,6 +50,12 @@ Preserve this civic loop:
 10. The playground opens without ceremony; the record carries the learning forward.
 
 Do not turn the film into a technical PNyX explainer.
+
+## Mandatory introduction
+
+| Function | Approved Higgsfield ID | Required use |
+|---|---|---|
+| Silent prelude | `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` | First image of the film. Remove the source audio completely for the full clip. Then continue to the approved Eleni opening. |
 
 ## Mandatory replacement shots
 
@@ -144,6 +152,7 @@ Follow the Visual and Sound Bible:
 - Natural Greek daylight and open shadow detail.
 - No glossy advertising grade.
 - Diegetic sound leads.
+- Exception: the approved introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` must remain completely silent; remove its entire source track.
 - No inspirational piano.
 - No new score in this pass unless an already approved music asset exists.
 - Preserve the original room tone around native dialogue.
@@ -173,6 +182,7 @@ Create:
    - no final upscale
 2. `PNYX_v2.4_edit_report.md`
    - exact source IDs in timeline order;
+   - confirm that the introduction source audio was removed for the full clip;
    - source in/out timecodes;
    - final duration;
    - every deterministic composite;
