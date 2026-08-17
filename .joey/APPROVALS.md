@@ -154,3 +154,19 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Deterministic text rule:** use the exact approved English copy; generative recreation or paraphrase is prohibited.
 - **Boundary:** these text and presentation approvals do not authorize narration, new dialogue, music, sound design, or unapproved footage.
 - **Evidence:** Yiannis reviewed and explicitly approved each card one at a time on 2026-08-16.
+
+## 2026-08-16–17 — Public consultation, interpretive bridge and Phase 6
+
+- **Approved public-consultation dialogue take:** `9bd30c09-d258-44d5-84e6-e311221acd07`.
+- **Approved dependency:** public-consultation Plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`.
+- **Exact edit out-point:** `00:08.662`. Exclude all video and audio after this point, including Gemini's unrelated applause. Do not reuse the applause elsewhere.
+- **Approved dialogue order:** Thanasis says «Να μην κλείσει όλος ο χώρος μαζί.»; Eleni says «Έτσι όμως θα αργήσει περισσότερο.»; Myrto asks «Και τα μικρά παιδιά πού θα παίζουν;».
+- **Approved interpretive bridge:** silent hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5`.
+- **Exact placement:** immediately after the trimmed public-consultation take and before **6 — THE DECISION**.
+- **Interpretive rule:** Thanasis's face and expression remain unseen. Do not explain whether the hands express love, anticipation, anger, grief or another emotion; the viewer owns that conclusion.
+- **Sound and pacing:** use the complete approximately six-second shot. Add no narration or music; only restrained natural courtyard ambience may continue across the cut.
+- **Revised Phase 6 intertitle:** approved exactly as recorded in `docs/PHASE_INTERTITLES_EN.md`.
+- **Departure scene removed:** Yiannis removed the entire post-decision departure sequence from the film.
+- **Quantitative production record:** seven departure-generation attempts were made across Gemini Omni Flash and Seedance 2.0. None may enter the final edit. The shared failure classes were crowd direction and geometry, identity duplication or drift, object and wall crossings, last-exit timing, and dialogue/action coordination.
+- **Record policy:** retain the generated files in Higgsfield, but do not enumerate individual rejected takes in the repository.
+- **Evidence:** Yiannis's explicit decisions on 2026-08-16 and 2026-08-17.

@@ -1,5 +1,5 @@
-version: 25
-updated_at: '2026-08-14T15:20:18+03:00'
+version: 30
+updated_at: '2026-08-17T08:25:42.107Z'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -605,22 +605,41 @@ assets:
 
 - asset_id: scene.post-frontier.thanasis-hands-wall.image
   stage: scene-plate
-  status: candidate
-  production_use: 'Thanasis hands on wall'
+  status: approved_dependency
+  production_use: Visual lock for the approved interpretive bridge before Phase 6.
   higgsfield_job: 1e89e791-fcc9-4fea-a3cb-5aa798b16117
   repository_file: null
+  approved_by: Yiannis
+  approved_on: '2026-08-17'
+  approved_in: issue-36
   provenance_audit: issue-37
 - asset_id: video.post-frontier.thanasis-hands-wall
   stage: video
-  status: candidate
-  production_use: 'Thanasis hands on wall'
+  status: approved
+  production_use: Interpretive bridge between the public consultation and Phase 6.
   higgsfield_job: d09e75e3-c251-4bed-9117-83628bb6f5e5
+  model: seedance_2_0_fast
+  model_name: Seedance 2.0 Fast
   dimensions: 1280x720
   frame_rate_fps: 24
+  duration_seconds: 6.041667
   audio: false
   repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260813_145613_d09e75e3-c251-4bed-9117-83628bb6f5e5.mp4
   depends_on: scene.post-frontier.thanasis-hands-wall.image
-  beta_position: '01:49.00'
+  exact_edit:
+    after_asset: video.08-public-consultation.dialogue-v4
+    after_out_point: '00:08.662'
+    before_intertitle: phase-6
+    use_complete_shot: true
+    narration: prohibited
+    music: prohibited
+    allowed_sound: restrained_natural_courtyard_ambience
+  interpretive_rule: Thanasis's face remains unseen; do not assign a fixed emotion to the hands.
+  approved_by: Yiannis
+  approved_on: '2026-08-17'
+  approved_in: issue-36
   provenance_audit: issue-37
 
 - asset_id: scene.post-frontier.residents-arrive-consultation.image
@@ -1358,3 +1377,63 @@ assets:
   approved_on: '2026-08-14'
   approved_in: issue-36
   note: Explicitly approved after visual, structural, audio-content and technical review.
+
+- asset_id: video.08-public-consultation.dialogue-v4
+  stage: video
+  status: approved_external_with_mandatory_trim
+  higgsfield_job: 9bd30c09-d258-44d5-84e6-e311221acd07
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 10.005
+  video_codec: h264
+  audio: true
+  audio_mode: native_generated
+  audio_codec: aac
+  audio_sample_rate_hz: 48000
+  audio_channels: 2
+  language: el-GR
+  size_bytes: 2431071
+  sha256: 3c7710747e88df77cb2fb55271f65a872492e824b4256d7c207d20ccb80e679d
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_180536_9bd30c09-d258-44d5-84e6-e311221acd07.mp4
+  repository_policy: Video binaries are not stored in GitHub; provenance metadata and external URLs only.
+  depends_on: scene.08-public-consultation.plate-b
+  dialogue:
+    Thanasis: Να μην κλείσει όλος ο χώρος μαζί.
+    Eleni: Έτσι όμως θα αργήσει περισσότερο.
+    Myrto: Και τα μικρά παιδιά πού θα παίζουν;
+  exact_edit:
+    out_point: '00:08.662'
+    exclude_after_out_point: true
+    excluded_content: unrelated_generated_applause
+    reuse_excluded_audio: prohibited
+  approved_by: Yiannis
+  approved_on: '2026-08-16'
+  approved_in: issue-36
+  decision_issue: issue-36
+  note: Approved public-consultation dialogue take. Only the segment through 00:08.662 is canonical; then cut to the approved hands-on-wall bridge before Phase 6.
+
+- asset_id: experiment.phase-6-departure.aggregate
+  stage: production-experiment
+  status: abandoned
+  generated_attempt_count: 7
+  models:
+  - gemini_omni
+  - seedance_2_0
+  final_decision: Entire post-decision departure scene removed from the film.
+  final_edit_use: prohibited
+  individual_attempts: retained_in_higgsfield_not_enumerated
+  failure_classes:
+  - crowd_direction_and_geometry
+  - identity_duplication_or_drift
+  - object_and_wall_crossings
+  - last_exit_timing
+  - dialogue_and_action_coordination
+  decided_by: Yiannis
+  decided_on: '2026-08-17'
+  decision_issue: issue-36
+  note: Quantitative production record only. No individual rejected departure take is listed in the repository.

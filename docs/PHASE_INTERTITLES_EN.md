@@ -49,7 +49,7 @@ Absence is not treated as consent. Facts, estimates, proposals and uncertainties
 
 **6 — THE DECISION**
 
-The revised proposal is approved, but disagreement is not erased. Thanasis votes against it, and his argument remains in the public record.
+The revised proposal is approved, but disagreement is not erased. Thanasis votes against it. In the public record, his vote remains anonymous, while his argument is preserved without exposing any personal information. A single proof of residence is enough to participate.
 
 ### 7
 

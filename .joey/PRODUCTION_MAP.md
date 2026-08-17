@@ -51,6 +51,10 @@ GitHub issue decisions override this mirror when they differ.
 - Current task: produce Supercomputer rough-cut Candidate v2.4 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
 - Approved silent prelude: `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`; place it first and remove its source audio for the full clip
 - Approved phase intertitles: exact English copy and sequencing contract in `docs/PHASE_INTERTITLES_EN.md`; preserve the existing Prologue and add cards for phases 1–9 plus the Epilogue
+- Approved public-consultation dialogue take: `9bd30c09-d258-44d5-84e6-e311221acd07`; exact edit out-point `00:08.662`; discard and never reuse the unrelated applause after the cut
+- Approved interpretive bridge: `d09e75e3-c251-4bed-9117-83628bb6f5e5`; place its complete silent hands-on-wall shot immediately after the public-consultation cut at `00:08.662` and before **6 — THE DECISION**. Preserve emotional ambiguity; add no narration or music.
+- Phase 6 departure scene: removed from the film after seven generation attempts. No departure footage or farewell dialogue enters the final edit.
+- Immediate creative frontier: assemble the next rough-cut Candidate with the approved hands-on-wall bridge and the revised Phase 6 intertitle.
 
 ## Supercomputer edit handoff
 
@@ -72,6 +76,10 @@ GitHub issue decisions override this mirror when they differ.
 - Issue #3 is Resolved and closed. Issue #2 remains open only for non-blocking legacy/canonical binary provenance maintenance.
 - Silent introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` is Approved. Place it before the Eleni opening with its source audio completely removed; it does not supersede the Eleni take.
 - English intertitles for phases 1–9 and the Epilogue are Approved exactly as recorded in `docs/PHASE_INTERTITLES_EN.md`. Render them deterministically as 5–6 second black cards with white text; do not replace the approved Prologue.
+- Phase 6 intertitle copy was revised and explicitly re-approved on 2026-08-17. The repository text in `docs/PHASE_INTERTITLES_EN.md` is authoritative.
+- Public-consultation dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` is Approved with a mandatory exact cut at `00:08.662`; all later audio and video, including applause, is excluded.
+- Hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5` is Approved as the interpretive bridge between the public consultation and **6 — THE DECISION**.
+- The entire Phase 6 departure sequence was removed after seven generation attempts. The repository retains only the aggregate production result; individual rejected takes remain in Higgsfield and are not listed here.
 - Narrative correction: the clarification establishes who is affected before Myrto appears; Myrto shows the direct access failure; consequences analysis then reveals the shared-open-space loss; Thanasis gives that indirect loss a voice.
 - The approved public-memory take remains the narrative ending until Yiannis approves a different ending.
 
