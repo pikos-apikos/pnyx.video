@@ -155,30 +155,18 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Boundary:** these text and presentation approvals do not authorize narration, new dialogue, music, sound design, or unapproved footage.
 - **Evidence:** Yiannis reviewed and explicitly approved each card one at a time on 2026-08-16.
 
-## 2026-08-16–17 — Public-consultation dialogue and Phase 6 departure
+## 2026-08-16–17 — Public consultation, interpretive bridge and Phase 6
 
 - **Approved public-consultation dialogue take:** `9bd30c09-d258-44d5-84e6-e311221acd07`.
 - **Approved dependency:** public-consultation Plate B `ee8ecaa1-3261-413c-b868-e850aae0116d`.
 - **Exact edit out-point:** `00:08.662`. Exclude all video and audio after this point, including Gemini's unrelated applause. Do not reuse the applause elsewhere.
 - **Approved dialogue order:** Thanasis says «Να μην κλείσει όλος ο χώρος μαζί.»; Eleni says «Έτσι όμως θα αργήσει περισσότερο.»; Myrto asks «Και τα μικρά παιδιά πού θα παίζουν;».
+- **Approved interpretive bridge:** silent hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5`.
+- **Exact placement:** immediately after the trimmed public-consultation take and before **6 — THE DECISION**.
+- **Interpretive rule:** Thanasis's face and expression remain unseen. Do not explain whether the hands express love, anticipation, anger, grief or another emotion; the viewer owns that conclusion.
+- **Sound and pacing:** use the complete approximately six-second shot. Add no narration or music; only restrained natural courtyard ambience may continue across the cut.
 - **Revised Phase 6 intertitle:** approved exactly as recorded in `docs/PHASE_INTERTITLES_EN.md`.
-- **Approved Phase 6 continuation prompt:** `docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md`.
-- **Approved continuation action:** after the decision, residents quietly leave while the camera position, framing and focus remain fixed.
-- **Approved continuation dialogue:** Thanasis says «Καλή επιτυχία στο έργο. Καλή σας νύχτα!»; departing residents reply «Καληνύχτα.»; Eleni replies «Σας ευχαριστούμε, καλό βράδυ.»
-- **Performance lock:** Thanasis is gentle, humble and respectful toward his neighbors; no sarcasm, bitterness, resentment or theatrical emphasis.
-- **Rejected departure V1:** `03876795-fd20-4ae5-b94c-d4c8fa25024c`; incorrect departure direction, delayed movement, unrequested handshake, and insufficient non-protagonist «Καληνύχτα» responses. Reuse prohibited.
-- **Approved V2 correction:** movement begins immediately; everyone exits screen-left; no handshake or farewell stop; several ordinary residents say «Καληνύχτα» beyond the protagonists.
-- **V2 Candidate:** `930d22c6-261d-4696-804e-cca53d78ed25`; human review required.
-- **Boundary:** the revised prompt is Approved, but the V2 rendered take is not. It cannot enter the canonical edit until Yiannis explicitly approves it.
-- **Evidence:** explicit line-by-line decisions in Issue #36 on 2026-08-16 and 2026-08-17.
-
-
-## 2026-08-17 — Phase 6 departure render failures and revised frontier
-
-- **Approved action correction:** Eleni remains at the table, gathers the existing papers, and leaves screen-left last after every other resident has fully exited.
-- **Rejected V2:** `930d22c6-261d-4696-804e-cca53d78ed25`; it does not perform the later-approved Eleni paper-gathering and last-exit action.
-- **Rejected V3:** `739b6033-376b-468a-a97f-137884b5da65`; Eleni begins departing while residents remain visible behind her.
-- **Rejected V4:** `f7133cce-95b6-4509-b3b0-954794c228a0`; Eleni's identity and dark wardrobe morph into a different light-clothed woman.
-- **Rejected V5:** `f63e21aa-24b7-4b9b-8acb-d9c9bc639eea`; residents do not consistently exit left, Thanasis is duplicated, people pass into the wall, and one resident remains seated through the end.
-- **Reuse:** all five departure renders V1–V5 are prohibited from the canonical edit and from future generation references.
-- **Current boundary:** there is no valid Phase 6 departure Candidate. A two-plate Higgsfield workflow with a controlled audio pass is proposed; Yiannis must review and approve each English prompt before generation.
+- **Departure scene removed:** Yiannis removed the entire post-decision departure sequence from the film.
+- **Quantitative production record:** seven departure-generation attempts were made across Gemini Omni Flash and Seedance 2.0. None may enter the final edit. The shared failure classes were crowd direction and geometry, identity duplication or drift, object and wall crossings, last-exit timing, and dialogue/action coordination.
+- **Record policy:** retain the generated files in Higgsfield, but do not enumerate individual rejected takes in the repository.
+- **Evidence:** Yiannis's explicit decisions on 2026-08-16 and 2026-08-17.

@@ -1,5 +1,5 @@
-version: 29
-updated_at: '2026-08-17T00:00:00+03:00'
+version: 30
+updated_at: '2026-08-17T08:25:42.107Z'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -605,22 +605,41 @@ assets:
 
 - asset_id: scene.post-frontier.thanasis-hands-wall.image
   stage: scene-plate
-  status: candidate
-  production_use: 'Thanasis hands on wall'
+  status: approved_dependency
+  production_use: Visual lock for the approved interpretive bridge before Phase 6.
   higgsfield_job: 1e89e791-fcc9-4fea-a3cb-5aa798b16117
   repository_file: null
+  approved_by: Yiannis
+  approved_on: '2026-08-17'
+  approved_in: issue-36
   provenance_audit: issue-37
 - asset_id: video.post-frontier.thanasis-hands-wall
   stage: video
-  status: candidate
-  production_use: 'Thanasis hands on wall'
+  status: approved
+  production_use: Interpretive bridge between the public consultation and Phase 6.
   higgsfield_job: d09e75e3-c251-4bed-9117-83628bb6f5e5
+  model: seedance_2_0_fast
+  model_name: Seedance 2.0 Fast
   dimensions: 1280x720
   frame_rate_fps: 24
+  duration_seconds: 6.041667
   audio: false
   repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260813_145613_d09e75e3-c251-4bed-9117-83628bb6f5e5.mp4
   depends_on: scene.post-frontier.thanasis-hands-wall.image
-  beta_position: '01:49.00'
+  exact_edit:
+    after_asset: video.08-public-consultation.dialogue-v4
+    after_out_point: '00:08.662'
+    before_intertitle: phase-6
+    use_complete_shot: true
+    narration: prohibited
+    music: prohibited
+    allowed_sound: restrained_natural_courtyard_ambience
+  interpretive_rule: Thanasis's face remains unseen; do not assign a fixed emotion to the hands.
+  approved_by: Yiannis
+  approved_on: '2026-08-17'
+  approved_in: issue-36
   provenance_audit: issue-37
 
 - asset_id: scene.post-frontier.residents-arrive-consultation.image
@@ -1396,212 +1415,25 @@ assets:
   approved_on: '2026-08-16'
   approved_in: issue-36
   decision_issue: issue-36
-  continuation_prompt: docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md
-  note: Approved public-consultation dialogue take. Only the segment through 00:08.662 is canonical for edit use.
+  note: Approved public-consultation dialogue take. Only the segment through 00:08.662 is canonical; then cut to the approved hands-on-wall bridge before Phase 6.
 
-- asset_id: scene.phase-6-decision-departure.user-start-frame-v1
-  stage: scene-plate
-  status: approved_user_supplied
-  external_file: Screenshot 2026-08-17 at 00.46.49.png
-  higgsfield_media_id: 39fd39f2-602f-4d3e-8c0a-cf302a31b0b7
-  dimensions: 2048x1140
-  size_bytes: 3150173
-  sha256: 4654c3125730e2bf3ccb95f5191c2e995c90903197f5bf9a8fcfc06a75be9b9c
-  repository_file: null
-  supplied_by: Yiannis
-  supplied_on: '2026-08-17'
-  production_use: Supplied visual reference for the approved Phase 6 departure prompt.
+- asset_id: experiment.phase-6-departure.aggregate
+  stage: production-experiment
+  status: abandoned
+  generated_attempt_count: 7
+  models:
+  - gemini_omni
+  - seedance_2_0
+  final_decision: Entire post-decision departure scene removed from the film.
+  final_edit_use: prohibited
+  individual_attempts: retained_in_higgsfield_not_enumerated
+  failure_classes:
+  - crowd_direction_and_geometry
+  - identity_duplication_or_drift
+  - object_and_wall_crossings
+  - last_exit_timing
+  - dialogue_and_action_coordination
+  decided_by: Yiannis
+  decided_on: '2026-08-17'
   decision_issue: issue-36
-
-- asset_id: video.phase-6-decision-departure.candidate-v1
-  stage: video
-  status: rejected
-  higgsfield_job: 03876795-fd20-4ae5-b94c-d4c8fa25024c
-  model: gemini_omni
-  model_name: Gemini Omni Flash
-  aspect_ratio: '16:9'
-  dimensions: 1280x720
-  frame_rate_fps: 24
-  duration_seconds: 10.005
-  video_codec: h264
-  audio: true
-  audio_mode: native_generated
-  audio_codec: aac
-  audio_sample_rate_hz: 48000
-  audio_channels: 2
-  language: el-GR
-  size_bytes: 2645177
-  sha256: 94409be3e89b29e5d3d3161ea46dde06749ba045be5e3cea0cbd00272d99b14e
-  repository_file: null
-  external_storage: higgsfield
-  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_214907_03876795-fd20-4ae5-b94c-d4c8fa25024c.mp4
-  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
-  approved_prompt: docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md
-  input_adapter:
-    requested_role: start_image
-    used_role: image_references
-    hard_first_frame_lock: false
-  planned_dialogue:
-    Thanasis: Καλή επιτυχία στο έργο. Καλή σας νύχτα!
-    Residents: Καληνύχτα.
-    Eleni: Σας ευχαριστούμε, καλό βράδυ.
-  preliminary_review:
-    camera_and_composition: stable_in_sampled_frames
-    continuous_take: true
-    residents_depart: true
-    unrequested_action: brief_handshake_between_Thanasis_and_Eleni
-    dialogue_activity_end_seconds: 7.52
-    trailing_silence_seconds: 2.49
-    exact_audio_and_lipsync: human_review_required
-  decision_issue: issue-36
-  candidate_generated_on: '2026-08-17'
-  rejected_by: Yiannis
-  rejected_on: '2026-08-17'
-  rejected_in: issue-36
-  source_reuse: prohibited
-  rejection_reason: Movement did not begin immediately; residents did not share a clear screen-left exit direction; an unrequested handshake occurred; too few non-protagonist residents said Καληνύχτα.
-  note: Rejected history only. Do not reuse this video as a reference.
-
-- asset_id: video.phase-6-decision-departure.candidate-v2
-  stage: video
-  status: rejected
-  higgsfield_job: 930d22c6-261d-4696-804e-cca53d78ed25
-  model: gemini_omni
-  model_name: Gemini Omni Flash
-  aspect_ratio: '16:9'
-  dimensions: 1280x720
-  frame_rate_fps: 24
-  duration_seconds: 10.005
-  video_codec: h264
-  audio: true
-  audio_mode: native_generated
-  audio_codec: aac
-  audio_sample_rate_hz: 48000
-  audio_channels: 2
-  language: el-GR
-  size_bytes: 2504183
-  sha256: 15899a46fd99122a8c628a6f1b04d73c93a42912eb938ce588977c13ce9a0cc9
-  repository_file: null
-  external_storage: higgsfield
-  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_215407_930d22c6-261d-4696-804e-cca53d78ed25.mp4
-  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
-  approved_prompt: docs/PHASE_6_DECISION_DEPARTURE_PROMPT.md
-  input_adapter:
-    requested_role: start_image
-    used_role: image_references
-    hard_first_frame_lock: false
-  planned_dialogue:
-    Thanasis: Καλή επιτυχία στο έργο. Καλή σας νύχτα!
-    Residents:
-    - Καληνύχτα.
-    - Καληνύχτα.
-    - Καληνύχτα.
-    - Καληνύχτα.
-    Eleni: Σας ευχαριστούμε, καλό βράδυ.
-  blocking:
-    action_begins_immediately: required
-    exit_direction: screen_left
-    all_people_share_exit_direction: required
-    handshake: prohibited
-    farewell_stop: prohibited
-  preliminary_review:
-    immediate_visible_motion: passed
-    crowd_flow_screen_left: passed_in_sampled_frames
-    myrto_moves_screen_left: passed_in_sampled_frames
-    handshake_absent: passed_in_sampled_frames
-    camera_and_composition: stable_in_sampled_frames
-    dialogue_activity_end_seconds: 8.57
-    exact_audio_and_lipsync: human_review_required
-  decision_issue: issue-36
-  candidate_generated_on: '2026-08-17'
-  rejected_by: Yiannis
-  rejected_on: '2026-08-17'
-  rejected_in: issue-36
-  source_reuse: prohibited
-  rejection_reason: The later-approved action was missing; Eleni did not remain to gather the existing papers and leave screen-left last.
-  note: Rejected history only. Do not reuse this video as a reference.
-
-
-- asset_id: video.phase-6-decision-departure.candidate-v3
-  stage: video
-  status: rejected
-  higgsfield_job: 739b6033-376b-468a-a97f-137884b5da65
-  model: gemini_omni
-  model_name: Gemini Omni Flash
-  aspect_ratio: '16:9'
-  dimensions: 1280x720
-  frame_rate_fps: 24
-  duration_seconds: 10.005
-  video_codec: h264
-  audio: true
-  audio_codec: aac
-  audio_sample_rate_hz: 48000
-  audio_channels: 2
-  language: el-GR
-  size_bytes: 2495309
-  sha256: ddd8f4f947f3f42344ba9917c0aede264b0fe770fd5f48c751b20a890e6ab513
-  repository_file: null
-  external_storage: higgsfield
-  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_215815_739b6033-376b-468a-a97f-137884b5da65.mp4
-  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
-  rejected_by: Yiannis
-  rejected_on: '2026-08-17'
-  rejected_in: issue-36
-  source_reuse: prohibited
-  rejection_reason: Eleni gathered the papers but began departing while several residents remained visible behind her; she was not last.
-
-- asset_id: video.phase-6-decision-departure.candidate-v4
-  stage: video
-  status: rejected
-  higgsfield_job: f7133cce-95b6-4509-b3b0-954794c228a0
-  model: gemini_omni
-  model_name: Gemini Omni Flash
-  aspect_ratio: '16:9'
-  dimensions: 1280x720
-  frame_rate_fps: 24
-  duration_seconds: 10.005
-  video_codec: h264
-  audio: true
-  audio_codec: aac
-  audio_sample_rate_hz: 48000
-  audio_channels: 2
-  language: el-GR
-  size_bytes: 2358898
-  sha256: 564648b5e020cf5e8ddafe07fe34e4e6cc681f2b9670e7bf895d903a3deeaaca
-  repository_file: null
-  external_storage: higgsfield
-  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_220056_f7133cce-95b6-4509-b3b0-954794c228a0.mp4
-  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
-  rejected_by: Yiannis
-  rejected_on: '2026-08-17'
-  rejected_in: issue-36
-  source_reuse: prohibited
-  rejection_reason: After approximately 7 seconds Eleni's identity and dark clothing morphed into a different light-clothed woman.
-
-- asset_id: video.phase-6-decision-departure.candidate-v5
-  stage: video
-  status: rejected
-  higgsfield_job: f63e21aa-24b7-4b9b-8acb-d9c9bc639eea
-  model: gemini_omni
-  model_name: Gemini Omni Flash
-  aspect_ratio: '16:9'
-  dimensions: 1280x720
-  frame_rate_fps: 24
-  duration_seconds: 10.005
-  video_codec: h264
-  audio: true
-  audio_codec: aac
-  audio_sample_rate_hz: 48000
-  audio_channels: 2
-  language: el-GR
-  size_bytes: 2388071
-  sha256: 312d5f40f2af8f907eca6c7e2df52a423bbea0b4cfddc7c785a9c2a34dd700ef
-  repository_file: null
-  external_storage: higgsfield
-  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260816_220527_f63e21aa-24b7-4b9b-8acb-d9c9bc639eea.mp4
-  depends_on: scene.phase-6-decision-departure.user-start-frame-v1
-  rejected_by: Yiannis
-  rejected_on: '2026-08-17'
-  rejected_in: issue-36
-  source_reuse: prohibited
-  rejection_reason: Residents did not consistently exit screen-left; Thanasis was duplicated; people crossed into the wall; one resident remained seated through the end, so Eleni was not last.
+  note: Quantitative production record only. No individual rejected departure take is listed in the repository.
