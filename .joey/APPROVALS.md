@@ -170,3 +170,15 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Quantitative production record:** seven departure-generation attempts were made across Gemini Omni Flash and Seedance 2.0. None may enter the final edit. The shared failure classes were crowd direction and geometry, identity duplication or drift, object and wall crossings, last-exit timing, and dialogue/action coordination.
 - **Record policy:** retain the generated files in Higgsfield, but do not enumerate individual rejected takes in the repository.
 - **Evidence:** Yiannis's explicit decisions on 2026-08-16 and 2026-08-17.
+
+## 2026-08-18 — Phase 7 execution meets reality
+
+- **Approved establishing take:** `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` — the wet, paused playground worksite before Anna's accountability statement.
+- **Approved canonical spoken accountability take:** `324b5b27-02ed-464e-b8b0-7849d86ac3c7`.
+- **Exact Anna dialogue:** «Η αρχική προθεσμία ήταν υπερβολικά αισιόδοξη.»
+- **Superseded visual-only take:** `8f326641-7fd5-48f7-ae7b-f5abce997140`; the spoken take replaces it in the final edit while preserving its approved scene plate and visual logic.
+- **Approved rain-material detail remake:** `2d46cc51-a100-48d1-9894-7208827186a9`.
+- **Exact placement:** immediately after Anna's spoken accountability take.
+- **Superseded rain-detail take:** `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236`; its emphasized pallet-edge drop had implausible motion and must not return to the edit.
+- **Canonical Phase 7 order:** `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → `2d46cc51-a100-48d1-9894-7208827186a9`.
+- **Evidence:** Yiannis explicitly approved the two remakes on 2026-08-18 and requested that the decisions be recorded in GitHub.
