@@ -1498,7 +1498,6 @@ assets:
   repository_file: null
   external_storage: higgsfield
   external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260818_110009_324b5b27-02ed-464e-b8b0-7849d86ac3c7.mp4
-  depends_on: scene.10-execution.anna-accountability.image
   source_higgsfield_job: 55e5abb4-cd6a-43b8-917a-1d14d3ae032f
   dialogue:
     Anna: Η αρχική προθεσμία ήταν υπερβολικά αισιόδοξη.
