@@ -711,7 +711,7 @@ assets:
   provenance_audit: issue-37
 - asset_id: video.post-frontier.rain-material-detail
   stage: video
-  status: candidate
+  status: superseded
   production_use: 'Rain/material detail'
   higgsfield_job: 2c6420fe-5eec-4a15-a9d6-7d25b0ec4236
   dimensions: 1280x720
@@ -721,6 +721,9 @@ assets:
   depends_on: scene.post-frontier.rain-material-detail.image
   beta_position: '02:54.00'
   provenance_audit: issue-37
+  superseded_by: video.10-execution.rain-material-detail.v2
+  source_reuse: prohibited
+  superseded_reason: The emphasized pallet-edge drop had implausible motion; replaced by continuous natural rainfall.
 
 - asset_id: scene.post-frontier.thanasis-completed-playground.image
   stage: scene-plate
@@ -1437,3 +1440,96 @@ assets:
   decided_on: '2026-08-17'
   decision_issue: issue-36
   note: Quantitative production record only. No individual rejected departure take is listed in the repository.
+
+- asset_id: video.10-execution.rain-access.v1
+  stage: video
+  status: approved_external
+  production_use: Wet paused playground worksite before Anna's accountability statement.
+  higgsfield_job: d7bc4cb6-ea2e-48e4-af51-a991ebbeb771
+  model: seedance_2_0
+  model_name: Seedance 2.0
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 6
+  resolution: 720p
+  audio: false
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260813_090229_d7bc4cb6-ea2e-48e4-af51-a991ebbeb771.mp4
+  source_higgsfield_job: bc54fa72-8f6f-4832-971a-9840b5087920
+  approved_by: Yiannis
+  approved_on: '2026-08-18'
+  decision_issue: issue-1
+  note: First shot in the approved Phase 7 execution sequence.
+
+- asset_id: video.10-execution.anna-accountability.silent-v1
+  stage: video
+  status: superseded
+  higgsfield_job: 8f326641-7fd5-48f7-ae7b-f5abce997140
+  model: seedance_2_0
+  model_name: Seedance 2.0
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 6
+  resolution: 720p
+  audio: false
+  repository_file: null
+  source_higgsfield_job: 55e5abb4-cd6a-43b8-917a-1d14d3ae032f
+  superseded_by: video.10-execution.anna-accountability.spoken-v2
+  source_reuse: scene_plate_only
+  approved_by: Yiannis
+  approved_on: '2026-08-18'
+  superseded_reason: The approved spoken remake replaces the visual-only take in the final edit.
+
+- asset_id: video.10-execution.anna-accountability.spoken-v2
+  stage: video
+  status: approved_external
+  production_use: Anna states the initial deadline was excessively optimistic.
+  higgsfield_job: 324b5b27-02ed-464e-b8b0-7849d86ac3c7
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 8
+  resolution: 720p
+  audio: true
+  audio_mode: native_generated
+  language: el-GR
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260818_110009_324b5b27-02ed-464e-b8b0-7849d86ac3c7.mp4
+  depends_on: scene.10-execution.anna-accountability.image
+  source_higgsfield_job: 55e5abb4-cd6a-43b8-917a-1d14d3ae032f
+  dialogue:
+    Anna: Η αρχική προθεσμία ήταν υπερβολικά αισιόδοξη.
+  speaker_lock:
+    visible_speaker: Anna
+    extra_dialogue: prohibited
+  approved_by: Yiannis
+  approved_on: '2026-08-18'
+  decision_issue: issue-1
+  note: Canonical spoken accountability take; second shot in the approved Phase 7 execution sequence.
+
+- asset_id: video.10-execution.rain-material-detail.v2
+  stage: video
+  status: approved_external
+  production_use: Natural rainfall on the existing puddle and work materials after Anna's statement.
+  higgsfield_job: 2d46cc51-a100-48d1-9894-7208827186a9
+  model: seedance_2_0
+  model_name: Seedance 2.0
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 6
+  resolution: 720p
+  audio: false
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260818_111126_2d46cc51-a100-48d1-9894-7208827186a9.mp4
+  depends_on: scene.post-frontier.rain-material-detail.image
+  source_higgsfield_job: 7e02911a-5c9e-4363-8035-77ea9b152ccd
+  supersedes: video.post-frontier.rain-material-detail
+  exact_placement: immediately_after_video.10-execution.anna-accountability.spoken-v2
+  approved_by: Yiannis
+  approved_on: '2026-08-18'
+  decision_issue: issue-1
+  note: Canonical natural-rain remake; third shot in the approved Phase 7 execution sequence.
