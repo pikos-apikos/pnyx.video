@@ -50,7 +50,7 @@ Preserve this civic loop and its causal order:
 9. Insert Phase 5 intertitle, then public consultation modifies the plan. Include approved dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` only from its start through the exact out-point `00:08.662`; exclude all later audio and video.
 10. Immediately after that cut, use the complete silent hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5`. Thanasis's face remains unseen. Do not explain the emotion; add no narration or music. Continue only restrained natural courtyard ambience.
 11. Insert Phase 6 intertitle, then show the decision outcome while preserving Thanasis's dissent. The entire departure scene was removed from the film; do not include departure footage or farewell dialogue.
-12. Insert Phase 7 intertitle, then show construction meeting reality, rejected weak material, and visible accountability.
+12. Insert Phase 7 intertitle, then use this exact approved sequence: wet paused worksite `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771`; Anna's spoken accountability take `324b5b27-02ed-464e-b8b0-7849d86ac3c7`; natural-rain material detail `2d46cc51-a100-48d1-9894-7208827186a9` immediately after Anna.
 13. Insert Phase 8 intertitle, then open the playground without ceremony while preserving disagreement and defects.
 14. Insert Phase 9 intertitle, then show the six-month public account and reusable public memory.
 15. Insert the approved Epilogue intertitle. Do not add unapproved next-neighborhood footage.
@@ -102,9 +102,9 @@ Use the following sources when the corresponding beat is required:
 | Thanasis human-cost beat | `bd5b052f-fa59-4392-9003-3ac8221c67db` |
 | Public consultation | `15940a3a-0f92-41c8-8e5c-0059e7562308` |
 | Amended proposal decision | `d17054a7-3257-42f3-b676-d4c42cb0aab8` |
-| Rain blocks access | `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` |
-| Weak material rejected | `3726b60c-f0a5-49b3-bea5-baa9018f768a` |
-| Deadline accountability | `8f326641-7fd5-48f7-ae7b-f5abce997140` |
+| Wet paused worksite | `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` |
+| Anna deadline accountability — spoken | `324b5b27-02ed-464e-b8b0-7849d86ac3c7` |
+| Natural-rain material detail — immediately after Anna | `2d46cc51-a100-48d1-9894-7208827186a9` |
 | Myrto enters completed playground | `09596bc2-5f1f-461f-abdf-694beb2bd8ae` |
 | Post-rain accountability | `bec2e4f1-a384-4572-941c-d8afc7385b1e` |
 | Six-month public-memory ending | `9ea93421-b936-4543-86b4-a09891ac9909` |
@@ -123,6 +123,8 @@ At minimum, exclude:
 - `80312fb1-96fe-42ca-b69d-ef79184d1267`
 - `a6906941-0177-4546-9558-ce285150ce63`
 - `5e45dbe7-93cb-4d36-8979-8ad81744077d`
+- `8f326641-7fd5-48f7-ae7b-f5abce997140` — superseded silent Anna accountability take
+- `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236` — superseded rain-detail take with implausible pallet-edge drop
 - every detached Greek TTS asset listed as Rejected in Issue #37; this prohibition applies to that batch, not to Gemini Omni Flash native-audio video generation
 - the public-memory photo insert `8f8c8b9c-66cc-4fca-a9fb-77d7bb63fa5c`
 - the next-neighbourhood coda `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`
@@ -156,6 +158,7 @@ Embed concise English subtitles for the spoken lines:
 - Thanasis: “Do not close the entire space at once.”
 - Eleni: “But then it will take longer.”
 - Myrto: “And where will the young children play?”
+- Anna's new exact Greek line is «Η αρχική προθεσμία ήταν υπερβολικά αισιόδοξη.» Preserve its native audio. Its exact English subtitle remains a human approval item; do not invent or silently lock a translation.
 
 Do not add narration or additional dialogue. Preserve silence after difficult statements.
 
