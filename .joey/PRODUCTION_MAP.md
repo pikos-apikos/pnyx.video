@@ -54,7 +54,9 @@ GitHub issue decisions override this mirror when they differ.
 - Approved public-consultation dialogue take: `9bd30c09-d258-44d5-84e6-e311221acd07`; exact edit out-point `00:08.662`; discard and never reuse the unrelated applause after the cut
 - Approved interpretive bridge: `d09e75e3-c251-4bed-9117-83628bb6f5e5`; place its complete silent hands-on-wall shot immediately after the public-consultation cut at `00:08.662` and before **6 — THE DECISION**. Preserve emotional ambiguity; add no narration or music.
 - Phase 6 departure scene: removed from the film after seven generation attempts. No departure footage or farewell dialogue enters the final edit.
-- Immediate creative frontier: assemble the next rough-cut Candidate with the approved hands-on-wall bridge and the revised Phase 6 intertitle.
+- Approved Phase 7 execution sequence: `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → spoken Anna accountability `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → natural-rain material detail `2d46cc51-a100-48d1-9894-7208827186a9`.
+- Supersession lock: silent Anna take `8f326641-7fd5-48f7-ae7b-f5abce997140` and earlier rain detail `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236` must not enter the final edit.
+- Immediate creative frontier: assemble the next rough-cut Candidate with the approved hands-on-wall bridge, revised Phase 6 intertitle and locked Phase 7 execution sequence.
 
 ## Supercomputer edit handoff
 
@@ -80,6 +82,7 @@ GitHub issue decisions override this mirror when they differ.
 - Public-consultation dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` is Approved with a mandatory exact cut at `00:08.662`; all later audio and video, including applause, is excluded.
 - Hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5` is Approved as the interpretive bridge between the public consultation and **6 — THE DECISION**.
 - The entire Phase 6 departure sequence was removed after seven generation attempts. The repository retains only the aggregate production result; individual rejected takes remain in Higgsfield and are not listed here.
+- Phase 7 is locked in this order: wet paused site `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771`, Anna's spoken accountability `324b5b27-02ed-464e-b8b0-7849d86ac3c7`, then rain-material detail `2d46cc51-a100-48d1-9894-7208827186a9`. The spoken take supersedes `8f326641-7fd5-48f7-ae7b-f5abce997140`; the rain remake supersedes `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236`.
 - Narrative correction: the clarification establishes who is affected before Myrto appears; Myrto shows the direct access failure; consequences analysis then reveals the shared-open-space loss; Thanasis gives that indirect loss a voice.
 - The approved public-memory take remains the narrative ending until Yiannis approves a different ending.
 
