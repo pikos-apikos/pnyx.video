@@ -1532,3 +1532,52 @@ assets:
   approved_on: '2026-08-18'
   decision_issue: issue-1
   note: Canonical natural-rain remake; third shot in the approved Phase 7 execution sequence.
+
+- asset_id: scene.11-playground-opens.residual-water-record.plate-v1
+  stage: scene-plate
+  status: approved_external
+  production_use: Close observational plate of the single small residual water patch being photographed after the playground opens.
+  higgsfield_job: c200be3a-e2a3-4248-a316-0352a7f35027
+  model: gpt_image_2
+  model_name: GPT Image 2
+  aspect_ratio: '16:9'
+  dimensions: 2688x1520
+  resolution: 2k
+  quality: high
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260818_124450_c200be3a-e2a3-4248-a316-0352a7f35027.png
+  approved_by: Yiannis
+  approved_on: '2026-08-19'
+  decision_issue: issue-36
+  note: Canonical Phase 8 plate. Exactly one phone, two hands and one small water patch; generated text and PNyX UI are prohibited.
+
+- asset_id: video.11-playground-opens.residual-water-record.v1
+  stage: video
+  status: approved_external
+  production_use: The small residual water patch is photographed once for public defect documentation after the playground opens.
+  higgsfield_job: 197bcd61-eb5a-499f-be15-2dc4c72e51d3
+  model: seedance_2_0
+  model_name: Seedance 2.0
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 6
+  resolution: 720p
+  audio: false
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260819_083558_197bcd61-eb5a-499f-be15-2dc4c72e51d3.mp4
+  depends_on: scene.11-playground-opens.residual-water-record.plate-v1
+  source_higgsfield_job: c200be3a-e2a3-4248-a316-0352a7f35027
+  exact_placement: immediately_after_higgsfield_job_09596bc2-5f1f-461f-abdf-694beb2bd8ae
+  action_lock:
+    shutter_taps: 1
+    camera: locked
+    extra_ui: prohibited
+    generated_text: prohibited
+  post_production:
+    pnyx_registration_confirmation: deterministic_composite
+  approved_by: Yiannis
+  approved_on: '2026-08-19'
+  decision_issue: issue-36
+  note: Canonical silent Phase 8 accountability detail; available to the next festival-cut edit Candidate.
