@@ -94,16 +94,21 @@ The abandoned departure/farewell sequence remains excluded.
 - `provenance/2026-08-20_V2_9_EDIT_RECONCILIATION.md`
 - `.joey/AI_WORKLOG.md`
 
-### Workflow rule learned
+### Workflow rules learned
 
 A correction list is not a source map.
 
 Every future Supercomputer edit report/handoff should include the **complete timeline**, so approved beats cannot silently disappear or migrate between phases.
 
+**Specialist-skill loading is a precondition, not an optional cleanup step.** Before authoring a production prompt, an agent must read `skills/manifest.yaml`, follow its declared load order, and load the named specialist for the requested stage. Joey owns production order/state/provenance; the specialist owns prompt grammar. For video, the manifest currently names `cinema-director` (legacy name `cinema-worldbuilder-pro-2.0`). If the specialist skill is unavailable in the current harness/repository, the agent must state that limitation and avoid claiming that the prompt follows the specialist grammar.
+
+This guardrail was added after the assistant began preparing a v2.9 Supercomputer prompt before loading the declared video specialist. Yiannis caught the mistake. Future agents should not rely on conversational familiarity with the project as a substitute for loading the declared skill chain.
+
 ### Unresolved
 
 - Exact UUID of the intermediate new-protagonists clip moved from Phase 8 to Phase 9 remains unresolved and must never be guessed.
 - Gate-entry Take B UUID remains separately unresolved in existing repository state.
+- `cinema-director` is declared by `skills/manifest.yaml` as the video specialist, but its `SKILL.md` was not present in the repository and was not available as an installed plugin in the current harness during this session.
 
 ### Human gate
 
