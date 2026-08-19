@@ -46,9 +46,9 @@ GitHub issue decisions override this mirror when they differ.
 
 - Stage: edit
 - Status: in progress
-- Registered rough cut: `PNYX_v2.3_final.mp4`, Candidate — revision required
+- Registered rough cut: `PNYX_v2.5`, Candidate — revision required; review runtime `03:32`
 - Exact post-session asset provenance: Issue #37
-- Current task: produce Supercomputer rough-cut Candidate v2.4 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
+- Current task: produce Supercomputer rough-cut Candidate v2.6 from `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`; no final promotion without Yiannis's review
 - Approved silent prelude: `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`; place it first and remove its source audio for the full clip
 - Approved phase intertitles: exact English copy and sequencing contract in `docs/PHASE_INTERTITLES_EN.md`; preserve the existing Prologue and add cards for phases 1–9 plus the Epilogue
 - Approved public-consultation dialogue take: `9bd30c09-d258-44d5-84e6-e311221acd07`; exact edit out-point `00:08.662`; discard and never reuse the unrelated applause after the cut
@@ -57,7 +57,7 @@ GitHub issue decisions override this mirror when they differ.
 - Approved Phase 7 execution sequence: `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → spoken Anna accountability `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → natural-rain material detail `2d46cc51-a100-48d1-9894-7208827186a9`.
 - Approved Phase 8 residual-defect record: plate `c200be3a-e2a3-4248-a316-0352a7f35027` → silent 6-second take `197bcd61-eb5a-499f-be15-2dc4c72e51d3`; place it immediately after Myrto enters through the completed gate in `09596bc2-5f1f-461f-abdf-694beb2bd8ae`. Composite the PNyX registration confirmation deterministically.
 - Supersession lock: silent Anna take `8f326641-7fd5-48f7-ae7b-f5abce997140` and earlier rain detail `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236` must not enter the final edit.
-- Immediate creative frontier: assemble `PNYX_v2.4_supercomputer_candidate.mp4` with the approved hands-on-wall bridge, revised Phase 6 intertitle, locked Phase 7 execution sequence, and Phase 8 order `09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`. Any unavailable exact subtitle or deterministic interface asset must be omitted and reported; it must not be invented.
+- Immediate creative frontier: assemble `PNYX_v2.6_supercomputer_candidate.mp4` from the v2.5 timeline and the locked 2026-08-19 correction contract below.
 
 ## Supercomputer edit handoff
 
@@ -101,3 +101,20 @@ GitHub issue decisions override this mirror when they differ.
 - Presenting synthetic footage as evidence of a real event.
 - Promoting a Candidate without explicit human approval.
 - Reusing rejected, superseded or invalid outputs.
+
+
+## 2026-08-19 — v2.5 review lock and v2.6 frontier
+
+This latest explicit human decision supersedes older edit instructions where they conflict.
+
+- Baseline: `PNYX_v2.5`, Candidate — revision required, runtime `03:32`.
+- Phase 3: spoken Thanasis `2f227a24-37b3-4dd5-891e-39675cc41cb2`.
+- Phase 4: `e0b9d85a-3f0f-4bfb-9d51-ab18187d4b4f` → `d4fff9fe-e12c-4299-9bbb-8a88c8621d68` → `d99323a3-56c4-41a9-ac75-2ba437046201`; exclude the two older overlay-looking shots.
+- Phase 5: spoken `9bd30c09-d258-44d5-84e6-e311221acd07` through `00:08.662`, then `d09e75e3-c251-4bed-9117-83628bb6f5e5`; no silent opener.
+- Phase 6: remove `d17054a7-3257-42f3-b676-d4c42cb0aab8`; no filler or departure scene.
+- Phase 7: approved unchanged.
+- Phase 8: `09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`; move the final new-protagonists clip to Phase 9.
+- Phase 9: public account, moved new-protagonists clip, then existing `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` as-is; no replacement generation.
+- Final disclosure: “This film is a work of speculative documentary. Its characters and events are fictional composites. It depicts a possible public reality, not an existing administrative process or a documented event.”
+- Deliverable: `PNYX_v2.6_supercomputer_candidate.mp4` plus report and checksums.
+- Human gate: stop at Candidate for Yiannis's review.

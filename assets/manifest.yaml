@@ -795,17 +795,25 @@ assets:
   provenance_audit: issue-37
 - asset_id: video.post-frontier.next-neighbourhood-coda
   stage: video
-  status: candidate
-  production_use: 'Next-neighbourhood playground coda'
+  status: approved_external
+  production_use: 'Phase 9 next-neighborhood continuation after the moved new-protagonists shot'
   higgsfield_job: 43f4a3c7-dfdc-4576-8cfe-113b9b6564d3
+  model: seedance_2_0
+  model_name: Seedance 2.0
   dimensions: 1280x720
   frame_rate_fps: 24
+  duration_seconds: 8
   audio: false
   repository_file: null
+  external_storage: higgsfield
   depends_on: scene.post-frontier.next-neighbourhood-coda.image
   beta_position: '03:39.25'
   provenance_audit: issue-37
-  use_restriction: 'Unapproved coda; remove from the current ending.'
+  approved_by: Yiannis
+  approved_on: '2026-08-19'
+  approved_in: issue-36
+  decision_issue: issue-36
+  note: Existing take approved for Phase 9 edit use after the new-protagonists shot moved from Phase 8. Use as-is; replacement generation is prohibited.
 
 - asset_id: scene.coordinator-reverse-angle.v1
   stage: scene-plate
@@ -1581,3 +1589,29 @@ assets:
   approved_on: '2026-08-19'
   decision_issue: issue-36
   note: Canonical silent Phase 8 accountability detail; available to the next festival-cut edit Candidate.
+
+- asset_id: video.07-thanasis-human-cost.spoken-v2
+  stage: video
+  status: approved_external
+  production_use: 'Phase 3 spoken human-cost beat'
+  higgsfield_job: 2f227a24-37b3-4dd5-891e-39675cc41cb2
+  model: gemini_omni
+  model_name: Gemini Omni Flash
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  frame_rate_fps: 24
+  duration_seconds: 8
+  audio: true
+  audio_mode: native_generated
+  language: el-GR
+  repository_file: null
+  external_storage: higgsfield
+  source_higgsfield_job: 97e4a7bf-e917-4ba0-b943-c49aa8e830ed
+  dialogue:
+    Thanasis: Για εσάς είναι έργο. Για εμάς είναι ο μόνος ανοιχτός χώρος.
+  subtitle_en: 'For you, it is a project. For us, it is the only open space.'
+  approved_by: Yiannis
+  approved_on: '2026-08-19'
+  approved_in: issue-36
+  decision_issue: issue-36
+  note: Canonical spoken Thanasis take for Phase 3; preserve native Greek voice and lipsync.

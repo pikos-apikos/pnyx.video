@@ -194,3 +194,18 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Water continuity:** preserve the single small residual water patch as a modest documented defect; do not enlarge or dramatize it.
 - **Evidence:** Yiannis explicitly approved the completed video Candidate on 2026-08-19.
 - **Record policy:** individual rejected crowd/bench attempts are not enumerated.
+
+## 2026-08-19 — PNYX v2.5 review and v2.6 correction contract
+
+- **Reviewed edit:** `PNYX_v2.5`, runtime `03:32`.
+- **Decision:** Candidate — revision required. Record seven aggregate correction classes; do not enumerate individual rejected generation attempts.
+- **Phase 3:** spoken Thanasis `2f227a24-37b3-4dd5-891e-39675cc41cb2`; exact Greek «Για εσάς είναι έργο. Για εμάς είναι ο μόνος ανοιχτός χώρος.»
+- **Phase 4:** `e0b9d85a-3f0f-4bfb-9d51-ab18187d4b4f` → `d4fff9fe-e12c-4299-9bbb-8a88c8621d68` → `d99323a3-56c4-41a9-ac75-2ba437046201`; remove the two overlay-looking shots.
+- **Phase 5:** spoken `9bd30c09-d258-44d5-84e6-e311221acd07` through `00:08.662`, then `d09e75e3-c251-4bed-9117-83628bb6f5e5`; omit the silent opener.
+- **Phase 6:** remove `d17054a7-3257-42f3-b676-d4c42cb0aab8`; no filler or departure scene.
+- **Phase 7:** approved unchanged.
+- **Phase 8:** retain `09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`; move the last new-protagonists shot to Phase 9.
+- **Phase 9:** use the moved shot with existing `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`; approved for this edit use, with no replacement generation.
+- **Disclosure:** “This film is a work of speculative documentary. Its characters and events are fictional composites. It depicts a possible public reality, not an existing administrative process or a documented event.”
+- **Next deliverable:** `PNYX_v2.6_supercomputer_candidate.mp4`, still a review Candidate.
+- **Evidence:** Yiannis's explicit v2.5 review and request for a pull request for the Supercomputer.
