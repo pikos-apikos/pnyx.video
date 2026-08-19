@@ -144,3 +144,18 @@ Future reconciliation must distinguish:
 4. local edit corrections.
 
 Changing one does not implicitly change the others.
+
+## Specialist-skill loading guardrail
+
+Before authoring a production prompt, the agent must read `skills/manifest.yaml`, follow its declared load order, and load the specialist skill for the requested stage.
+
+For this repository, Joey owns workflow order, state, provenance, and human gates. The specialist owns prompt grammar. The current manifest names `cinema-director` as the video specialist and records `cinema-worldbuilder-pro-2.0` as its legacy name.
+
+During this session the assistant began preparing a v2.9 Supercomputer prompt before loading the declared video specialist. Yiannis identified the process error. After inspection, the current repository/harness did not expose `cinema-director/SKILL.md` as an available specialist skill.
+
+Future agents must therefore:
+
+1. load the declared specialist before claiming specialist-compliant prompt grammar;
+2. never use project familiarity as a substitute for that load step;
+3. if the specialist is unavailable, state the limitation explicitly;
+4. continue only with repository-defined deterministic edit instructions, without pretending the missing specialist was loaded.
