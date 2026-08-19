@@ -48,11 +48,17 @@ Reason: the introduction contains large English text blocks and little meaningfu
 - no freeze-frame extension;
 - no regenerated or rewritten text.
 
-### Bus take approval boundary
+Then use the now-approved Eleni silent-on-bus take:
 
-`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus — is recorded in Issue #37 as **Candidate; used in beta**, not Approved.
+`c3b63365-e577-4590-a554-dccd18afadbc`
 
-Do **not** include it in v2.9 unless a newer explicit Yiannis approval is present in Issue #36 before assembly. If no such approval exists, omit it and report `bus take omitted — approval gate not satisfied`.
+Yiannis explicitly promoted this former Issue #37 Candidate on 2026-08-20.
+
+Canonical opening rhythm:
+
+`9caf49b2…` at `0.6×`, silent → `c3b63365…` → Phase 1 intertitle / Phase 1.
+
+Do not omit or substitute the bus take unless a later explicit human decision changes this source lock.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
@@ -239,7 +245,7 @@ For every phase list:
 Also explicitly confirm:
 
 - prelude at 0.6× and resulting duration;
-- bus take status: either `omitted — approval gate not satisfied` or cite the newer Issue #36 human approval that authorized inclusion;
+- approved bus take `c3b63365-e577-4590-a554-dccd18afadbc` preserved immediately after the prelude;
 - Phase 2 exact three-shot order;
 - Phase 4 exact three-shot order;
 - the prior six-shot Phase 4 is superseded for v2.9, not described as historically unauthorized;
