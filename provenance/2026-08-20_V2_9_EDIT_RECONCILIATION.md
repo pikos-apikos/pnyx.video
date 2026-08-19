@@ -2,13 +2,13 @@
 
 ## Purpose
 
-Record the human reconstruction that corrects the Phase 2 / Phase 4 mapping error carried into v2.8 and source-lock the newly approved Phase 6 decision footage.
+Record the current v2.9 human edit revision, the decision history that preceded it, the newly approved Phase 6 material, and the Phase 9 source recovery found during PR review.
 
-This file exists because the previous workflow allowed partial correction notes to replace a complete timeline map. That caused approved footage to be reassigned between phases and later made the Supercomputer execute a structurally wrong sequence correctly.
+This document is provenance. It must preserve the fact that earlier arrangements were explicitly human-authorized even when the latest human decision supersedes them.
 
-## Root cause
+## Decision history — Phase 2 / Phase 4
 
-Yiannis's earlier explicit sequence placed:
+An earlier explicit Yiannis sequence placed:
 
 ### 2 — THE ROOM OF CONSEQUENCES
 
@@ -22,13 +22,21 @@ and separately:
 
 `c6cd0e00-6bad-4fa8-96e6-f1128e455e28`
 → `114f44f7-4626-4369-8627-2a3ce6cc6c97`
-→ `ac4a9414-da71-4abc-ad56-b9297fd568d9`
+→ `ac4a9414-da71-4abc-ad56-b9297fd568d9`.
 
-A later v2.5 correction note listed the first trio as Phase 4. PR #51 then restored the three missing recipient beats by appending them, producing an incorrect six-shot Phase 4. The subsequent Supercomputer prompt reinforced that drift by replacing Phase 2 with a still-evidence workaround.
+After the v2.5 review, the edit history changed. Issue #36 and merged PR #51 explicitly recorded and authorized a six-shot Phase 4:
 
-No human creative decision authorized that six-shot merger.
+`e0b9d85a… → d4fff9fe… → d99323a3… → c6cd0e00… → 114f44f7… → ac4a9414…`.
 
-## Corrected human source placement
+The later v2.8 directive also explicitly instructed a separate still-evidence treatment for Phase 2 while retaining the moving evidence sequence in Phase 4.
+
+Those were human-authorized edit decisions at the time. They were not unauthorized agent drift, and the Supercomputer was correct to follow them.
+
+On 2026-08-20 Yiannis revisited the edit after seeing v2.8 and reconstructed the earlier narrative separation. The current v2.9 plan therefore **supersedes** the later six-shot arrangement and restores the two distinct three-shot phases below.
+
+The workflow lesson is not that the earlier decisions were accidental. The lesson is that partial correction notes and incomplete timeline reporting made successive creative revisions hard to compare, allowing the complete phase map to become opaque across sessions.
+
+## Current v2.9 source placement
 
 ### Phase 2 — THE ROOM OF CONSEQUENCES
 
@@ -36,15 +44,13 @@ No human creative decision authorized that six-shot merger.
 2. `d4fff9fe-e12c-4299-9bbb-8a88c8621d68` — Review / evidence-room work.
 3. `d99323a3-56c4-41a9-ac75-2ba437046201` — Plan / route detail.
 
-These sources are restored to Phase 2. The improvised still-evidence montage is not the canonical replacement.
-
 ### Phase 4 — THE PUBLIC BRIEFING
 
 1. `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` — Eleni / «Ξεκίνησε».
 2. `114f44f7-4626-4369-8627-2a3ce6cc6c97` — Thanasis @ KEP / printed briefing.
 3. `ac4a9414-da71-4abc-ad56-b9297fd568d9` — Myrto / «Με σκέφτηκαν».
 
-These are the three recipient beats. They are not shots 4–6 of a six-shot phase.
+This is a current human revision of the edit map, not a claim that the previously authorized six-shot Phase 4 never existed.
 
 ## Phase 6 redesign — human decision
 
@@ -58,7 +64,7 @@ Narrative principle retained from the treatment:
 >
 > Η κάμερα τον ακολουθεί ως το σπίτι. Δεν του ζητά να δηλώσει ότι «η δημοκρατία λειτούργησε».
 
-The practical implementation was simplified into ordinary channels already established in the film:
+The practical implementation uses ordinary channels already established in the film:
 
 - Eleni receives the result digitally.
 - Thanasis receives/reads the result through the KEP/public-service route.
@@ -66,13 +72,13 @@ The practical implementation was simplified into ordinary channels already estab
 
 Myrto is not required in Phase 6.
 
-### Approved Joey image plates
+### Human-selected Joey image plates
 
 - Eleni / result: `c8d2b6c4-11e8-49a9-9542-bb32399754b0`.
 - Thanasis @ KEP: `f7884b5d-3b96-4a36-8f5d-760bfe7d8d18`.
 - Thanasis @ low wall: `bdf80b02-1841-4fab-adeb-6c59a5a3af6f`.
 
-### Approved Phase 6 video takes
+### Human-selected Phase 6 video takes
 
 - Eleni / result: `69e0ada1-ae60-450d-b353-ff3dd1929d9c`.
 - Thanasis @ KEP: `3eb34af9-6daf-42aa-8255-46746ab91dc0`.
@@ -80,23 +86,23 @@ Myrto is not required in Phase 6.
 
 Canonical Phase 6 order:
 
-`69e0ada1…` → `3eb34af9…` → `4ceef784…`
+`69e0ada1…` → `3eb34af9…` → `4ceef784…`.
 
-The older still `fc781492-37cc-4814-9429-793f4dfae6f5` may remain historical/approved source material, but it is not the preferred main Phase 6 body in v2.9.
+The older still `fc781492-37cc-4814-9429-793f4dfae6f5` remains historical approved source material but is demoted from the preferred v2.9 Phase 6 treatment.
 
 The abandoned departure/farewell sequence remains excluded.
 
-## Prelude timing amendment
+## Prelude timing and bus approval boundary
 
 Approved introduction:
 
 `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`
 
-Playback is **0.6×**. The source has large text blocks and little meaningful motion; the timing change exists for comfortable reading by non-native English viewers.
+Playback is **0.6×**. The source has large English text blocks and little meaningful motion; the timing change exists for comfortable reading by non-native English viewers.
 
-After the prelude preserve:
+`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus — appears in Issue #37 as **Candidate; used in beta**, not Approved.
 
-`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus.
+The fact that it appeared in an earlier proposed sequence does not promote it. For v2.9 it remains behind an explicit human approval gate and must not be source-locked into the cut until that approval is recorded in Issue #36.
 
 ## Phase 5 preserved correction
 
@@ -109,7 +115,7 @@ All footage and applause after 08.662 remain prohibited.
 
 Earlier development-state `c2787450-2f88-4b86-a0b1-a6dd5074818f` and `e57fc675-f5ef-4290-b336-e746ee826d72` are not restored by this reconciliation.
 
-## Phases 7–9 preserved state
+## Phases 7–9 preserved and repaired state
 
 Phase 7:
 
@@ -122,15 +128,23 @@ Phase 8 ending:
 `09596bc2-5f1f-461f-abdf-694beb2bd8ae`
 → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`.
 
-Phase 9:
+PR #52 review found that the first draft of this reconciliation silently omitted an earlier Approved accountability take and also invented an unnecessary unresolved intermediate slot.
 
-`9ea93421-b936-4543-86b4-a09891ac9909`
-→ exact existing intermediate new-protagonists clip, UUID still to be deterministically recovered
+The recovered Approved sources are:
+
+- `bec2e4f1-a384-4572-941c-d8afc7385b1e` — approved post-rain accountability; Myrto identifies the remaining imperfection and Anna records it.
+- `9ea93421-b936-4543-86b4-a09891ac9909` — approved public-memory / next-neighbourhood take with the two unnamed adults. This is the “new protagonists” bridge that had been described as an unresolved intermediate.
+- `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` — next-neighbourhood playground coda, approved for this Phase 9 edit use.
+
+Current Phase 9:
+
+`bec2e4f1-a384-4572-941c-d8afc7385b1e`
+→ `9ea93421-b936-4543-86b4-a09891ac9909`
 → `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`.
 
-Do not guess the unresolved intermediate UUID.
+There is no unresolved intermediate new-protagonists UUID in this sequence.
 
-## Workflow rule added by this incident
+## Workflow rules added by this incident
 
 Every Supercomputer edit handoff must report and preserve the **complete candidate timeline**, not only changed shots.
 
@@ -141,9 +155,12 @@ Future reconciliation must distinguish:
 1. source approval;
 2. source supersession;
 3. source placement in the timeline;
-4. local edit corrections.
+4. local edit corrections;
+5. later human revisions that supersede an earlier human-approved arrangement.
 
 Changing one does not implicitly change the others.
+
+Provenance must never rewrite a prior explicit human approval as an agent accident simply because the human later changes the edit.
 
 ## Specialist-skill loading guardrail
 
