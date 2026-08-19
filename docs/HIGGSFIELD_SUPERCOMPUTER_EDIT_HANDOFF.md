@@ -2,7 +2,7 @@
 
 ## Objective
 
-Create `PNYX_v2.9_supercomputer_candidate.mp4` by correcting the current review Candidate with the complete source map below.
+Create `PNYX_v2.9_supercomputer_candidate.mp4` by revising the current review Candidate with the complete current source map below.
 
 This is an edit-only pass. Use existing approved material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
 
@@ -26,9 +26,11 @@ This v2.9 task itself is deterministic edit assembly from approved sources; it d
 
 A correction list is not a source map.
 
-The source placement below is complete for the known timeline and overrides the erroneous six-shot Phase 4 mapping carried into v2.8.
+The source placement below is the current v2.9 human edit decision. It **supersedes**, rather than retroactively invalidates, the earlier human-approved six-shot Phase 4 / v2.8 arrangement.
 
-A local correction to one shot never authorizes truncation, reassignment, or removal of later approved beats.
+A local correction to one shot never authorizes truncation, reassignment, or removal of other approved beats.
+
+Every edit report must list the full resulting timeline.
 
 ## Opening prelude
 
@@ -46,9 +48,11 @@ Reason: the introduction contains large English text blocks and little meaningfu
 - no freeze-frame extension;
 - no regenerated or rewritten text.
 
-Then preserve:
+### Bus take approval boundary
 
-`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus.
+`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus — is recorded in Issue #37 as **Candidate; used in beta**, not Approved.
+
+Do **not** include it in v2.9 unless a newer explicit Yiannis approval is present in Issue #36 before assembly. If no such approval exists, omit it and report `bus take omitted — approval gate not satisfied`.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
@@ -62,17 +66,15 @@ Preserve the intentional Myrto edit at approximately 6.33 s.
 
 ## Phase 2 — THE ROOM OF CONSEQUENCES
 
-IMPORTANT: v2.8 had this phase wrong.
-
-Use exactly:
+Current v2.9 human placement:
 
 1. `e0b9d85a-3f0f-4bfb-9d51-ab18187d4b4f` — Print from PNyx.
 2. `d4fff9fe-e12c-4299-9bbb-8a88c8621d68` — Review / evidence-room work.
 3. `d99323a3-56c4-41a9-ac75-2ba437046201` — Plan / route detail.
 
-These three clips belong to Phase 2. Do not move them into Phase 4.
+Do not use the v2.8 still-evidence treatment for Phase 2 in this Candidate.
 
-Do not replace Phase 2 with the later improvised still-evidence montage.
+Historical/provenance boundary: the v2.8 still-evidence direction and the placement of these moving clips in a six-shot Phase 4 were explicitly human-authorized at the time. v2.9 is a newer human revision.
 
 ## Phase 3 — THE PERSON WHO LOSES
 
@@ -92,19 +94,21 @@ Do not use silent take `bd5b052f-fa59-4392-9003-3ac8221c67db` for this beat.
 
 ## Phase 4 — THE PUBLIC BRIEFING
 
-IMPORTANT: Phase 4 contains exactly three recipient beats, not six shots.
-
-Use:
+Current v2.9 human placement:
 
 1. `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` — Eleni; preserve native Greek «Ξεκίνησε» and subtitle “It started.”
 2. `114f44f7-4626-4369-8627-2a3ce6cc6c97` — Thanasis @ KEP; printed briefing; silent.
 3. `ac4a9414-da71-4abc-ad56-b9297fd568d9` — Myrto; preserve native Greek «Με σκέφτηκαν» and subtitle “They thought of me.”
+
+For v2.9, use these three recipient beats as the complete Phase 4 body.
 
 Superseded equivalents must not replace them:
 
 - `aa1f944d-ed8e-4390-a6ca-55ce1f1c13a6`
 - `39bf970f-aa27-4d2d-b165-1f6005e09149`
 - `d48db3f1-7de9-45c6-8804-04040cf9ebf4`
+
+Do not describe the earlier six-shot Phase 4 as unauthorized; it was a prior human-approved edit state that this v2.9 revision supersedes.
 
 ## Phase 5 — THE PUBLIC CONSULTATION
 
@@ -121,7 +125,7 @@ No narration or music.
 
 ## Phase 6 — THE DECISION
 
-The previous static decision-plate treatment is replaced as the main solution.
+The previous static decision-plate treatment is replaced as the preferred v2.9 solution.
 
 Human narrative rule:
 
@@ -164,15 +168,15 @@ End Phase 8 with:
 
 Use the full approved residual-defect take. Preserve one shutter tap, one modest residual water patch, and no generated readable interface.
 
-The new-protagonists continuation does not belong at the end of Phase 8.
+Phase 8 ends here.
 
 ## Phase 9 — THE PUBLIC ACCOUNT / NEXT NEIGHBORHOOD
 
-Use:
+Use exactly:
 
-1. `9ea93421-b936-4543-86b4-a09891ac9909` — existing public-account/public-memory material.
-2. The exact existing intermediate new-protagonists timeline clip moved from Phase 8. Its UUID remains unresolved in repository state. Recover it deterministically from the existing timeline/history if possible; never guess or substitute.
-3. `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` — reuse as-is.
+1. `bec2e4f1-a384-4572-941c-d8afc7385b1e` — Approved post-rain accountability. Myrto identifies the remaining imperfection and Anna records it. Do not drop this approved beat.
+2. `9ea93421-b936-4543-86b4-a09891ac9909` — Approved public-memory / next-neighbourhood take with two unnamed adults reusing the recorded knowledge. This is the previously described new-protagonists bridge; there is **no separate unresolved intermediate UUID**.
+3. `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` — next-neighbourhood playground coda; reuse as-is for this Phase 9 edit use.
 
 Then preserve the approved Epilogue and final statement.
 
@@ -235,18 +239,18 @@ For every phase list:
 Also explicitly confirm:
 
 - prelude at 0.6× and resulting duration;
-- Eleni-on-bus beat preserved;
+- bus take status: either `omitted — approval gate not satisfied` or cite the newer Issue #36 human approval that authorized inclusion;
 - Phase 2 exact three-shot order;
 - Phase 4 exact three-shot order;
-- old six-shot Phase 4 absent;
+- the prior six-shot Phase 4 is superseded for v2.9, not described as historically unauthorized;
 - Phase 5 exact 08.662 cut and applause absent;
 - Phase 6 exact new three-shot order;
-- whether `fc781492…` is absent or retained only for a stated technical reason;
+- `fc781492…` absent from the main Phase 6 body unless retained for a stated technical reason;
 - all departure/farewell footage absent;
 - Phase 7 exact three-shot order;
 - Phase 8 exact ending;
-- exact recovered Phase 9 intermediate new-protagonists UUID, or `unresolved` if it cannot be proven;
-- `43f4a3c7…` reused as-is;
+- Phase 9 exact `bec2e4f1… → 9ea93421… → 43f4a3c7…` order;
+- no invented unresolved intermediate between `9ea93421…` and `43f4a3c7…`;
 - total picture duration;
 - total intertitle/disclosure duration;
 - final runtime;
