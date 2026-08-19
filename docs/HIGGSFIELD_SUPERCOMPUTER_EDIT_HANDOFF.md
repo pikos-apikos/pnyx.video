@@ -1,247 +1,126 @@
-# Higgsfield Supercomputer Edit Handoff — Candidate v2.4
+# Higgsfield Supercomputer Edit Handoff — Candidate v2.6
 
 ## Objective
 
-Create one new rough-cut Candidate of **«ΠΝΥΞ: Η Παιδική Χαρά»** from the existing Higgsfield and GitHub production record.
+Create `PNYX_v2.6_supercomputer_candidate.mp4` by correcting the registered `PNYX_v2.5` Candidate. The reviewed v2.5 runtime is **03:32** and its state is **Candidate — revision required**.
 
-The output is a review Candidate. It is not a final master and it does not become canonical without Yiannis's explicit approval.
+This is an edit-only pass. Use existing approved material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
 
-## Authority order
+## Authority
 
-Read these sources before editing:
+Read Issue #36 and its latest comments first, then this handoff, `assets/manifest.yaml`, `docs/PHASE_INTERTITLES_EN.md`, the Visual and Sound Bible, and `provenance/AI_DISCLOSURE.md`. The latest explicit human decision in Issue #36 controls if sources differ.
 
-1. [Issue #36 — edit frontier](https://github.com/pikos-apikos/pnyx.video/issues/36), including its latest comments.
-2. [Asset manifest](../assets/manifest.yaml). Use manifest v25 or later.
-3. [Issue #37 — post-session provenance audit](https://github.com/pikos-apikos/pnyx.video/issues/37).
-4. [Issue #7 — approved 4:30 story spine](https://github.com/pikos-apikos/pnyx.video/issues/7).
-5. [Approved English Phase Intertitles](./PHASE_INTERTITLES_EN.md).
-6. [Visual and Sound Bible](../canon/VISUAL_SOUND_BIBLE.md).
-7. [Disclosure Contract](../provenance/AI_DISCLOSURE.md).
+## Scope
 
-When two sources differ, the latest explicit human decision in Issue #36 controls.
+- Start from the Supercomputer's `PNYX_v2.5` timeline.
+- Correct the locked beats below and preserve approved material elsewhere.
+- Use only approved sources. Do not use Candidate filler to reach a duration.
+- Do not create dialogue, voices, interfaces, documents, music, or narrative footage.
+- Preserve the exact approved English phase intertitles.
+- The entire Phase 6 departure scene remains abandoned. Do not use any departure footage or farewell dialogue.
+- If an exact approved deterministic composite is unavailable, omit it and report the omission.
 
-## Scope of this pass
+## Mandatory v2.6 corrections
 
-This pass is an edit and deterministic-compositing pass.
+### 3 — THE PERSON WHO LOSES
 
-- Do not generate new narrative footage. The only newly created moving-image elements authorized in this pass are the deterministic phase intertitle cards defined in `PHASE_INTERTITLES_EN.md`.
-- Do not create replacement characters, voices, dialogue, interfaces, documents, music, or story beats.
-- Do not upscale yet.
-- Do not perform final color or audio mastering yet.
-- Do not promote a Candidate asset.
-- Do not reuse any Rejected, Superseded, Invalid, blocked, or technically failed asset.
-- Do not use unapproved Candidate B-roll to reach a target duration.
-- If approved material cannot reach 4:30 without repetition or padding, produce the strongest coherent shorter cut and report the exact duration shortfall.
+Use spoken native-audio Thanasis take `2f227a24-37b3-4dd5-891e-39675cc41cb2` (source plate `97e4a7bf-e917-4ba0-b943-c49aa8e830ed`).
 
-## Required narrative order
+Exact Greek: «Για εσάς είναι έργο. Για εμάς είναι ο μόνος ανοιχτός χώρος.»
 
-Before the civic loop begins, use approved introduction video `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` as a silent prelude. Remove its source audio completely for the full clip. Do not use its audio as room tone, a transition, or an underlay. This prelude does not replace the Eleni opening.
+English subtitle: “For you, it is a project. For us, it is the only open space.”
 
-Preserve this civic loop and its causal order:
+Do not use silent take `bd5b052f-fa59-4392-9003-3ac8221c67db` for this speaking beat.
 
-1. Use the existing approved Prologue introduction unchanged.
-2. Eleni receives the accident report and states the unresolved problem.
-3. Insert Phase 1 intertitle.
-4. Anna's clarification separates the observed problem from Eleni's first proposed solution. The intertitle's question of who is affected then leads to Myrto, who makes the direct access failure concrete.
-5. Insert Phase 2 intertitle.
-6. Evidence work exposes access, drainage, cost, uncertainty, and the less obvious loss of shared open space.
-7. Insert Phase 3 intertitle, then Thanasis gives that secondary loss a voice.
-8. Insert Phase 4 intertitle, then deliver the layered public briefing and dossier access.
-9. Insert Phase 5 intertitle, then public consultation modifies the plan. Include approved dialogue take `9bd30c09-d258-44d5-84e6-e311221acd07` only from its start through the exact out-point `00:08.662`; exclude all later audio and video.
-10. Immediately after that cut, use the complete silent hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5`. Thanasis's face remains unseen. Do not explain the emotion; add no narration or music. Continue only restrained natural courtyard ambience.
-11. Insert Phase 6 intertitle, then show the decision outcome while preserving Thanasis's dissent. The entire departure scene was removed from the film; do not include departure footage or farewell dialogue.
-12. Insert Phase 7 intertitle, then use this exact approved sequence: wet paused worksite `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771`; Anna's spoken accountability take `324b5b27-02ed-464e-b8b0-7849d86ac3c7`; natural-rain material detail `2d46cc51-a100-48d1-9894-7208827186a9` immediately after Anna.
-13. Insert Phase 8 intertitle. Use Myrto's completed-playground entrance take `09596bc2-5f1f-461f-abdf-694beb2bd8ae`. Immediately after it, use the complete silent six-second residual-defect record `197bcd61-eb5a-499f-be15-2dc4c72e51d3`. Preserve its one shutter tap, locked camera, single modest water patch, and absence of generated text. If an exact human-approved PNyX registration-confirmation asset and copy are available, composite them deterministically. If they are unavailable, omit the confirmation and report it as missing. Do not invent interface text or data.
-14. Insert Phase 9 intertitle, then show the six-month public account and reusable public memory.
-15. Insert the approved Epilogue intertitle. Do not add unapproved next-neighborhood footage.
-16. Continue to the approved final statement and disclosure cards required by the canon and disclosure contract.
+### 4 — THE PUBLIC BRIEFING
 
-Do not present PNyx as magically discovering Myrto or Thanasis. The edit must show the causal path from clarification to direct impact, then from consequences analysis to indirect loss.
+Use this exact order:
 
-Do not turn the film into a technical PNyX explainer.
+1. `e0b9d85a-3f0f-4bfb-9d51-ab18187d4b4f`
+2. `d4fff9fe-e12c-4299-9bbb-8a88c8621d68`
+3. `d99323a3-56c4-41a9-ac75-2ba437046201`
 
-## Mandatory introduction
+Exclude old overlay-looking takes `e7c733a6-9f24-4184-84c2-ea6c11638304` and `8b32c5e0-307a-42d1-a594-af9625fbfdbc`.
 
-| Function | Approved Higgsfield ID | Required use |
-|---|---|---|
-| Silent prelude | `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` | First image of the film. Remove the source audio completely for the full clip. Then continue to the approved Eleni opening. |
+### 5 — THE PUBLIC CONSULTATION
 
-## Mandatory phase intertitles
+Do not open on silent assembly take `15940a3a-0f92-41c8-8e5c-0059e7562308`.
 
-Use the exact approved copy in [`PHASE_INTERTITLES_EN.md`](./PHASE_INTERTITLES_EN.md).
+Use spoken consultation `9bd30c09-d258-44d5-84e6-e311221acd07` from its start through exact out-point `00:08.662`. Preserve native Greek audio and exclude all later picture and applause. Cut immediately to the complete silent hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5`.
 
-- Preserve the approved Prologue video unchanged; do not create a second Prologue card.
-- Create one 5–6 second card for each phase from 1 through 9 and one for the Epilogue.
-- Use a static black background and white text.
-- Composite text deterministically; do not use a generative model to render, translate, rewrite, or repair it.
-- Preserve wording, capitalization and punctuation exactly. Adjust only line wrapping for legibility.
-- Do not infer authorization for narration, dialogue, music, sound design, or new story footage from the text approvals.
+Thanasis's face remains unseen. Add no narration, explanatory cue, or music; restrained courtyard ambience may bridge the cut.
 
-## Mandatory replacement shots
+### 6 — THE DECISION
 
-Use these approved takes in place of the blocked beta material:
+Remove unrelated silent assembly/amended-proposal take `d17054a7-3257-42f3-b676-d4c42cb0aab8`. Add no silent assembly filler. After the Phase 6 intertitle, continue directly to Phase 7. Do not restore the departure scene.
 
-| Function | Approved Higgsfield ID | Required use |
-|---|---|---|
-| Eleni opening: parent report, pause, response | `b86170f5-2de3-4038-8072-a6452991c8bf` | Replace `bade1bbd…`, `c2c17ffb…`, and `18b7a08f…`. Preserve its native Greek audio. |
-| Café clarification: Anna asks, Eleni replies | `b6617847-e663-4538-98e8-3b2ca5384f0c` | Replace `9acabcbf…` and every rejected coordinator reverse angle. Preserve its native Greek audio. |
-| Myrto interview and wet-playground consequence | `fa7d131d-c964-4afb-857e-b4d33528dff1` | Preserve the intentional cut at approximately 6.33 seconds. Preserve its native Greek audio. |
-| Public-consultation dialogue exchange | `9bd30c09-d258-44d5-84e6-e311221acd07` | Use only through exact out-point `00:08.662`. Preserve native Greek audio before the cut. Exclude and never reuse the unrelated applause after the cut. |
-| Thanasis hands on playground wall | `d09e75e3-c251-4bed-9117-83628bb6f5e5` | Place the complete approximately six-second silent shot immediately after the consultation cut and before Phase 6. Preserve the unseen face and emotional ambiguity. No narration or music; only restrained courtyard ambience may bridge the cut. |
-| Phase 8 residual-defect record | `197bcd61-eb5a-499f-be15-2dc4c72e51d3` | Place the complete silent six-second take immediately after `09596bc2-5f1f-461f-abdf-694beb2bd8ae`. Preserve exactly one shutter tap, the locked camera and the single modest water patch. |
+### 7 — THE EXECUTION
 
-## Approved moving-image sources
+Approved unchanged. Preserve:
 
-Use the following sources when the corresponding beat is required:
+`d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → `2d46cc51-a100-48d1-9894-7208827186a9`.
 
-| Beat | Approved Higgsfield ID |
+### 8 — THE PLAYGROUND OPENS
+
+End Phase 8 with:
+
+`09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`.
+
+Use the full silent six-second defect take. Preserve one shutter tap, locked camera, one modest water patch, and no generated text.
+
+Move the current v2.5 final Phase 8 shot—the new-protagonists shot—into Phase 9. Move that exact timeline clip; do not substitute or regenerate it.
+
+### 9 — THE PUBLIC ACCOUNT / NEXT NEIGHBORHOOD
+
+Use:
+
+1. Existing six-month public-account/public-memory material, including `9ea93421-b936-4543-86b4-a09891ac9909`.
+2. The exact new-protagonists clip moved from the end of Phase 8.
+3. Existing next-neighborhood take `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`, used as-is.
+
+The existing `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` take is approved for this Phase 9 edit use. Do not generate a replacement. Preserve the approved Epilogue and final statement after this sequence.
+
+## Other source locks
+
+| Function | Approved source |
 |---|---|
-| Gate entry / Take B | Exact take UUID remains pending. Resolve it from Higgsfield history and Issue #8. Do not invent an ID or substitute another take. |
-| Evidence room | `d4fff9fe-e12c-4299-9bbb-8a88c8621d68` |
-| Anna prints dossier | `e7c733a6-9f24-4184-84c2-ea6c11638304` |
-| Eleni receives dossier-open notification | `8b32c5e0-307a-42d1-a594-af9625fbfdbc` |
-| Thanasis human-cost beat | `bd5b052f-fa59-4392-9003-3ac8221c67db` |
-| Public consultation | `15940a3a-0f92-41c8-8e5c-0059e7562308` |
-| Amended proposal decision | `d17054a7-3257-42f3-b676-d4c42cb0aab8` |
-| Wet paused worksite | `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` |
-| Anna deadline accountability — spoken | `324b5b27-02ed-464e-b8b0-7849d86ac3c7` |
-| Natural-rain material detail — immediately after Anna | `2d46cc51-a100-48d1-9894-7208827186a9` |
-| Myrto enters completed playground | `09596bc2-5f1f-461f-abdf-694beb2bd8ae` |
-| Residual water patch photographed once — immediately after Myrto | `197bcd61-eb5a-499f-be15-2dc4c72e51d3` |
-| Post-rain accountability | `bec2e4f1-a384-4572-941c-d8afc7385b1e` |
-| Six-month public-memory ending | `9ea93421-b936-4543-86b4-a09891ac9909` |
+| Silent opening prelude | `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd`; remove its complete source audio |
+| Eleni opening | `b86170f5-2de3-4038-8072-a6452991c8bf` |
+| Café clarification | `b6617847-e663-4538-98e8-3b2ca5384f0c` |
+| Myrto interview | `fa7d131d-c964-4afb-857e-b4d33528dff1`; preserve the intentional cut at about 6.33 s |
+| Phase 7 | `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → `2d46cc51-a100-48d1-9894-7208827186a9` |
+| Phase 8 ending | `09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3` |
+| Phase 9 public memory | `9ea93421-b936-4543-86b4-a09891ac9909` |
 
-Use the repository manifest and issues to verify status before using every source. If a listed source is unavailable, report it as missing. Do not replace it automatically.
+## Prohibited in v2.6
 
-## Prohibited sources
+Exclude `bd5b052f-fa59-4392-9003-3ac8221c67db` from the Phase 3 speaking beat; `e7c733a6-9f24-4184-84c2-ea6c11638304`; `8b32c5e0-307a-42d1-a594-af9625fbfdbc`; `15940a3a-0f92-41c8-8e5c-0059e7562308`; `d17054a7-3257-42f3-b676-d4c42cb0aab8`; `8f326641-7fd5-48f7-ae7b-f5abce997140`; `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236`; every departure-scene attempt; and every Rejected, Superseded, Invalid, blocked, or technically failed manifest source.
 
-At minimum, exclude:
+Do not enumerate individual rejected departure attempts. The aggregate production record is sufficient.
 
-- `bade1bbd-8bf8-4993-89c9-1ec1afea4ce7`
-- `9acabcbf-b95b-46d1-8e61-a7c62d80db3d`
-- `18b7a08f-ea77-4614-b695-da3fba1950d7`
-- `c2c17ffb-3d01-4427-9400-ba6c18978c06`
-- `d9987d66-8ddc-46e8-82b6-72ebe68a26f1`
-- `80312fb1-96fe-42ca-b69d-ef79184d1267`
-- `a6906941-0177-4546-9558-ce285150ce63`
-- `5e45dbe7-93cb-4d36-8979-8ad81744077d`
-- `8f326641-7fd5-48f7-ae7b-f5abce997140` — superseded silent Anna accountability take
-- `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236` — superseded rain-detail take with implausible pallet-edge drop
-- every detached Greek TTS asset listed as Rejected in Issue #37; this prohibition applies to that batch, not to Gemini Omni Flash native-audio video generation
-- the public-memory photo insert `8f8c8b9c-66cc-4fca-a9fb-77d7bb63fa5c`
-- the next-neighbourhood coda `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`
+## Final disclosure
 
-The Phase 6 departure scene was abandoned after seven generated attempts. Do not use any departure footage or farewell dialogue. The individual attempts remain in Higgsfield and are intentionally not enumerated here.
+The final on-film disclosure MUST appear in English and reproduce this text exactly:
 
-Treat all other post-frontier videos in Issue #37 as unapproved Candidates. Do not include them in this pass.
+> This film is a work of speculative documentary. Its characters and events are fictional composites. It depicts a possible public reality, not an existing administrative process or a documented event.
 
-## Greek speech-generation rule
+Do not substitute the earlier Greek version.
 
-For any new spoken-Greek shot that Yiannis explicitly authorizes:
+## Technical treatment
 
-- use **Gemini Omni Flash**;
-- generate the Greek voice and visible lipsync together as native audio inside the same video render;
-- do not generate a detached TTS file and apply post-hoc lipsync;
-- do not reuse the rejected detached Greek TTS batch from Issue #37.
+- 1280×720, 24 fps; H.264 review export; AAC stereo, 48 kHz.
+- Observational documentary rhythm; restrained cuts; natural daylight; no glossy advertising grade.
+- Diegetic sound leads. No inspirational score or promotional transitions.
+- No final upscale, final color master, or publication in this pass.
 
-This rule defines the approved method. It does not authorize new footage or new dialogue in this edit pass.
+## Required outputs
 
-## Dialogue and subtitles
+1. `PNYX_v2.6_supercomputer_candidate.mp4`
+2. `PNYX_v2.6_edit_report.md`
+3. `PNYX_v2.6_checksums.txt`
 
-Preserve native Greek audio from the approved dialogue takes. Do not replace these approved native-audio tracks. For `9bd30c09-d258-44d5-84e6-e311221acd07`, preserve audio only through `00:08.662` and exclude everything after that point.
-
-Embed concise English subtitles for the spoken lines:
-
-- Off-screen parent: “A child fell again where the surface has lifted.”
-- Eleni: “I don't know exactly what needs to be done. I know it can't stay like this.”
-- Anna: “What exactly is the problem?”
-- Eleni: “A new playground.”
-- Myrto: “To be able to get in after the rain.”
-- Thanasis: “Do not close the entire space at once.”
-- Eleni: “But then it will take longer.”
-- Myrto: “And where will the young children play?”
-- Anna's new exact Greek line is «Η αρχική προθεσμία ήταν υπερβολικά αισιόδοξη.» Preserve its native audio. Its exact English subtitle remains a human approval item; do not invent or silently lock a translation.
-
-Do not add narration or additional dialogue. Preserve silence after difficult statements.
-
-## Deterministic interface compositing
-
-Do not ask a generative model to recreate Greek text.
-
-- Composite the approved dossier interface `b8c562bf-07ca-4217-8f89-23449d0d4a43` into the Anna dossier scene where required.
-- Composite the approved notification interface `82589152-e17d-4b96-af37-32652bbf760b` into the Eleni notification scene.
-- Preserve the exact approved Greek copy recorded in Issue #12.
-- Keep interfaces quiet, legible, and physically attached to the existing screens.
-- For the Phase 8 residual-defect take `197bcd61-eb5a-499f-be15-2dc4c72e51d3`, use only an exact human-approved PNyX registration-confirmation asset and exact approved copy. If either is unavailable, omit the confirmation and list it as missing in the edit report.
-- Do not add floating UI, holograms, voice-command interaction, or new data.
-
-## Image and sound treatment
-
-Follow the Visual and Sound Bible:
-
-- 24 fps.
-- Observational documentary rhythm.
-- Fine 35mm grain and restrained halation.
-- Natural Greek daylight and open shadow detail.
-- No glossy advertising grade.
-- Diegetic sound leads.
-- Exception: the approved introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` must remain completely silent; remove its entire source track.
-- The approved hands-on-wall bridge `d09e75e3-c251-4bed-9117-83628bb6f5e5` has no native audio. Carry only restrained natural courtyard ambience from the preceding consultation; add no narration, explanatory sound cue or music.
-- No inspirational piano.
-- No new score in this pass unless an already approved music asset exists.
-- Preserve the original room tone around native dialogue.
-- Use clean transitions and restrained cuts. Do not use promotional transitions or fast techno montage.
-
-## Ending
-
-Use approved public-memory take `9ea93421-b936-4543-86b4-a09891ac9909` for Phase 9.
-
-After it, insert the approved **EPILOGUE — THE NEXT NEIGHBORHOOD** intertitle from `PHASE_INTERTITLES_EN.md`. Do not place unapproved next-neighborhood Candidate footage after the card; in particular, `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` remains prohibited.
-
-Then add the approved final statement and an end card that reproduces the required disclosure from `provenance/AI_DISCLOSURE.md` exactly:
-
-> Η ταινία είναι έργο speculative documentary. Οι χαρακτήρες και τα γεγονότα είναι μυθοπλαστικές συνθέσεις. Απεικονίζει μία πιθανή δημόσια πραγματικότητα και όχι υπαρκτή διοικητική διαδικασία ή καταγεγραμμένο γεγονός.
-
-Do not invent contributor names or production claims. Use only verified repository provenance.
-
-## Review export
-
-Create:
-
-1. `PNYX_v2.4_supercomputer_candidate.mp4`
-   - H.264
-   - 1280×720
-   - 24 fps
-   - AAC stereo, 48 kHz
-   - no final upscale
-2. `PNYX_v2.4_edit_report.md`
-   - exact source IDs in timeline order;
-   - confirm that the introduction source audio was removed for the full clip;
-   - source in/out timecodes;
-   - final duration;
-   - every deterministic composite, including exact intertitle in/out timecodes;
-   - confirm placement of `197bcd61-eb5a-499f-be15-2dc4c72e51d3` immediately after `09596bc2-5f1f-461f-abdf-694beb2bd8ae`;
-   - state whether the Phase 8 PNyX registration confirmation was composited or omitted because exact approved copy/assets were unavailable;
-   - confirmation that every intertitle matches `PHASE_INTERTITLES_EN.md` exactly;
-   - subtitle text and timing;
-   - missing approved assets;
-   - duration shortfall from 4:30;
-   - any deviation from this handoff.
-3. `PNYX_v2.4_checksums.txt`
-   - SHA-256 for every delivered file.
+The report must list exact source IDs and in/out points; confirm every correction in Phases 3–9; identify the exact v2.5 clip moved from Phase 8 to Phase 9; confirm that `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3` was reused as-is; state final runtime and any shortfall from 4:30; confirm no unapproved padding; list subtitle timing, omitted composites, missing assets, and deviations; and confirm the English disclosure verbatim.
 
 ## Human gate
 
-Stop after producing the Candidate and report.
-
-Do not:
-
-- declare the cut final;
-- approve the edit;
-- upscale it;
-- publish it;
-- submit it to AAIFF;
-- alter the repository;
-- generate replacement footage.
-
-Yiannis retains the decisions about edit order, trims, pacing, sound, subtitles, disclosure presentation, and the final master.
+Stop after the Candidate, report, and checksums. Do not declare the cut final, approve it, upscale it, publish it, submit it, merge repository changes, or generate replacement footage. Yiannis retains the final edit and master decisions.
