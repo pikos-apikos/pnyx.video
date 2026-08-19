@@ -182,3 +182,15 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Superseded rain-detail take:** `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236`; its emphasized pallet-edge drop had implausible motion and must not return to the edit.
 - **Canonical Phase 7 order:** `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → `2d46cc51-a100-48d1-9894-7208827186a9`.
 - **Evidence:** Yiannis explicitly approved the two remakes on 2026-08-18 and requested that the decisions be recorded in GitHub.
+
+## 2026-08-19 — Phase 8 residual-defect record
+
+- **Approved canonical scene plate:** `c200be3a-e2a3-4248-a316-0352a7f35027`.
+- **Approved canonical video take:** `197bcd61-eb5a-499f-be15-2dc4c72e51d3`.
+- **Model/output:** Seedance 2.0, 6 seconds, 1280×720, 16:9, silent.
+- **Canonical action:** one restrained locked shot; the visible finger taps the existing shutter control exactly once.
+- **Exact placement:** immediately after Myrto passes through the completed entrance in `09596bc2-5f1f-461f-abdf-694beb2bd8ae`.
+- **Interface rule:** no generated PNyX interface or text enters canon. Composite the registration confirmation deterministically in post-production.
+- **Water continuity:** preserve the single small residual water patch as a modest documented defect; do not enlarge or dramatize it.
+- **Evidence:** Yiannis explicitly approved the completed video Candidate on 2026-08-19.
+- **Record policy:** individual rejected crowd/bench attempts are not enumerated.
