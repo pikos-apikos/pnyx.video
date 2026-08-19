@@ -1,4 +1,4 @@
-# PNyX v2.9 source locks
+# PNyx v2.9 source locks
 
 This file records the current human source placement for the v2.9 review Candidate. Approval of a source and placement of a source are separate facts, and current placement may supersede an earlier human-approved edit arrangement.
 
@@ -12,8 +12,14 @@ If the declared specialist is unavailable, state that explicitly and do not clai
 
 ## Prelude
 
-- `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` — approved silent introduction; play at `0.6×`.
-- `c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus; **Candidate only, not Approved** under Issue #37. Do not include in v2.9 unless Yiannis explicitly approves it and that approval is recorded in Issue #36.
+Use exactly:
+
+1. `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` — approved silent introduction; play at `0.6×`.
+2. `c3b63365-e577-4590-a554-dccd18afadbc` — **Approved** Eleni silent-on-bus take. Yiannis explicitly promoted this former Issue #37 Candidate on 2026-08-20. Preserve it immediately after the introduction and before Phase 1.
+
+Canonical opening rhythm:
+
+`9caf49b2…` at `0.6×`, silent → `c3b63365…` → Phase 1 intertitle / Phase 1.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
