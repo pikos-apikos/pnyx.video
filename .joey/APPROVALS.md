@@ -190,7 +190,7 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Model/output:** Seedance 2.0, 6 seconds, 1280×720, 16:9, silent.
 - **Canonical action:** one restrained locked shot; the visible finger taps the existing shutter control exactly once.
 - **Exact placement:** immediately after Myrto passes through the completed entrance in `09596bc2-5f1f-461f-abdf-694beb2bd8ae`.
-- **Interface rule:** no generated PNyX interface or text enters canon. Composite the registration confirmation deterministically in post-production.
+- **Interface rule:** no generated PNyx interface or text enters canon. Composite the registration confirmation deterministically in post-production.
 - **Water continuity:** preserve the single small residual water patch as a modest documented defect; do not enlarge or dramatize it.
 - **Evidence:** Yiannis explicitly approved the completed video Candidate on 2026-08-19.
 - **Record policy:** individual rejected crowd/bench attempts are not enumerated.
@@ -209,3 +209,12 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Disclosure:** “This film is a work of speculative documentary. Its characters and events are fictional composites. It depicts a possible public reality, not an existing administrative process or a documented event.”
 - **Next deliverable:** `PNYX_v2.6_supercomputer_candidate.mp4`, still a review Candidate.
 - **Evidence:** Yiannis's explicit v2.5 review and request for a pull request for the Supercomputer.
+
+## 2026-08-20 — Eleni silent-on-bus promotion for v2.9
+
+- **Approved video take:** `c3b63365-e577-4590-a554-dccd18afadbc`.
+- **Previous state:** Candidate used in beta, as recorded in Issue #37.
+- **Current state:** Approved for v2.9 edit use.
+- **Canonical placement:** immediately after silent introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` played at `0.6×`, before Phase 1.
+- **Evidence:** Yiannis explicitly said “εγκρίνω το c3b63365” on 2026-08-20; authoritative promotion recorded in Issue #36.
+- **Boundary:** this approval does not authorize any new generation, dialogue, UI, upscale, publication, or final-cut promotion.
