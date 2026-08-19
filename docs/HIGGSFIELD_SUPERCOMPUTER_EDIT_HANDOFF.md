@@ -51,7 +51,7 @@ Preserve this civic loop and its causal order:
 10. Immediately after that cut, use the complete silent hands-on-wall take `d09e75e3-c251-4bed-9117-83628bb6f5e5`. Thanasis's face remains unseen. Do not explain the emotion; add no narration or music. Continue only restrained natural courtyard ambience.
 11. Insert Phase 6 intertitle, then show the decision outcome while preserving Thanasis's dissent. The entire departure scene was removed from the film; do not include departure footage or farewell dialogue.
 12. Insert Phase 7 intertitle, then use this exact approved sequence: wet paused worksite `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771`; Anna's spoken accountability take `324b5b27-02ed-464e-b8b0-7849d86ac3c7`; natural-rain material detail `2d46cc51-a100-48d1-9894-7208827186a9` immediately after Anna.
-13. Insert Phase 8 intertitle, then open the playground without ceremony while preserving disagreement and defects.
+13. Insert Phase 8 intertitle. Use Myrto's completed-playground entrance take `09596bc2-5f1f-461f-abdf-694beb2bd8ae`. Immediately after it, use the complete silent six-second residual-defect record `197bcd61-eb5a-499f-be15-2dc4c72e51d3`. Preserve its one shutter tap, locked camera, single modest water patch, and absence of generated text. If an exact human-approved PNyX registration-confirmation asset and copy are available, composite them deterministically. If they are unavailable, omit the confirmation and report it as missing. Do not invent interface text or data.
 14. Insert Phase 9 intertitle, then show the six-month public account and reusable public memory.
 15. Insert the approved Epilogue intertitle. Do not add unapproved next-neighborhood footage.
 16. Continue to the approved final statement and disclosure cards required by the canon and disclosure contract.
@@ -88,6 +88,7 @@ Use these approved takes in place of the blocked beta material:
 | Myrto interview and wet-playground consequence | `fa7d131d-c964-4afb-857e-b4d33528dff1` | Preserve the intentional cut at approximately 6.33 seconds. Preserve its native Greek audio. |
 | Public-consultation dialogue exchange | `9bd30c09-d258-44d5-84e6-e311221acd07` | Use only through exact out-point `00:08.662`. Preserve native Greek audio before the cut. Exclude and never reuse the unrelated applause after the cut. |
 | Thanasis hands on playground wall | `d09e75e3-c251-4bed-9117-83628bb6f5e5` | Place the complete approximately six-second silent shot immediately after the consultation cut and before Phase 6. Preserve the unseen face and emotional ambiguity. No narration or music; only restrained courtyard ambience may bridge the cut. |
+| Phase 8 residual-defect record | `197bcd61-eb5a-499f-be15-2dc4c72e51d3` | Place the complete silent six-second take immediately after `09596bc2-5f1f-461f-abdf-694beb2bd8ae`. Preserve exactly one shutter tap, the locked camera and the single modest water patch. |
 
 ## Approved moving-image sources
 
@@ -106,6 +107,7 @@ Use the following sources when the corresponding beat is required:
 | Anna deadline accountability — spoken | `324b5b27-02ed-464e-b8b0-7849d86ac3c7` |
 | Natural-rain material detail — immediately after Anna | `2d46cc51-a100-48d1-9894-7208827186a9` |
 | Myrto enters completed playground | `09596bc2-5f1f-461f-abdf-694beb2bd8ae` |
+| Residual water patch photographed once — immediately after Myrto | `197bcd61-eb5a-499f-be15-2dc4c72e51d3` |
 | Post-rain accountability | `bec2e4f1-a384-4572-941c-d8afc7385b1e` |
 | Six-month public-memory ending | `9ea93421-b936-4543-86b4-a09891ac9909` |
 
@@ -170,6 +172,7 @@ Do not ask a generative model to recreate Greek text.
 - Composite the approved notification interface `82589152-e17d-4b96-af37-32652bbf760b` into the Eleni notification scene.
 - Preserve the exact approved Greek copy recorded in Issue #12.
 - Keep interfaces quiet, legible, and physically attached to the existing screens.
+- For the Phase 8 residual-defect take `197bcd61-eb5a-499f-be15-2dc4c72e51d3`, use only an exact human-approved PNyX registration-confirmation asset and exact approved copy. If either is unavailable, omit the confirmation and list it as missing in the edit report.
 - Do not add floating UI, holograms, voice-command interaction, or new data.
 
 ## Image and sound treatment
@@ -217,6 +220,8 @@ Create:
    - source in/out timecodes;
    - final duration;
    - every deterministic composite, including exact intertitle in/out timecodes;
+   - confirm placement of `197bcd61-eb5a-499f-be15-2dc4c72e51d3` immediately after `09596bc2-5f1f-461f-abdf-694beb2bd8ae`;
+   - state whether the Phase 8 PNyX registration confirmation was composited or omitted because exact approved copy/assets were unavailable;
    - confirmation that every intertitle matches `PHASE_INTERTITLES_EN.md` exactly;
    - subtitle text and timing;
    - missing approved assets;
