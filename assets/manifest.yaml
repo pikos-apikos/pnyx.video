@@ -451,7 +451,7 @@ assets:
   provenance_audit: issue-37
 - asset_id: video.post-frontier.eleni-dawn-bus
   stage: video
-  status: candidate
+  status: approved_external
   production_use: 'Eleni on dawn bus'
   higgsfield_job: c3b63365-e577-4590-a554-dccd18afadbc
   dimensions: 1280x720
