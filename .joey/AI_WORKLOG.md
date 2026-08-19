@@ -83,8 +83,14 @@ A later review of PR #52 identified four blockers.
 
 1. **Dropped approved Phase 9 beat:** restored `bec2e4f1-a384-4572-941c-d8afc7385b1e`, the approved post-rain accountability shot.
 2. **Stale unresolved intermediate:** resolved. `9ea93421-b936-4543-86b4-a09891ac9909` is itself the approved public-memory / new-protagonists bridge with the two unnamed adults. There is no second unknown intermediate UUID.
-3. **Bus approval:** `c3b63365-e577-4590-a554-dccd18afadbc` remains Issue #37 Candidate material. It is not promoted by PR #52 and must stay out of v2.9 unless Yiannis explicitly approves it in Issue #36.
+3. **Bus approval:** review correctly identified that `c3b63365-e577-4590-a554-dccd18afadbc` was still only Issue #37 Candidate material at that moment. Yiannis then explicitly promoted it on 2026-08-20 with “εγκρίνω το c3b63365”. It is now Approved for v2.9 edit use.
 4. **Provenance accuracy:** corrected. The six-shot Phase 4 and v2.8 Phase 2 treatment were explicitly human-authorized before being superseded by the current v2.9 revision.
+
+Current opening source lock:
+
+`9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` at `0.6×`, silent
+→ `c3b63365-e577-4590-a554-dccd18afadbc`
+→ Phase 1 intertitle / Phase 1.
 
 Current Phase 9 source lock:
 
@@ -95,6 +101,7 @@ Current Phase 9 source lock:
 ### Other locked decisions carried into v2.9
 
 - Prelude `9caf49b2…` plays at `0.6×` for non-native-English reading comfort.
+- Approved bus take `c3b63365…` immediately follows the prelude.
 - Phase 5 remains `9bd30c09…` through exact `00:08.662` → `d09e75e3…`; all later applause is prohibited.
 - Phase 7 remains `d7bc4cb6… → 324b5b27… → 2d46cc51…`.
 - Phase 8 remains `09596bc2… → 197bcd61…`.
@@ -105,11 +112,12 @@ Current Phase 9 source lock:
 
 **Provenance is chronological, not retroactive.** When the human changes a decision, preserve the fact that the previous decision was valid at the time and record the newer decision as superseding it.
 
+**Candidate presence is not approval.** A beta may contain Candidate material; only explicit human promotion changes state. The bus take demonstrates the correct sequence: Candidate in Issue #37 → blocker surfaced in review → explicit human approval → Approved v2.9 placement.
+
 **Specialist-skill loading is a precondition.** Before authoring a production prompt, read `skills/manifest.yaml`, follow its load order, and load the named specialist. Joey owns production order/state/provenance; the specialist owns prompt grammar. For video, the manifest names `cinema-director` (legacy `cinema-worldbuilder-pro-2.0`). If unavailable, state that limitation instead of claiming specialist-compliant grammar.
 
-### Unresolved human gates
+### Unresolved infrastructure / provenance items
 
-- `c3b63365-e577-4590-a554-dccd18afadbc` — bus take remains Candidate pending explicit human approval.
 - Gate-entry Take B UUID remains separately unresolved in existing repository state.
 - `cinema-director/SKILL.md` is declared by the repository manifest but was not exposed by the current repository/harness during this session.
 
