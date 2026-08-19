@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Record the current v2.9 human edit revision, the decision history that preceded it, the newly approved Phase 6 material, and the Phase 9 source recovery found during PR review.
+Record the current v2.9 human edit revision, the decision history that preceded it, the newly approved Phase 6 material, the Phase 9 source recovery found during PR review, and the later explicit approval of the Eleni silent-on-bus take.
 
 This document is provenance. It must preserve the fact that earlier arrangements were explicitly human-authorized even when the latest human decision supersedes them.
 
@@ -92,7 +92,7 @@ The older still `fc781492-37cc-4814-9429-793f4dfae6f5` remains historical approv
 
 The abandoned departure/farewell sequence remains excluded.
 
-## Prelude timing and bus approval boundary
+## Prelude timing and Eleni bus approval
 
 Approved introduction:
 
@@ -100,9 +100,21 @@ Approved introduction:
 
 Playback is **0.6×**. The source has large English text blocks and little meaningful motion; the timing change exists for comfortable reading by non-native English viewers.
 
-`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus — appears in Issue #37 as **Candidate; used in beta**, not Approved.
+`c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus — was originally recorded in Issue #37 as **Candidate; used in beta**.
 
-The fact that it appeared in an earlier proposed sequence does not promote it. For v2.9 it remains behind an explicit human approval gate and must not be source-locked into the cut until that approval is recorded in Issue #36.
+During PR #52 review, that historical state was correctly surfaced as an approval blocker. Yiannis then explicitly promoted the take on 2026-08-20 with:
+
+> εγκρίνω το c3b63365
+
+The active v2.9 state is therefore **Approved for edit use**.
+
+Canonical opening placement:
+
+`9caf49b2…` at `0.6×`, silent
+→ `c3b63365…`
+→ Phase 1 intertitle / Phase 1.
+
+This is a real state transition, not a reinterpretation of the old beta presence as prior approval.
 
 ## Phase 5 preserved correction
 
@@ -161,6 +173,8 @@ Future reconciliation must distinguish:
 Changing one does not implicitly change the others.
 
 Provenance must never rewrite a prior explicit human approval as an agent accident simply because the human later changes the edit.
+
+A historical Candidate does not become Approved merely because it appeared in a beta; explicit promotion remains a human gate.
 
 ## Specialist-skill loading guardrail
 
