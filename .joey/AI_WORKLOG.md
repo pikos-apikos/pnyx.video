@@ -92,29 +92,15 @@ Current opening source lock:
 → `c3b63365-e577-4590-a554-dccd18afadbc`
 → Phase 1 intertitle / Phase 1.
 
-Current Phase 9 source lock:
-
-`bec2e4f1-a384-4572-941c-d8afc7385b1e`
-→ `9ea93421-b936-4543-86b4-a09891ac9909`
-→ `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`.
-
-### Other locked decisions carried into v2.9
-
-- Prelude `9caf49b2…` plays at `0.6×` for non-native-English reading comfort.
-- Approved bus take `c3b63365…` immediately follows the prelude.
-- Phase 5 remains `9bd30c09…` through exact `00:08.662` → `d09e75e3…`; all later applause is prohibited.
-- Phase 7 remains `d7bc4cb6… → 324b5b27… → 2d46cc51…`.
-- Phase 8 remains `09596bc2… → 197bcd61…`.
-
 ### Workflow rules learned
 
 **A correction list is not a source map.** Every future Supercomputer handoff/report should include the complete timeline.
 
 **Provenance is chronological, not retroactive.** When the human changes a decision, preserve the fact that the previous decision was valid at the time and record the newer decision as superseding it.
 
-**Candidate presence is not approval.** A beta may contain Candidate material; only explicit human promotion changes state. The bus take demonstrates the correct sequence: Candidate in Issue #37 → blocker surfaced in review → explicit human approval → Approved v2.9 placement.
+**Candidate presence is not approval.** A beta may contain Candidate material; only explicit human promotion changes state.
 
-**Specialist-skill loading is a precondition.** Before authoring a production prompt, read `skills/manifest.yaml`, follow its load order, and load the named specialist. Joey owns production order/state/provenance; the specialist owns prompt grammar. For video, the manifest names `cinema-director` (legacy `cinema-worldbuilder-pro-2.0`). If unavailable, state that limitation instead of claiming specialist-compliant grammar.
+**Specialist-skill loading is a precondition.** Before authoring a production prompt, read `skills/manifest.yaml`, follow its load order, and load the named specialist. Joey owns production order/state/provenance; the specialist owns prompt grammar.
 
 ### Unresolved infrastructure / provenance items
 
@@ -123,4 +109,66 @@ Current Phase 9 source lock:
 
 ### Human gate
 
-This PR prepares the v2.9 source-of-truth. It does not approve a final cut or authorize publication, upscale, or festival submission.
+PR #52 prepared the first v2.9 source-of-truth. It did not approve a final cut or authorize publication, upscale, or festival submission.
+
+---
+
+## 2026-08-20 — v2.9 final correction after first assembled review
+
+**Branch:** `agent/v2.9-final-correction`
+
+### Human trigger
+
+After reviewing the assembled v2.9 direction, Yiannis issued a new explicit correction set. These decisions supersede the relevant placements recorded by PR #52 without rewriting their historical validity.
+
+### Subtitle correction
+
+`324b5b27-02ed-464e-b8b0-7849d86ac3c7` keeps its existing Greek audio. The missing English subtitle must be added for the human-transcribed line:
+
+«Η αρχική προθεσμία ήταν αρκετά αισιόδοξη.»
+
+Subtitle:
+
+“The initial deadline was quite optimistic.”
+
+### Remove standalone interface/frame
+
+`b8c562bf-07ca-4217-8f89-23449d0d4a43` must not appear in the active v2.9 timeline as a standalone frame, still, insert, or overlay. Its historical asset approval remains recorded.
+
+### Phase 8 / Phase 9 revision
+
+Phase 8 now contains only:
+
+`09596bc2-5f1f-461f-abdf-694beb2bd8ae`
+
+Phase 9 now contains only:
+
+`197bcd61-eb5a-499f-be15-2dc4c72e51d3`
+
+`197bcd61…` therefore moves from Phase 8 to Phase 9.
+
+Remove from the active v2.9 cut:
+
+- `bec2e4f1-a384-4572-941c-d8afc7385b1e`
+- `9ea93421-b936-4543-86b4-a09891ac9909`
+- `43f4a3c7-dfdc-4576-8cfe-113b9b6564d3`
+
+These remain historical approved/used assets where applicable; their current placement is removed.
+
+### Epilogue revision
+
+Current Epilogue source order:
+
+`4d665b7c-be96-40db-a79e-b0dd1518fb24`
+→ `78adc280-3a94-4f58-bb4b-6a9f7b44a71f`
+→ black.
+
+Over black, Eleni's existing voice returns with only:
+
+«Δεν ξέρω τι ακριβώς πρέπει να γίνει.»
+
+Use audio-only from existing source `18b7a08f-ea77-4614-b695-da3fba1950d7`. This reuse is explicitly authorized for the Epilogue. Do not show the old picture and do not regenerate or clone the voice.
+
+### Human gate
+
+This correction changes the v2.9 review Candidate map. It still does not authorize final publication, upscale, submission, or new generation.
