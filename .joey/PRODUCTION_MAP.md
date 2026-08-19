@@ -57,7 +57,7 @@ GitHub issue decisions override this mirror when they differ.
 - Approved Phase 7 execution sequence: `d7bc4cb6-ea2e-48e4-af51-a991ebbeb771` → spoken Anna accountability `324b5b27-02ed-464e-b8b0-7849d86ac3c7` → natural-rain material detail `2d46cc51-a100-48d1-9894-7208827186a9`.
 - Approved Phase 8 residual-defect record: plate `c200be3a-e2a3-4248-a316-0352a7f35027` → silent 6-second take `197bcd61-eb5a-499f-be15-2dc4c72e51d3`; place it immediately after Myrto enters through the completed gate in `09596bc2-5f1f-461f-abdf-694beb2bd8ae`. Composite the PNyX registration confirmation deterministically.
 - Supersession lock: silent Anna take `8f326641-7fd5-48f7-ae7b-f5abce997140` and earlier rain detail `2c6420fe-5eec-4a15-a9d6-7d25b0ec4236` must not enter the final edit.
-- Immediate creative frontier: assemble the next rough-cut Candidate with the approved hands-on-wall bridge, revised Phase 6 intertitle and locked Phase 7 execution sequence.
+- Immediate creative frontier: assemble `PNYX_v2.4_supercomputer_candidate.mp4` with the approved hands-on-wall bridge, revised Phase 6 intertitle, locked Phase 7 execution sequence, and Phase 8 order `09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`. Any unavailable exact subtitle or deterministic interface asset must be omitted and reported; it must not be invented.
 
 ## Supercomputer edit handoff
 
