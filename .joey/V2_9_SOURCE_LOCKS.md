@@ -2,6 +2,14 @@
 
 This file records the explicit human source placement for the v2.9 review Candidate. It is intentionally timeline-oriented: approval of a source and placement of a source are separate facts.
 
+## Prompt-authoring precondition
+
+Before authoring a production prompt, read `skills/manifest.yaml`, follow its declared load order, and load the specialist skill for the requested stage.
+
+For video, the current manifest names `cinema-director` (legacy name `cinema-worldbuilder-pro-2.0`). Joey owns workflow/state/provenance; the video specialist owns prompt grammar.
+
+If the declared specialist is unavailable, state that explicitly and do not claim the prompt follows specialist grammar.
+
 ## Prelude
 
 - `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` — approved silent introduction; play at `0.6×`.
