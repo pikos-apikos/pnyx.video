@@ -28,9 +28,12 @@ A newer human edit decision may supersede an earlier human-approved placement wi
 
 ## Opening prelude
 
+Use exactly:
+
 1. `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` — silent introduction at **0.6× playback speed**.
 2. `c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus.
-3. Phase 1 intertitle.
+3. `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0` — Myrto at the playground gate; completed 8-second Seedance 2.0 take.
+4. Phase 1 intertitle.
 
 For the introduction:
 
@@ -39,6 +42,8 @@ For the introduction:
 - no optical-flow invention;
 - no freeze padding;
 - no regenerated or rewritten text.
+
+For `69e21a43…`, use the existing completed take as-is. Do not regenerate or replace it.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
@@ -54,9 +59,11 @@ Preserve the intentional Myrto edit at approximately 6.33 s.
 
 Use exactly:
 
-1. `e0b9d85a-3f0f-4bfb-9d51-ab18187d4b4f`
+1. `e0b9d85a-3f0f-4bfb-9d51-ab18187d4b4f` — use only from start through exact out-point `00:00:08:00`.
 2. `d4fff9fe-e12c-4299-9bbb-8a88c8621d68`
 3. `d99323a3-56c4-41a9-ac75-2ba437046201`
+
+Do not use picture or audio from `e0b9d85a…` after `00:00:08:00`.
 
 Do not use the old v2.8 still-evidence replacement treatment.
 
@@ -236,6 +243,8 @@ Explicitly confirm:
 
 - intro `9caf49b2…` at 0.6× and silent;
 - bus `c3b63365…` immediately after it;
+- `69e21a43…` immediately after the bus and before the Phase 1 intertitle;
+- `e0b9d85a…` exact out-point `00:00:08:00`;
 - `b8c562bf…` absent from the active cut;
 - Phase 2 exact three-shot order;
 - Phase 4 exact three-shot order;
