@@ -1,5 +1,11 @@
 # Provenance and Disclosure Contract
 
+## Festival-specific eligibility overlay
+
+This is the general project provenance contract. It is not, by itself, a festival eligibility contract.
+
+For a **Higgsfield Global Film Festival 2026** submission, read [`docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md`](../docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md). That Festival is stricter than the general project rules below: an Entry may not contain the likeness or reproduced voice of any identifiable real person **even with consent**, and all final audio must be AI-generated. Those festival-specific rules override any consent/licensing path described below for that submission target.
+
 ## Public truthfulness
 
 The film must never be presented as archival evidence of an existing municipality, citizen vote, public project, or deployed PNyX institution.
@@ -25,6 +31,8 @@ Record the asset ID, scene and shot, creation date, human author/approver, model
 - Child characters use invented identity and appropriately licensed performer/reference material.
 - Never generate a real public official making statements they did not make.
 
+For the Higgsfield Global Film Festival 2026, the stricter overlay applies: no identifiable real-person likeness or reproduced voice is eligible even with consent, and no real child or real-child voice may appear.
+
 ## Civic-data integrity
 
 - Costs, delays, vote totals, and audit findings in this pilot are fictional production data.
@@ -43,3 +51,5 @@ Production-specific characters, dialogue, shot prompts, and generated assets rem
 - Every synthetic voice has a recorded authorization basis.
 - The film distinguishes present fact, PNyX proposal, and fictional future depiction.
 - The public production manifest is exported with the release.
+
+For a Higgsfield Global Film Festival 2026 release, also satisfy every hard gate in the festival-specific overlay before submission.
