@@ -1,5 +1,9 @@
 # Visual and Sound Bible
 
+## Festival-specific eligibility note
+
+This is the general creative bible. For a **Higgsfield Global Film Festival 2026** submission, also read [`docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md`](../docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md). The Festival requires every final audio element to be AI-generated. Any field-recorded, stock, licensed, human-recorded or otherwise non-AI audio option in this general bible is ineligible for that submission target unless replaced by compliant AI-generated audio with provenance.
+
 ## Camera
 
 - Native 24fps, 180-degree shutter, 1/48 exposure.
@@ -62,6 +66,8 @@ Clearly improved but not pristine: accessible continuous route, mixed play equip
 - No inspirational piano under deliberation.
 - Optional score appears only in the final reuse sequence: sparse acoustic and electronic texture built from field-recorded mechanical and human sounds.
 - Silence after difficult statements is preserved.
+
+For the Higgsfield Global Film Festival 2026, the creative sound intentions above remain valid only when the actual final audio is AI-generated and auditable under the festival overlay. In particular, do not use literal field recordings, human-recorded ambience, stock audio or human-composed music in that Entry.
 
 ## Editing rhythm
 
