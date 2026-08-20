@@ -10,7 +10,10 @@ PNyX is not explained as a technical platform. It is revealed through what peopl
 
 ## Current status
 
-**Production in progress under a real deadline.** AAIFF 2026 submissions close on **31 August 2026**. The internal safe-submission target is **29 August**, leaving two contingency days.
+**Production in progress under real festival deadlines.** Two separate festival targets are tracked and their rules MUST NOT be conflated:
+
+- **AAIFF 2026:** submissions close on **31 August 2026**. The internal safe-submission target is **29 August**. See [`docs/AAIFF_2026.md`](docs/AAIFF_2026.md).
+- **Higgsfield Global Film Festival 2026:** submissions close on **3 September 2026 at 11:59 PM PT**. Eligibility is currently **unresolved** pending the generation-project and political-content clarifications recorded in [`docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md`](docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md).
 
 Yiannis approved a coherent **4:30 festival cut**. The original 11–13 minute treatment remains the canonical full version; it has not been silently replaced.
 
@@ -18,6 +21,7 @@ Yiannis approved a coherent **4:30 festival cut**. The original 11–13 minute t
 - [Read the visual and sound bible](canon/VISUAL_SOUND_BIBLE.md)
 - [See the character text locks](canon/CHARACTER_TEXT_LOCKS.md)
 - [AAIFF 2026 production constraints](docs/AAIFF_2026.md)
+- [Higgsfield Global Film Festival 2026 rules and compliance overlay](docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md)
 - [Follow the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
 - [Review the current edit frontier](https://github.com/pikos-apikos/pnyx.video/issues/36)
 - [Inspect the post-session Higgsfield asset audit](https://github.com/pikos-apikos/pnyx.video/issues/37)
@@ -33,14 +37,19 @@ Before doing any production work, every model or agent MUST:
 1. read [Issue #1 — the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1);
 2. follow its current-frontier link and read that issue, including its comments;
 3. read any asset-audit or decision issues linked from the frontier;
-4. load the project-pinned workflow in this order:
+4. identify the exact festival/submission target before applying external constraints;
+5. if the task concerns the **Higgsfield Global Film Festival 2026**, read [`docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md`](docs/HIGGSFIELD_GLOBAL_FILM_FESTIVAL_2026.md) before any generation, audio, edit, publication or submission decision;
+6. if the task concerns **AAIFF 2026**, read [`docs/AAIFF_2026.md`](docs/AAIFF_2026.md) and do not import Higgsfield-specific constraints unless they also apply independently;
+7. load the project-pinned workflow in this order:
    - [Controlled Cinematic English](skills/controlled-cinematic-english/SKILL.md);
    - [PNyX CCE project adapter](skills/controlled-cinematic-english/PNYX_ADAPTER.md);
    - [Joey Workflow](skills/joey-workflow/SKILL.md);
-5. use only exact asset IDs and explicit human decisions;
-6. keep `Candidate`, `Approved`, `Rejected`, `Superseded` and `Invalid` distinct.
+8. use only exact asset IDs and explicit human decisions;
+9. keep `Candidate`, `Approved`, `Rejected`, `Superseded` and `Invalid` distinct.
 
 If an issue conflicts with README prose, `.joey/`, a manifest or another repository mirror, the issue decision wins. The agent must report the mismatch and synchronize the mirror; it must not infer approval or silently choose a replacement.
+
+Festival rules are an additional eligibility layer, not a creative-approval mechanism. A festival requirement never silently promotes, replaces, regenerates or migrates an asset. Unresolved eligibility questions remain blockers until explicitly resolved.
 
 ## Canonical visual assets
 
@@ -106,4 +115,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or submitting mat
 ## Licensing
 
 No project-wide reuse license has been declared yet. Public visibility should not be interpreted as permission to reuse production assets. Upstream projects and referenced materials retain their own licenses and terms.
-
