@@ -31,11 +31,12 @@ A newer human edit decision may supersede an earlier human-approved placement wi
 Use exactly:
 
 1. `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` — silent introduction at **0.6× playback speed**.
-2. `c3b63365-e577-4590-a554-dccd18afadbc` — Eleni silent on the bus.
-3. `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0` — Myrto at the playground gate; completed 8-second Seedance 2.0 take.
-4. Phase 1 intertitle.
+2. `67f51e14-3944-41a5-89d7-4fc473a0d9ca` — Thanasis takes his habitual morning walk, carries a newspaper, sits on the bench and looks across the playground; approved 8-second Gemini Omni take.
+3. `c3b63365-e577-4590-a554-dccd18afadbc` — Eleni on the bus.
+4. `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0` — Myrto at the playground gate; approved 8-second Seedance 2.0 take.
+5. Phase 1 intertitle.
 
-For the introduction:
+For `9caf49b2…`:
 
 - preserve approved visual content exactly;
 - source audio remains removed;
@@ -43,7 +44,14 @@ For the introduction:
 - no freeze padding;
 - no regenerated or rewritten text.
 
-For `69e21a43…`, use the existing completed take as-is. Do not regenerate or replace it.
+Opening picture and sound:
+
+- use `67f51e14…` as-is and preserve its existing natural location audio;
+- `c3b63365…` has no source audio; add restrained natural bus-interior sound and do not leave the shot silent;
+- use `69e21a43…` as-is and preserve its existing natural early-morning playground audio;
+- the added bus ambience must come from an owned or auditable licensed source, and the edit report must identify its provenance;
+- no dialogue, announcements, music or promotional sound treatment in these three shots;
+- do not regenerate or replace any of the three picture sources.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
@@ -208,7 +216,9 @@ Allow enough time for comfortable reading; 12 s is the minimum starting point.
 - no music;
 - no promotional/trailer treatment;
 - no generated replacement voices;
-- no generated ambience in this edit pass;
+- preserve the approved existing natural ambience of `67f51e14…` and `69e21a43…`;
+- add restrained natural bus-interior ambience to the silent source `c3b63365…`; identify the owned or auditable licensed source in the edit report;
+- no dialogue, announcements or music in the opening ambience;
 - the Epilogue voice return is the explicitly authorized existing-audio reuse above.
 
 ## Technical review export
@@ -242,8 +252,9 @@ For every phase and the Epilogue list:
 Explicitly confirm:
 
 - intro `9caf49b2…` at 0.6× and silent;
-- bus `c3b63365…` immediately after it;
-- `69e21a43…` immediately after the bus and before the Phase 1 intertitle;
+- `67f51e14…` immediately after it, with existing natural location audio preserved;
+- bus `c3b63365…` immediately after `67f51e14…`, with restrained natural bus-interior ambience and reported provenance;
+- `69e21a43…` immediately after the bus, with existing natural early-morning playground audio preserved, and before the Phase 1 intertitle;
 - `e0b9d85a…` exact out-point `00:00:08:00`;
 - `b8c562bf…` absent from the active cut;
 - Phase 2 exact three-shot order;
