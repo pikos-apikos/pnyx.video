@@ -15,12 +15,20 @@ If the declared specialist is unavailable, state that explicitly and do not clai
 Use exactly:
 
 1. `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` — approved silent introduction; play at `0.6×`.
-2. `c3b63365-e577-4590-a554-dccd18afadbc` — approved Eleni silent-on-bus take.
-3. `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0` — completed 8-second Seedance 2.0 Myrto-at-gate take; place immediately after the bus and before the Phase 1 intertitle.
+2. `67f51e14-3944-41a5-89d7-4fc473a0d9ca` — approved 8-second Thanasis morning-walk take; preserve its existing natural location audio.
+3. `c3b63365-e577-4590-a554-dccd18afadbc` — approved Eleni-on-bus picture. The source is silent; the edit must add restrained natural bus-interior sound.
+4. `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0` — approved 8-second Myrto-at-gate take; preserve its existing natural early-morning playground audio and place it before the Phase 1 intertitle.
 
 Canonical opening rhythm:
 
-`9caf49b2…` at `0.6×`, silent → `c3b63365…` → `69e21a43…` → Phase 1 intertitle / Phase 1.
+`9caf49b2…` at `0.6×`, silent → `67f51e14…` with existing natural audio → `c3b63365…` with natural bus ambience → `69e21a43…` with existing natural audio → Phase 1 intertitle / Phase 1.
+
+Opening sound locks:
+
+- preserve the existing source ambience of `67f51e14…` and `69e21a43…`;
+- do not leave `c3b63365…` silent;
+- for `c3b63365…`, use restrained natural bus-interior sound from an owned or auditable licensed source and report its provenance;
+- no dialogue, announcements, music or promotional sound treatment in these three shots.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
