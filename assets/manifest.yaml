@@ -1635,7 +1635,6 @@ assets:
   external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260822_184955_bf046f36-e466-44a6-b1f6-1e261646584a.mp4
   depends_on:
   - character.thanasis.sheet.v1
-  - video.11-playground-opens.myrto-passes-entrance
   reference_higgsfield_jobs:
   - e43d88e4-0938-42ba-914a-c2b076f1aa20
   - 67f51e14-3944-41a5-89d7-4fc473a0d9ca
