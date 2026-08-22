@@ -236,3 +236,29 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Historical boundary:** v2.9 remains a valid historical edit state. The v3.0 label supersedes it only as the active Candidate identity.
 - **Deliverable:** `PNYX_v3.0_supercomputer_candidate.mp4` plus edit report and checksums.
 - **Gate unchanged:** v3.0 remains a review Candidate until Yiannis explicitly approves the final cut.
+
+
+## 2026-08-22 — v3.0 review corrections and Phase 9 Thanasis return
+
+- **Reviewed Candidate:** `PNYX_v3.0_supercomputer_candidate.mp4`.
+- **Phase 5 correction:** the `00:08.662` out-point retains the beginning of applause. The next pass uses `00:08.333` (24 fps timecode `00:00:08:08`) and must contain no applause.
+- **Hands-on-wall sound:** preserve or add only low natural outdoor Athens-neighborhood ambience. Do not carry consultation voices or applause into the bridge.
+- **Phase 8 placement:** `09596bc2-5f1f-461f-abdf-694beb2bd8ae` → `197bcd61-eb5a-499f-be15-2dc4c72e51d3`.
+- **Phase 8 sound:** add exactly one restrained shutter click synchronized to the existing visible shutter tap.
+- **Approved Phase 9 video:** `bf046f36-e466-44a6-b1f6-1e261646584a`.
+- **Model/output:** Seedance 2.5, 8 seconds, 1280×720, 16:9, generated synchronous natural ambience.
+- **Canonical action:** Thanasis is already inside the completed playground and walks toward the shaded bench carrying his folded newspaper.
+- **Canonical sound:** restrained natural residential-Athens ambience only; no dialogue, music, announcements, sirens, horns or applause.
+- **Narrative function:** Thanasis's arc moves from the outside wall to the usable shared space inside.
+- **Evidence:** Yiannis explicitly approved the generated Candidate with “μια χαρά” on 2026-08-22.
+- **Gate unchanged:** this approves the source take and edit corrections, not an assembled final cut, upscale, publication or festival submission.
+
+
+## 2026-08-22 — Active cut promoted to v3.1
+
+- **Human decision:** the next assembled review Candidate is **v3.1**, not a second v3.0 export.
+- **Reason:** the approved change set adds a new Phase 9 video, moves the residual-defect beat back to Phase 8, changes the Phase 5 out-point and revises multiple sound locks.
+- **Historical boundary:** `PNYX_v3.0_supercomputer_candidate.mp4` and `.joey/V3_0_SOURCE_LOCKS.md` remain valid historical review provenance.
+- **Active source map:** `.joey/V3_1_SOURCE_LOCKS.md`.
+- **Next deliverable:** `PNYX_v3.1_supercomputer_candidate.mp4` plus edit report and checksums.
+- **Gate unchanged:** v3.1 remains a review Candidate until Yiannis explicitly approves the assembled cut.

@@ -1,14 +1,14 @@
-# Higgsfield Supercomputer Edit Handoff — Candidate v3.0
+# Higgsfield Supercomputer Edit Handoff — Candidate v3.1
 
 ## Objective
 
-Create `PNYX_v3.0_supercomputer_candidate.mp4` from the latest human-locked source map.
+Create `PNYX_v3.1_supercomputer_candidate.mp4` from the latest human-locked source map without overwriting the reviewed v3.0 Candidate.
 
-This is the first v3.0 edit pass. The major version records a materially revised opening with newly approved footage and sound locks; it does not declare the film final. Use existing material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
+This is the first v3.1 edit pass after Yiannis's review of the v3.0 Candidate. The major version records a materially revised opening with newly approved footage and sound locks; it does not declare the film final. Use existing material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
 
 ## Authority
 
-Read Issue #36 and its latest comments first, then this handoff, `.joey/V3_0_SOURCE_LOCKS.md`, `provenance/2026-08-22_V3_0_CUT_PROMOTION.md`, `.joey/APPROVALS.md`, `.joey/AI_WORKLOG.md`, `provenance/2026-08-20_V2_9_EDIT_RECONCILIATION.md`, `assets/manifest.yaml`, `docs/PHASE_INTERTITLES_EN.md`, the Visual and Sound Bible, and `provenance/AI_DISCLOSURE.md`.
+Read Issue #36 and its latest comments first, then this handoff, `.joey/V3_1_SOURCE_LOCKS.md`, `provenance/2026-08-22_V3_0_CUT_PROMOTION.md`, `provenance/2026-08-22_V3_0_REVIEW_DECISIONS.md`, `provenance/2026-08-22_V3_1_CUT_PROMOTION.md`, `.joey/APPROVALS.md`, `.joey/AI_WORKLOG.md`, `provenance/2026-08-20_V2_9_EDIT_RECONCILIATION.md`, `assets/manifest.yaml`, `docs/PHASE_INTERTITLES_EN.md`, the Visual and Sound Bible, and `provenance/AI_DISCLOSURE.md`.
 
 The latest explicit human decision controls if sources differ.
 
@@ -22,7 +22,7 @@ If the specialist is unavailable, state that once and continue only with these d
 
 ## Core edit rule
 
-A correction list is not a source map. The complete current v3.0 timeline is defined below.
+A correction list is not a source map. The complete current v3.1 timeline is defined below.
 
 A newer human edit decision may supersede an earlier human-approved placement without rewriting the historical approval record.
 
@@ -107,12 +107,12 @@ Do not restore the earlier six-shot Phase 4 arrangement.
 
 Use exactly:
 
-1. `9bd30c09-d258-44d5-84e6-e311221acd07` from start through exact out-point `00:08.662`.
-2. `d09e75e3-c251-4bed-9117-83628bb6f5e5` complete silent hands-on-wall take.
+1. `9bd30c09-d258-44d5-84e6-e311221acd07` from start through exact out-point `00:08.333` (24 fps timecode `00:00:08:08`).
+2. `d09e75e3-c251-4bed-9117-83628bb6f5e5` complete hands-on-wall take.
 
-All picture and audio after 08.662 in the first source are prohibited, including applause.
+All picture and audio after 08.333 in the first source are prohibited. The current 08.662 cut retains the beginning of applause; the revised out-point must remove it completely.
 
-No narration or music.
+For the hands-on-wall take preserve or add only low natural outdoor Athens-neighborhood ambience. Do not carry consultation voices or applause across the cut. No narration, dialogue, music or dramatic sound design.
 
 ## Phase 6 — THE DECISION
 
@@ -152,21 +152,22 @@ Do not reinsert `3726b60c-f0a5-49b3-bea5-baa9018f768a` for runtime.
 
 ## Phase 8 — THE PLAYGROUND OPENS
 
-Use only:
+Use exactly:
 
-`09596bc2-5f1f-461f-abdf-694beb2bd8ae`
+1. `09596bc2-5f1f-461f-abdf-694beb2bd8ae` — Myrto passes through the completed accessible entrance.
+2. `197bcd61-eb5a-499f-be15-2dc4c72e51d3` — the modest residual water patch is photographed.
 
-Do not place `197bcd61-eb5a-499f-be15-2dc4c72e51d3` in Phase 8 anymore.
+Preserve the restrained defect-registration action. Synchronize one restrained shutter click with the existing visible shutter tap. Do not add generated readable UI, confirmation graphics, dialogue, music or promotional sound.
 
 ## Phase 9 — THE PUBLIC ACCOUNT
 
 Use only:
 
-`197bcd61-eb5a-499f-be15-2dc4c72e51d3`
+`bf046f36-e466-44a6-b1f6-1e261646584a`
 
-Preserve the approved restrained defect-registration action: one shutter tap, one modest residual water patch, no generated readable UI.
+Thanasis is already inside the completed playground and walks toward the shaded bench carrying his folded newspaper. Preserve its generated restrained natural residential-Athens ambience. No dialogue, voices, announcements, horns, sirens, music or applause.
 
-Remove from the active v3.0 cut:
+Remove from the active v3.1 cut:
 
 - `bec2e4f1-a384-4572-941c-d8afc7385b1e`
 - `9ea93421-b936-4543-86b4-a09891ac9909`
@@ -216,6 +217,9 @@ Allow enough time for comfortable reading; 12 s is the minimum starting point.
 - no music;
 - no promotional/trailer treatment;
 - no generated replacement voices;
+- preserve or add low natural outdoor Athens-neighborhood ambience to the hands-on-wall bridge, without consultation bleed;
+- add exactly one restrained shutter click synchronized to the visible Phase 8 defect-registration tap;
+- preserve the approved natural residential-Athens ambience of Phase 9 take `bf046f36…`;
 - preserve the approved existing natural ambience of `67f51e14…` and `69e21a43…`;
 - add restrained natural bus-interior ambience to the silent source `c3b63365…`; identify the owned or auditable licensed source in the edit report;
 - no dialogue, announcements or music in the opening ambience;
@@ -233,9 +237,9 @@ Do not final-upscale, final-grade, publish, submit, or overwrite the previous Ca
 
 ## Required outputs
 
-1. `PNYX_v3.0_supercomputer_candidate.mp4`
-2. `PNYX_v3.0_edit_report.md`
-3. `PNYX_v3.0_checksums.txt`
+1. `PNYX_v3.1_supercomputer_candidate.mp4`
+2. `PNYX_v3.1_edit_report.md`
+3. `PNYX_v3.1_checksums.txt`
 
 ## Required report
 
@@ -259,11 +263,12 @@ Explicitly confirm:
 - `b8c562bf…` absent from the active cut;
 - Phase 2 exact three-shot order;
 - Phase 4 exact three-shot order;
-- Phase 5 exact 08.662 cut and no applause;
+- Phase 5 exact 08.333 cut and no applause;
+- hands-on-wall bridge contains only low natural outdoor ambience and no consultation bleed;
 - Phase 6 exact three-shot order;
 - Phase 7 subtitle “The initial deadline was quite optimistic.” present on `324b5b27…`;
-- Phase 8 contains only `09596bc2…`;
-- Phase 9 contains only `197bcd61…`;
+- Phase 8 contains `09596bc2… → 197bcd61…`, with exactly one restrained synchronized shutter click;
+- Phase 9 contains only approved Thanasis return take `bf046f36…`, with its natural Athens-neighborhood ambience;
 - `bec2e4f1…`, `9ea93421…`, and `43f4a3c7…` absent from the active cut;
 - Epilogue order `4d665b7c… → 78adc280… → black`;
 - Eleni audio-only line from `18b7a08f…` over black;
