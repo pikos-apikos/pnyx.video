@@ -97,7 +97,7 @@ Do not substitute the silent take.
 
 Use exactly:
 
-1. `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` — preserve «Ξεκίνησε» / “It started.”
+1. `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` — use from source start through exact out-point `00:00:07.700` (human notation `00:00:07:700`); preserve «Ξεκίνησε» / “It started.”; do not use picture or audio after the out-point.
 2. `114f44f7-4626-4369-8627-2a3ce6cc6c97` — Thanasis @ KEP; silent.
 3. `ac4a9414-da71-4abc-ad56-b9297fd568d9` — preserve «Με σκέφτηκαν» / “They thought of me.”
 
@@ -262,7 +262,7 @@ Explicitly confirm:
 - `e0b9d85a…` exact out-point `00:00:08:00`;
 - `b8c562bf…` absent from the active cut;
 - Phase 2 exact three-shot order;
-- Phase 4 exact three-shot order;
+- Phase 4 exact three-shot order, with `c6cd0e00…` ending at exact out-point `00:00:07.700`;
 - Phase 5 exact 08.333 cut and no applause;
 - hands-on-wall bridge contains only low natural outdoor ambience and no consultation bleed;
 - Phase 6 exact three-shot order;
