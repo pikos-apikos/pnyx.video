@@ -252,3 +252,13 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Narrative function:** Thanasis's arc moves from the outside wall to the usable shared space inside.
 - **Evidence:** Yiannis explicitly approved the generated Candidate with “μια χαρά” on 2026-08-22.
 - **Gate unchanged:** this approves the source take and edit corrections, not an assembled final cut, upscale, publication or festival submission.
+
+
+## 2026-08-22 — Active cut promoted to v3.1
+
+- **Human decision:** the next assembled review Candidate is **v3.1**, not a second v3.0 export.
+- **Reason:** the approved change set adds a new Phase 9 video, moves the residual-defect beat back to Phase 8, changes the Phase 5 out-point and revises multiple sound locks.
+- **Historical boundary:** `PNYX_v3.0_supercomputer_candidate.mp4` and `.joey/V3_0_SOURCE_LOCKS.md` remain valid historical review provenance.
+- **Active source map:** `.joey/V3_1_SOURCE_LOCKS.md`.
+- **Next deliverable:** `PNYX_v3.1_supercomputer_candidate.mp4` plus edit report and checksums.
+- **Gate unchanged:** v3.1 remains a review Candidate until Yiannis explicitly approves the assembled cut.
