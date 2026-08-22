@@ -4,7 +4,7 @@
 
 Create `PNYX_v3.0_supercomputer_candidate_r2.mp4` from the latest human-locked source map without overwriting the reviewed v3.0 Candidate.
 
-This is the first v3.0 edit pass. The major version records a materially revised opening with newly approved footage and sound locks; it does not declare the film final. Use existing material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
+This is the second v3.0 review pass after Yiannis's review of the first Candidate. The major version records a materially revised opening with newly approved footage and sound locks; it does not declare the film final. Use existing material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
 
 ## Authority
 
