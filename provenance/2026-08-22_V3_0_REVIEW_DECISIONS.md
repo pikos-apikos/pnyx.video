@@ -4,7 +4,7 @@
 
 This record preserves Yiannis's explicit review decisions after watching `PNYX_v3.0_supercomputer_candidate.mp4`.
 
-The reviewed file remains valid historical Candidate provenance. These decisions control the next v3.0 review pass and do not promote any assembled cut to Final.
+The reviewed file remains valid historical Candidate provenance. These decisions control the v3.1 review Candidate and do not promote any assembled cut to Final.
 
 ## Phase 5 — consultation out-point
 
