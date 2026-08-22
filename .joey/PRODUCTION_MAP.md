@@ -17,7 +17,8 @@ Deliver a submission-ready festival cut of **«ΠΝΥΞ: Η Παιδική Χα�
 3. Read `.joey/V3_0_SOURCE_LOCKS.md`.
 4. Read `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`.
 5. Read `provenance/2026-08-22_V3_0_CUT_PROMOTION.md`.
-6. Load `skills/manifest.yaml` and follow its declared specialist order.
+6. Read `provenance/2026-08-22_V3_0_REVIEW_DECISIONS.md`.
+7. Load `skills/manifest.yaml` and follow its declared specialist order.
 
 GitHub issue decisions override repository mirrors when they differ.
 
@@ -35,13 +36,14 @@ GitHub issue decisions override repository mirrors when they differ.
 ### Candidate v3.0
 
 - Stage: **edit**
-- Status: **in progress**
+- Status: **review revision in progress**
 - Active version: **v3.0**
 - Previous active label: **v2.9**, preserved as historical edit provenance
 - Active source map: `.joey/V3_0_SOURCE_LOCKS.md`
 - Edit handoff: `docs/HIGGSFIELD_SUPERCOMPUTER_EDIT_HANDOFF.md`
-- Required review export: `PNYX_v3.0_supercomputer_candidate.mp4`
-- Required companion files: `PNYX_v3.0_edit_report.md` and `PNYX_v3.0_checksums.txt`
+- Reviewed export: `PNYX_v3.0_supercomputer_candidate.mp4`
+- Next review export: `PNYX_v3.0_supercomputer_candidate_r2.mp4`
+- Required companion files: `PNYX_v3.0_edit_report_r2.md` and `PNYX_v3.0_checksums_r2.txt`
 
 The cut is v3.0 because the opening now contains newly approved Thanasis footage and a materially revised picture-and-sound structure. This is more than a corrective v2.9 iteration.
 
@@ -55,10 +57,18 @@ The cut is v3.0 because the opening now contains newly approved Thanasis footage
 
 No dialogue, announcements, music or promotional sound treatment enters these opening shots.
 
+## Review-pass locks
+
+- Phase 5 consultation ends at `00:08.333`; no applause remains.
+- The Thanasis hands-on-wall bridge carries only low natural outdoor Athens-neighborhood ambience.
+- Phase 8 is Myrto entrance `09596bc2…` → residual-defect record `197bcd61…`, with one synchronized restrained shutter click.
+- Phase 9 uses approved Thanasis return `bf046f36…` with its restrained natural residential-Athens ambience.
+- The reviewed first v3.0 Candidate remains historical evidence and is never overwritten.
+
 ## Edit boundary
 
-- Existing approved picture sources only.
-- No replacement footage or credit spend.
+- Approved locked picture and sound sources only.
+- The new Phase 9 take `bf046f36…` is approved. No further replacement footage or credit spend.
 - No padding merely to reach a target runtime.
 - No final upscale, publication or submission.
 - The Supercomputer returns one review Candidate, a complete timeline report and checksums.
@@ -74,6 +84,7 @@ No dialogue, announcements, music or promotional sound treatment enters these op
 - Asset manifest: `assets/manifest.yaml`
 - AI disclosure: `provenance/AI_DISCLOSURE.md`
 - v3.0 promotion record: `provenance/2026-08-22_V3_0_CUT_PROMOTION.md`
+- v3.0 review decisions: `provenance/2026-08-22_V3_0_REVIEW_DECISIONS.md`
 - Historical beta asset map: Issue #37
 
 ## Human gate
