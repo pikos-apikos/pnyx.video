@@ -218,3 +218,21 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Canonical placement:** immediately after silent introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` played at `0.6×`, before Phase 1.
 - **Evidence:** Yiannis explicitly said “εγκρίνω το c3b63365” on 2026-08-20; authoritative promotion recorded in Issue #36.
 - **Boundary:** this approval does not authorize any new generation, dialogue, UI, upscale, publication, or final-cut promotion.
+
+## 2026-08-20 — Thanasis morning-walk opening and natural sound
+
+- **Approved video take:** `67f51e14-3944-41a5-89d7-4fc473a0d9ca`.
+- **Approved placement:** immediately after silent introduction `9caf49b2-3e6c-4393-b78e-ec5ba97d5afd` and before Eleni bus take `c3b63365-e577-4590-a554-dccd18afadbc`.
+- **Narrative function:** Thanasis reads as a retired resident taking his habitual morning walk and quietly inhabiting the shared open space before he later gives its loss a voice.
+- **Approved sound:** preserve the existing natural location audio of `67f51e14…`.
+- **Bus sound decision:** do not leave `c3b63365…` silent; add restrained natural bus-interior ambience from an owned or auditable licensed source and report its provenance.
+- **Myrto sound decision:** preserve the existing natural early-morning playground audio of `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0`.
+- **Evidence:** Yiannis explicitly approved the Thanasis take and then confirmed that its sound is good and may remain.
+
+## 2026-08-22 — Active cut promoted to v3.0
+
+- **Human decision:** the active cut is **v3.0**, not v2.9 or v2.10.
+- **Reason:** the cut contains newly approved footage and a materially revised opening picture-and-sound architecture.
+- **Historical boundary:** v2.9 remains a valid historical edit state. The v3.0 label supersedes it only as the active Candidate identity.
+- **Deliverable:** `PNYX_v3.0_supercomputer_candidate.mp4` plus edit report and checksums.
+- **Gate unchanged:** v3.0 remains a review Candidate until Yiannis explicitly approves the final cut.
