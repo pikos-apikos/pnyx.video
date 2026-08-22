@@ -2,6 +2,8 @@
 
 This file records the current human source placement for the v3.0 review Candidate. The v3.0 identity supersedes v2.9 as the active edit label because the cut now contains newly approved footage and a materially revised opening sound structure. Historical v2.9 records remain valid. Approval of a source and placement of a source are separate facts, and current placement may supersede an earlier human-approved edit arrangement.
 
+The post-review corrections recorded in `provenance/2026-08-22_V3_0_REVIEW_DECISIONS.md` control the next v3.0 review pass.
+
 ## Prompt-authoring precondition
 
 Before authoring a production prompt, read `skills/manifest.yaml`, follow its declared load order, and load the specialist skill for the requested stage.
@@ -60,10 +62,10 @@ Superseded equivalents for these recipient beats remain excluded.
 
 ## Phase 5 — THE PUBLIC CONSULTATION
 
-1. `9bd30c09-d258-44d5-84e6-e311221acd07` — use through exact out-point `00:08.662` only.
-2. `d09e75e3-c251-4bed-9117-83628bb6f5e5` — complete silent hands-on-wall bridge.
+1. `9bd30c09-d258-44d5-84e6-e311221acd07` — use through exact out-point `00:08.333` only (24 fps timecode `00:00:08:08`).
+2. `d09e75e3-c251-4bed-9117-83628bb6f5e5` — complete hands-on-wall bridge with low natural outdoor Athens-neighborhood ambience only.
 
-All picture/audio after 08.662 in the first source is prohibited.
+All picture/audio after 08.333 in the first source is prohibited. No applause or consultation voices may carry into the hands-on-wall bridge. Do not add dialogue, music or dramatic sound design.
 
 ## Phase 6 — THE DECISION
 
@@ -93,17 +95,20 @@ Do not reinsert `3726b60c-f0a5-49b3-bea5-baa9018f768a` for runtime.
 
 ## Phase 8 — THE PLAYGROUND OPENS
 
-Use only:
+Use exactly:
 
-`09596bc2-5f1f-461f-abdf-694beb2bd8ae`
+1. `09596bc2-5f1f-461f-abdf-694beb2bd8ae` — Myrto passes through the completed accessible entrance.
+2. `197bcd61-eb5a-499f-be15-2dc4c72e51d3` — the modest residual water patch is photographed.
 
-The residual-defect take `197bcd61-eb5a-499f-be15-2dc4c72e51d3` no longer belongs to Phase 8; it moves to Phase 9.
+Synchronize one restrained shutter click with the existing visible shutter tap in `197bcd61…`. Do not add generated readable UI, confirmation graphics, dialogue, music or promotional sound.
 
 ## Phase 9 — THE PUBLIC ACCOUNT
 
 Use only:
 
-`197bcd61-eb5a-499f-be15-2dc4c72e51d3`
+`bf046f36-e466-44a6-b1f6-1e261646584a` — Thanasis is already inside the completed playground and walks toward the shaded bench carrying his folded newspaper.
+
+Preserve the generated restrained natural residential-Athens ambience: distant traffic, light pine movement, sparse urban birds, quiet footsteps and faint newspaper rustle. No dialogue, voices, announcements, horns, sirens, music or applause.
 
 Do not use the previously locked Phase 9 sequence in v3.0.
 
