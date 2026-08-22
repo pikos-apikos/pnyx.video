@@ -1,5 +1,5 @@
-version: 30
-updated_at: '2026-08-17T08:25:42.107Z'
+version: 31
+updated_at: '2026-08-22T19:00:00+03:00'
 authority:
   live_frontier: https://github.com/pikos-apikos/pnyx.video/issues/1
   edit_frontier: https://github.com/pikos-apikos/pnyx.video/issues/36
@@ -1615,3 +1615,46 @@ assets:
   approved_in: issue-36
   decision_issue: issue-36
   note: Canonical spoken Thanasis take for Phase 3; preserve native Greek voice and lipsync.
+
+
+- asset_id: video.12-public-account.thanasis-return-v1
+  stage: video
+  status: approved_external
+  production_use: 'Phase 9 public-account lived-outcome beat'
+  higgsfield_job: bf046f36-e466-44a6-b1f6-1e261646584a
+  model: seedance_2_5
+  model_name: Seedance 2.5
+  aspect_ratio: '16:9'
+  dimensions: 1280x720
+  duration_seconds: 8
+  resolution: 720p
+  audio: true
+  audio_mode: generated_synchronous_natural_ambience
+  repository_file: null
+  external_storage: higgsfield
+  external_preview_url: https://d8j0ntlcm91z4.cloudfront.net/user_3HbuSFrdCd0fV7j1hf3vlHB7UpQ/hf_20260822_184955_bf046f36-e466-44a6-b1f6-1e261646584a.mp4
+  depends_on:
+  - character.thanasis.sheet.v1
+  - video.11-playground-opens.myrto-passes-entrance
+  reference_higgsfield_jobs:
+  - e43d88e4-0938-42ba-914a-c2b076f1aa20
+  - 67f51e14-3944-41a5-89d7-4fc473a0d9ca
+  - 09596bc2-5f1f-461f-abdf-694beb2bd8ae
+  exact_placement: Phase 9 body, immediately after the Phase 9 intertitle
+  action_lock:
+    subject: Thanasis
+    prop: one folded newspaper
+    destination: shaded bench
+    camera: locked
+    extra_people: prohibited
+  sound_lock:
+    ambience: restrained natural residential Athens neighborhood
+    dialogue: prohibited
+    music: prohibited
+    applause: prohibited
+    announcements: prohibited
+  approved_by: Yiannis
+  approved_on: '2026-08-22'
+  approved_in: issue-36
+  decision_issue: issue-36
+  note: Canonical Phase 9 return. Thanasis walks inside the completed playground toward the shared bench he defended.
