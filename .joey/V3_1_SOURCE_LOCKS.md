@@ -54,7 +54,7 @@ Do not insert the standalone interface/frame asset `b8c562bf-07ca-4217-8f89-2344
 
 ## Phase 4 — THE PUBLIC BRIEFING
 
-1. `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` — Eleni.
+1. `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` — Eleni; use from source start through exact out-point `00:00:07.700` (human notation `00:00:07:700`). Do not use picture or audio after this point.
 2. `114f44f7-4626-4369-8627-2a3ce6cc6c97` — Thanasis @ KEP.
 3. `ac4a9414-da71-4abc-ad56-b9297fd568d9` — Myrto.
 

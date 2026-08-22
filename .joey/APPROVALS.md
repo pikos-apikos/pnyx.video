@@ -262,3 +262,10 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Active source map:** `.joey/V3_1_SOURCE_LOCKS.md`.
 - **Next deliverable:** `PNYX_v3.1_supercomputer_candidate.mp4` plus edit report and checksums.
 - **Gate unchanged:** v3.1 remains a review Candidate until Yiannis explicitly approves the assembled cut.
+
+## 2026-08-23 — v3.1 Phase 4 Eleni out-point
+
+- **Human decision:** trim `c6cd0e00-6bad-4fa8-96e6-f1128e455e28` from source start through exact out-point `00:00:07.700` (Yiannis's notation: `00:00:07:700`).
+- **Placement:** first picture source in Phase 4 — THE PUBLIC BRIEFING.
+- **Boundary:** do not use picture or audio from this source after the out-point.
+- **Gate unchanged:** this is an edit lock for the v3.1 review Candidate, not approval of the assembled final cut, upscale, publication or submission.
