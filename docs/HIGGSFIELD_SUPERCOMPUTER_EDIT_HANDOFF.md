@@ -1,14 +1,14 @@
-# Higgsfield Supercomputer Edit Handoff — Candidate v3.0 Review Pass 2
+# Higgsfield Supercomputer Edit Handoff — Candidate v3.1
 
 ## Objective
 
-Create `PNYX_v3.0_supercomputer_candidate_r2.mp4` from the latest human-locked source map without overwriting the reviewed v3.0 Candidate.
+Create `PNYX_v3.1_supercomputer_candidate.mp4` from the latest human-locked source map without overwriting the reviewed v3.0 Candidate.
 
-This is the second v3.0 review pass after Yiannis's review of the first Candidate. The major version records a materially revised opening with newly approved footage and sound locks; it does not declare the film final. Use existing material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
+This is the first v3.1 edit pass after Yiannis's review of the v3.0 Candidate. The major version records a materially revised opening with newly approved footage and sound locks; it does not declare the film final. Use existing material and the exact decisions below. Do not generate replacement footage, add padding, upscale, publish, or promote the result without Yiannis's explicit approval.
 
 ## Authority
 
-Read Issue #36 and its latest comments first, then this handoff, `.joey/V3_0_SOURCE_LOCKS.md`, `provenance/2026-08-22_V3_0_CUT_PROMOTION.md`, `provenance/2026-08-22_V3_0_REVIEW_DECISIONS.md`, `.joey/APPROVALS.md`, `.joey/AI_WORKLOG.md`, `provenance/2026-08-20_V2_9_EDIT_RECONCILIATION.md`, `assets/manifest.yaml`, `docs/PHASE_INTERTITLES_EN.md`, the Visual and Sound Bible, and `provenance/AI_DISCLOSURE.md`.
+Read Issue #36 and its latest comments first, then this handoff, `.joey/V3_1_SOURCE_LOCKS.md`, `provenance/2026-08-22_V3_0_CUT_PROMOTION.md`, `provenance/2026-08-22_V3_0_REVIEW_DECISIONS.md`, `provenance/2026-08-22_V3_1_CUT_PROMOTION.md`, `.joey/APPROVALS.md`, `.joey/AI_WORKLOG.md`, `provenance/2026-08-20_V2_9_EDIT_RECONCILIATION.md`, `assets/manifest.yaml`, `docs/PHASE_INTERTITLES_EN.md`, the Visual and Sound Bible, and `provenance/AI_DISCLOSURE.md`.
 
 The latest explicit human decision controls if sources differ.
 
@@ -22,7 +22,7 @@ If the specialist is unavailable, state that once and continue only with these d
 
 ## Core edit rule
 
-A correction list is not a source map. The complete current v3.0 timeline is defined below.
+A correction list is not a source map. The complete current v3.1 timeline is defined below.
 
 A newer human edit decision may supersede an earlier human-approved placement without rewriting the historical approval record.
 
@@ -167,7 +167,7 @@ Use only:
 
 Thanasis is already inside the completed playground and walks toward the shaded bench carrying his folded newspaper. Preserve its generated restrained natural residential-Athens ambience. No dialogue, voices, announcements, horns, sirens, music or applause.
 
-Remove from the active v3.0 cut:
+Remove from the active v3.1 cut:
 
 - `bec2e4f1-a384-4572-941c-d8afc7385b1e`
 - `9ea93421-b936-4543-86b4-a09891ac9909`
@@ -237,9 +237,9 @@ Do not final-upscale, final-grade, publish, submit, or overwrite the previous Ca
 
 ## Required outputs
 
-1. `PNYX_v3.0_supercomputer_candidate_r2.mp4`
-2. `PNYX_v3.0_edit_report_r2.md`
-3. `PNYX_v3.0_checksums_r2.txt`
+1. `PNYX_v3.1_supercomputer_candidate.mp4`
+2. `PNYX_v3.1_edit_report.md`
+3. `PNYX_v3.1_checksums.txt`
 
 ## Required report
 
