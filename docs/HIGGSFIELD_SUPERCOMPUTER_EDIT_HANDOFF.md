@@ -50,7 +50,7 @@ Opening picture and sound:
 - the added bus ambience must come from an owned or auditable licensed source, and the edit report must identify its provenance;
 - no dialogue, announcements, music or promotional sound treatment in these two shots;
 - exclude `67f51e14…` from the active v3.1 cut; its historical approval remains, but its playground geometry does not match the Myrto/Phase 1 location and it must not be reinserted for runtime;
-- do not regenerate or replace any of the three picture sources.
+- do not regenerate or replace either active opening picture source.
 
 ## Phase 1 — THE PROBLEM IS NOT YET A PROPOSAL
 
