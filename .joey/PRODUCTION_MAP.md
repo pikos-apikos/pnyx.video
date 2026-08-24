@@ -51,7 +51,6 @@ The active cut is v3.1 because the reviewed v3.0 cut now has a new approved Phas
 ## Locked opening
 
 `9caf49b2…` at `0.6×`, silent  
-→ `67f51e14…` with existing natural location audio  
 → `c3b63365…` with restrained natural bus-interior ambience  
 → `69e21a43…` with existing natural early-morning playground audio  
 → Phase 1 intertitle / Phase 1.
@@ -64,6 +63,7 @@ No dialogue, announcements, music or promotional sound treatment enters these op
 - The Thanasis hands-on-wall bridge carries only low natural outdoor Athens-neighborhood ambience.
 - Phase 8 is Myrto entrance `09596bc2…` → residual-defect record `197bcd61…`, with one synchronized restrained shutter click.
 - Phase 9 uses approved Thanasis return `bf046f36…` with its restrained natural residential-Athens ambience.
+- Opening take `67f51e14…` is excluded from v3.1 because its playground geometry does not match the Myrto/Phase 1 location; historical approval remains.
 - The reviewed v3.0 Candidate remains historical evidence and is never overwritten.
 
 ## Edit boundary

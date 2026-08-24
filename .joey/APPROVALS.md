@@ -269,3 +269,11 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Placement:** first picture source in Phase 4 — THE PUBLIC BRIEFING.
 - **Boundary:** do not use picture or audio from this source after the out-point.
 - **Gate unchanged:** this is an edit lock for the v3.1 review Candidate, not approval of the assembled final cut, upscale, publication or submission.
+
+## 2026-08-23 — v3.1 opening continuity correction
+
+- **Human decision:** remove `67f51e14-3944-41a5-89d7-4fc473a0d9ca` from the active v3.1 opening.
+- **Reason:** frame review found a material location-continuity failure against `69e21a43-0b4a-4444-9d2d-5d1fc6f0f0b0`, including incompatible bench count and placement, central feature, raised paving, gate geometry and playground-equipment layout.
+- **Active opening:** `9caf49b2…` at `0.6×`, silent → `c3b63365…` with natural bus ambience → `69e21a43…` with existing natural audio → Phase 1 intertitle / Phase 1.
+- **Historical boundary:** `67f51e14…` remains historically approved source material but is excluded from v3.1 and must not be reinserted for runtime.
+- **Gate unchanged:** this is an edit-placement decision, not approval of the assembled final cut, upscale, publication or submission.
