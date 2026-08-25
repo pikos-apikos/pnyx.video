@@ -1,6 +1,21 @@
-# AAIFF 2026 — production target
+# AAIFF 2026 — submission record
 
 Verified against the official Astana AI Film Festival website and submission terms on **11 August 2026**.
+
+## Submission status
+
+- Submitted: **25 August 2026**
+- Receipt status: **received**
+- Reference number: **587525**
+- Submitted film: https://youtu.be/3wjuARk-lF8
+- Confirmation page: https://aaiff.ai/thank-you?ref=587525
+- Submission record: `provenance/2026-08-25_AAIFF_SUBMISSION_RECEIPT.md`
+
+AAIFF states that every entry will be reviewed after the submission window closes on **31 August 2026**. Longlist and shortlist announcements are expected through [@aaiff.ai](https://www.instagram.com/aaiff.ai/), Telegram and aaiff.ai.
+
+If the entry must be updated, reply to the AAIFF confirmation email and quote **587525**.
+
+The receipt confirms submission delivery only. It does not establish technical acceptance, longlisting, shortlisting, selection or an award.
 
 ## Submission deadline
 
