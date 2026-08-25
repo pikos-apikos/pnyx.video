@@ -172,3 +172,18 @@ Use audio-only from existing source `18b7a08f-ea77-4614-b695-da3fba1950d7`. This
 ### Human gate
 
 This correction changes the v2.9 review Candidate map. It still does not authorize final publication, upscale, submission, or new generation.
+
+---
+
+## 2026-08-25 — AAIFF submission milestone
+
+Yiannis supplied the AAIFF confirmation receipt after publishing and submitting the film.
+
+- Submitted film: https://youtu.be/3wjuARk-lF8
+- Festival: AAIFF 2026
+- Receipt status: received
+- Reference number: `587525`
+- Receipt page: https://aaiff.ai/thank-you?ref=587525
+- Submission date recorded: 25 August 2026
+
+The production frontier moved from edit review to distribution/archive. The exact YouTube artifact is now the locked festival-entry release. The receipt proves delivery to the festival archive only; it does not prove technical acceptance, longlisting, shortlisting, selection or an award.
