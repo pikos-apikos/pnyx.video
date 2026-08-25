@@ -277,3 +277,14 @@ This file mirrors explicit human decisions. GitHub issues and their comments rem
 - **Active opening:** `9caf49b2…` at `0.6×`, silent → `c3b63365…` with natural bus ambience → `69e21a43…` with existing natural audio → Phase 1 intertitle / Phase 1.
 - **Historical boundary:** `67f51e14…` remains historically approved source material but is excluded from v3.1 and must not be reinserted for runtime.
 - **Gate unchanged:** this is an edit-placement decision, not approval of the assembled final cut, upscale, publication or submission.
+
+## 2026-08-25 — Final publication and AAIFF submission
+
+- **Human action and decision:** Yiannis published the selected film at https://youtu.be/3wjuARk-lF8 and completed its AAIFF 2026 submission.
+- **Submission status:** received.
+- **AAIFF reference:** `587525`.
+- **Receipt:** https://aaiff.ai/thank-you?ref=587525
+- **Approval effect:** the exact submitted YouTube artifact is promoted from review Candidate lineage to the approved festival-entry release.
+- **Historical boundary:** v3.1 and earlier Candidate records remain valid production provenance; they are not rewritten as final exports.
+- **Evidence boundary:** no local filename, checksum, technical acceptance, longlist, shortlist, selection or award status is inferred from the receipt.
+- **Change control:** any replacement upload or AAIFF entry update requires Yiannis's explicit approval and must quote `587525`.
