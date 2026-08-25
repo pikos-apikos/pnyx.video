@@ -10,19 +10,30 @@ PNyX is not explained as a technical platform. It is revealed through what peopl
 
 ## Current status
 
-**Production in progress under a real deadline.** AAIFF 2026 submissions close on **31 August 2026**. The internal safe-submission target is **29 August**, leaving two contingency days.
+**Submitted to AAIFF 2026 on 25 August 2026.**
 
-Yiannis approved a coherent **4:30 festival cut**. The original 11–13 minute treatment remains the canonical full version; it has not been silently replaced.
+- Submission status: **received**
+- AAIFF reference number: **587525**
+- Submitted film: [YouTube](https://youtu.be/3wjuARk-lF8)
+- Festival receipt: [AAIFF confirmation](https://aaiff.ai/thank-you?ref=587525)
+- Submission record: [provenance/2026-08-25_AAIFF_SUBMISSION_RECEIPT.md](provenance/2026-08-25_AAIFF_SUBMISSION_RECEIPT.md)
 
+AAIFF states that entries will be reviewed after the submission window closes on **31 August 2026**. “Received” records delivery to the festival archive; it does not imply longlisting, shortlisting or an award.
+
+The submitted YouTube artifact is the locked festival-entry release. Any later replacement or entry update requires a new explicit human decision and must quote reference **587525** in correspondence with AAIFF.
+
+The original 11–13 minute treatment remains the canonical full version; it has not been silently replaced.
+
+- [Watch the submitted film](https://youtu.be/3wjuARk-lF8)
 - [Read the Greek treatment](canon/TREATMENT_GR.md)
 - [Read the visual and sound bible](canon/VISUAL_SOUND_BIBLE.md)
 - [See the character text locks](canon/CHARACTER_TEXT_LOCKS.md)
-- [AAIFF 2026 production constraints](docs/AAIFF_2026.md)
+- [AAIFF 2026 submission record and constraints](docs/AAIFF_2026.md)
 - [Follow the authoritative production map](https://github.com/pikos-apikos/pnyx.video/issues/1)
-- [Review the current edit frontier](https://github.com/pikos-apikos/pnyx.video/issues/36)
+- [Review the completed edit frontier](https://github.com/pikos-apikos/pnyx.video/issues/36)
 - [Inspect the post-session Higgsfield asset audit](https://github.com/pikos-apikos/pnyx.video/issues/37)
 
-`PNYX_v2.3_final.mp4` is registered in Issue #36 as a **rough-cut Candidate — revision required**. Its post-session image/video provenance, beta positions and reuse rules are recorded in Issue #37.
+Historical rough-cut Candidates and their revisions remain recorded in Issue #36 and Issue #37.
 
 ## Required bootstrap for models and agents
 
